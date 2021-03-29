@@ -21,7 +21,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Creeper",
+    "parent1": "Beeper",
     "parent2": "Blazing",
     "feedItem": "xreliquary:catalyzing_gland",
     "feedAmount": 6
