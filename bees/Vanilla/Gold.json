@@ -23,7 +23,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Crystal",
+    "parent1": "Quartz",
     "parent2": "Mason",
     "feedItem": "tag:forge:nuggets/gold",
     "feedAmount": 3
