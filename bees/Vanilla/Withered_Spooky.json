@@ -15,7 +15,7 @@
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:wither_skeleton_skull",
     "mainOutputWeight": 0.1,
-	"secondaryOutput": "xreliquary:withered_rib",
+    "secondaryOutput": "xreliquary:withered_rib",
     "secondaryOutputWeight": 0.05
   },
   "SpawnData": {
@@ -24,7 +24,7 @@
   "BreedData": {
     "isBreedable": true,
     "parent1": "Coal",
-    "parent2": "Skeleton",
+    "parent2": "Spooky",
     "feedItem": "xreliquary:withered_rib",
     "feedAmount": 2
   },
