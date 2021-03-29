@@ -22,7 +22,7 @@
   "BreedData": {
     "isBreedable": true,
     "parent1": "Leafcutter",
-    "parent2": "Skeleton",
+    "parent2": "Spooky",
     "feedItem": "minecraft:pumpkin",
     "feedAmount": 3
   },
