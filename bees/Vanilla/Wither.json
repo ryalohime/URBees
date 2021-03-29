@@ -22,7 +22,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Withered Spooky",
+    "parent1": "Withered_Spooky",
     "parent2": "Ghost",
     "feedItem": "tag:forge:nether_stars",
     "feedAmount": 2,
