@@ -1,0 +1,37 @@
+{
+  "flower": "tag:forge:storage_blocks/diamond",
+  "maxTimeInHive": 1100,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/ore_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#00ffff",
+    "primaryColor": "#00ffff",
+    "secondaryColor": "#FFFFFF",
+    "primaryLayerTexture":"ores/ore_bee_primary",
+    "secondaryLayerTexture":"ores/ore_bee_secondary",
+    "emissiveLayerTexture":"ores/ore_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#00ffff"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:diamond"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Ender",
+    "parent2": "Lapis",
+    "feedItem": "tag:forge:gems/diamond",
+    "feedAmount": 1
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

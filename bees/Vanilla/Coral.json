@@ -1,0 +1,38 @@
+{
+    "flower": "tag:forge:storage_blocks/coral",
+    "maxTimeInHive": 1200,
+    "hasHoneycomb": true,
+    "baseLayerTexture": "ores/ore_bee",
+    "ColorData": {
+      "primaryColor": "#FAC36B",
+      "secondaryColor": "#FFFFFF",
+      "honeycombColor": "#FAC36B",
+      "primaryLayerTexture":"ores/ore_bee_primary",
+      "secondaryLayerTexture":"ores/ore_bee_secondary",
+      "emissiveLayerTexture":"ores/ore_bee_emissive",
+      "isGlowing": true,
+      "glowColor": "#CDA2E5",
+      "isBeeColored": true
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "silentgems:coral",
+      "mainOutputCount": 1
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "parent1": "Lepidolite",
+      "parent2": "Pyrope",
+      "feedItem": "tag:forge:gems/coral",
+      "feedAmount": 2
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }

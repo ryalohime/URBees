@@ -1,0 +1,35 @@
+{
+    "flower": "thermal:apatite_block",
+    "maxTimeInHive": 1200,
+    "hasHoneycomb": true,
+    "baseLayerTexture": "ores/ore_bee",
+    "ColorData": {
+      "primaryColor": "#05FFE6",
+      "secondaryColor": "#FFFFFF",
+      "honeycombColor": "#05FFE6",
+      "primaryLayerTexture":"ores/ore_bee_primary",
+      "secondaryLayerTexture":"ores/ore_bee_secondary",
+      "emissiveLayerTexture":"ores/ore_bee_emissive",
+      "isGlowing": true,
+      "glowColor": "#CDA2E5",
+      "isBeeColored": true
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "thermal:apatite",
+      "mainOutputCount": 1
+    },
+    "SpawnData": {
+      "canSpawnInWorld": true,
+	  "biomeWhitelist": "tag:Overworld"
+    },
+    "BreedData": {
+      "isBreedable": false
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }

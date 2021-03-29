@@ -1,0 +1,33 @@
+{
+  "flower": "tag:misctags:flowers/nether_flowers",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "traits": ["nether", "slime"],
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#fc490b",
+    "primaryColor": "#c6db57",
+	"secondaryColor": "#fc490b" 
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:magma_cream",
+	"secondaryOutput": "xreliquary:molten_core",
+    "secondaryOutputWeight": 0.05
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+	"biomeWhitelist": "tag:nether"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "xreliquary:molten_core",
+    "feedAmount": 2
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

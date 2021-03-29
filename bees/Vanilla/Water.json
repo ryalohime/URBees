@@ -1,0 +1,36 @@
+{
+  "flower": "minecraft:lily_pad",
+  "maxTimeInHive": 600,
+  "traits": ["can_swim"],
+  "hasHoneycomb": true,
+  "baseLayerTexture": "liquid/liquid_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "primaryColor": "#8499D6",
+    "secondaryColor": "#6D7EAF",
+    "honeycombColor": "#8499D6",
+    "primaryLayerTexture":"liquid/liquid_bee_primary",
+    "secondaryLayerTexture":"liquid/liquid_bee_secondary"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+	"hasFluidOutput": true,
+	"mainOutput": "minecraft:water",
+	"mainOutputCount": 250
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:ocean,tag:river"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "pamhc2foodcore:freshwateritem",
+    "feedAmount": 4
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

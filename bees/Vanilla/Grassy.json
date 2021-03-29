@@ -1,0 +1,30 @@
+{
+  "flower": "minecraft:grass",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "ColorData": {
+    "isBeeColored": true,
+    "primaryColor": "#B1FF6D"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:grass",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Mason",
+    "parent2": "Leafcutter",
+    "feedItem": "minecraft:grass",
+    "feedAmount": 2
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "flower": "tag:forge:storage_blocks/coal",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/ore_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#303030",
+    "primaryColor": "#191919",
+    "secondaryColor" : "#FFFFFF",
+    "primaryLayerTexture":"ores/ore_bee_primary",
+    "secondaryLayerTexture":"ores/ore_bee_secondary"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutationType": "BLOCK_TO_BLOCK",
+	"mutationInput": "tag:forge:log",
+	"mutationOutput": "minecraft:charcoal_block"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:coal",
+    "mainOutputCount": 5
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Blazing",
+    "parent2": "Lumber",
+    "feedItem": "minecraft:coal",
+    "feedAmount": 5
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

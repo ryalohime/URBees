@@ -1,0 +1,39 @@
+{
+  "flower": "minecraft:basalt",
+  "maxTimeInHive": 600,
+  "traits": ["blaze", "slime"],
+  "hasHoneycomb": false,
+  "baseLayerTexture": "liquid/liquid_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "primaryColor": "#DB4819",
+    "secondaryColor": "#A04646",
+    "honeycombColor": "#DB4819",
+    "primaryLayerTexture":"liquid/liquid_bee_primary",
+    "secondaryLayerTexture":"liquid/liquid_bee_secondary",
+    "emissiveLayerTexture":"liquid/liquid_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#DB4819"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutationType": "BLOCK_TO_FLUID",
+	"mutationInput": "minecraft:magma_block",
+	"mutationOutput": "minecraft:lava"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:nether"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "druidcraft:fiery_glass",
+    "feedAmount": 1
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

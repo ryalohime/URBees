@@ -1,0 +1,31 @@
+{
+  "flower": "minecraft:cobweb",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "ColorData": {
+    "isBeeColored": true,
+    "primaryColor": "#0B3C46",
+    "secondaryColor": "#880B0B"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:string",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Mason",
+    "parent2": "Sandy",
+    "feedItem": "minecraft:string",
+    "feedAmount": 2
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

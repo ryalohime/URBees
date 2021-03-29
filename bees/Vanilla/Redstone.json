@@ -1,0 +1,38 @@
+{
+  "flower": "tag:forge:storage_blocks/redstone",
+  "maxTimeInHive": 800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/ore_bee",
+  "ColorData": {
+    "primaryColor": "#FF0000",
+    "secondaryColor": "#FFFFFF",
+    "honeycombColor": "#aa0f01",
+    "primaryLayerTexture":"ores/ore_bee_primary",
+    "secondaryLayerTexture":"ores/ore_bee_secondary",
+    "emissiveLayerTexture":"ores/ore_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#FF0000",
+    "isBeeColored": true
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:redstone",
+    "mainOutputCount": 6
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Glowing",
+    "parent2": "Rocky",
+    "feedItem": "tag:forge:dusts/redstone",
+    "feedAmount": 6
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "flower": "tag:forge:storage_blocks/bismuth",
+  "maxTimeInHive": 800,
+  "hasHoneycomb": true,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#c0b2c3",
+    "primaryColor": "#c0b2c3"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false,
+    "mainOutput": "silents_mechanisms:bismuth_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:overworld"
+  },
+  "BreedData": {
+    "isBreedable": false
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

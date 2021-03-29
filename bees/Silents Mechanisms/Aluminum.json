@@ -1,0 +1,34 @@
+{
+  "flower": "tag:forge:storage_blocks/aluminum",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 800,
+  "baseLayerTexture": "ores/ore_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#C3CDD5",
+    "primaryColor": "#C3CDD5",
+    "secondaryColor" : "#FFFFFF",
+    "primaryLayerTexture":"ores/ore_bee_primary",
+    "secondaryLayerTexture":"ores/ore_bee_secondary"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "silents_mechanisms:aluminum_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Quartz",
+    "parent2": "Rocky",
+    "feedItem": "tag:forge:nuggets/aluminum",
+    "feedAmount": 3
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}
