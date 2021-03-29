@@ -1,10 +1,11 @@
 {
   "flower": "all",
   "maxTimeInHive": 600,
-  "hasHoneycomb": false,
+  "hasHoneycomb": true,
   "ColorData": {
     "isBeeColored": true,
-    "primaryColor": "#BBBFBF"
+    "primaryColor": "#BBBFBF",
+    "honeycombColor": "BBBFBF"
   },
   "MutationData": {
     "hasMutation": false
