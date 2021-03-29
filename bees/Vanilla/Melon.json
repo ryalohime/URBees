@@ -20,7 +20,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Leafy",
+    "parent1": "Leafcutter",
     "parent2": "Mason",
     "feedItem": "minecraft:melon",
     "feedAmount": 3
