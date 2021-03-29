@@ -23,7 +23,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Withered",
+    "parent1": "Withered_Spooky",
     "parent2": "Diamond",
     "feedItem": "minecraft:netherite_scrap",
     "feedAmount": 1
