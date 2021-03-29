@@ -27,7 +27,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Blazing",
+    "parent1": "Lava",
     "parent2": "Lumber",
     "feedItem": "minecraft:coal",
     "feedAmount": 5
