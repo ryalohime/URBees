@@ -10,14 +10,17 @@
     "hasMutation": false
   },
   "CentrifugeData": {
-    "hasCentrifugeOutput": false
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:feather"
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:cold"
+    "biomeWhitelist": "tag:plains"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "minecraft:feather,
+    "feedAmount": 3
   },
   "TraitData": {
     "hasTraits": false
