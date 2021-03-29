@@ -1,0 +1,30 @@
+{
+    "flower": "tag:misctags:flowers/nether_flowers",
+    "maxTimeInHive": 600,
+    "hasHoneycomb": true,
+    "traits": ["nether"],
+    "ColorData": {
+      "isBeeColored": true,
+      "honeycombColor": "#885956",
+      "primaryColor": "#885956"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "mysticalagriculture:soulium_dust"
+    },
+    "SpawnData": {
+      "canSpawnInWorld": true,
+      "biomeWhitelist": "tag:nether"
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "feedItem": "mysticalagriculture:soulium_ingot",
+      "feedAmount": 5
+    },
+    "TraitData": {
+      "hasTraits": true
+    }
+  }

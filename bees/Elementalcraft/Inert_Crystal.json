@@ -1,0 +1,29 @@
+{
+    "flower": "elementalcraft:inertcrystal_block",
+    "maxTimeInHive": 800,
+    "hasHoneycomb": true,
+    "ColorData": {
+      "isBeeColored": true,
+      "honeycombColor": "#FFFFFF",
+      "primaryColor": "#FFFFFF"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "elementalcraft:inertcrystal"
+    },
+    "SpawnData": {
+      "canSpawnInWorld": true,
+      "biomeWhitelist": "tag:beach"
+    },
+    "BreedData": {
+      "breedable": true,
+      "feedItem": "elementalcraft:inertcrystal",
+      "feedAmount": 3
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }

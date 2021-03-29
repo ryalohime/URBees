@@ -1,0 +1,37 @@
+{
+    "flower": "mysticalagriculture:prudentium_block",
+    "maxTimeInHive": 600,
+    "hasHoneycomb": true,
+    "baseLayerTexture": "ores/ore_bee",
+    "ColorData": {
+      "isBeeColored": true,
+      "honeycombColor": "#22C93B",
+      "primaryColor": "#22C93B",
+      "secondaryColor" : "#13B02B",
+      "primaryLayerTexture":"ores/ore_bee_primary",
+      "secondaryLayerTexture":"ores/ore_bee_secondary"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "mysticalagriculture:prudentium_essence",
+      "mainOutputCount": 1
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "parent1": "Inferium_Essence",
+      "parent2": "Prosperity_Shard",
+      "breedWeight": 5,
+      "feedItem": "mysticalagriculture:prudentium_essence",
+      "feedAmount": 7
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }
+  

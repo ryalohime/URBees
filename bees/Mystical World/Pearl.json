@@ -1,0 +1,35 @@
+{
+    "flower": "minecraft:sand",
+    "maxTimeInHive": 800,
+    "hasHoneycomb": true,
+    "baseLayerTexture": "ores/ore_bee",
+    "ColorData": {
+      "primaryColor": "#E3E2E1",
+      "secondaryColor": "#A69792",
+      "honeycombColor": "#E3E2E1",
+      "primaryLayerTexture":"ores/ore_bee_primary",
+      "secondaryLayerTexture":"ores/ore_bee_secondary",
+      "emissiveLayerTexture":"ores/ore_bee_emissive",
+      "isGlowing": true,
+      "glowColor": "#CDA2E5",
+      "isBeeColored": true
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "mysticalworld:lustrous_pearl",
+      "mainOutputCount": 3
+    },
+    "SpawnData": {
+      "canSpawnInWorld": true,
+	  "biomeWhitelist": "tag:beach"
+    },
+    "BreedData": {
+      "isBreedable": false
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }

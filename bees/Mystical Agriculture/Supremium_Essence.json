@@ -1,0 +1,37 @@
+{
+    "flower": "mysticalagriculture:supremium_block",
+    "maxTimeInHive": 600,
+    "hasHoneycomb": true,
+    "baseLayerTexture": "ores/ore_bee",
+    "ColorData": {
+      "isBeeColored": true,
+      "honeycombColor": "#FF0808",
+      "primaryColor": "#FF0808",
+      "secondaryColor" : "#CF0C0C",
+      "primaryLayerTexture":"ores/ore_bee_primary",
+      "secondaryLayerTexture":"ores/ore_bee_secondary"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "mysticalagriculture:supremium_essence",
+      "mainOutputCount": 1
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "parent1": "Imperium_Essence",
+      "parent2": "Prosperity_Shard",
+      "breedWeight": 5,
+      "feedItem": "mysticalagriculture:supremium_essence",
+      "feedAmount": 7
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }
+  

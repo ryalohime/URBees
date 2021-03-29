@@ -1,0 +1,32 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": false,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "/ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#930087",
+    "primaryColor": "#ffffff",
+    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
+    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
+    "secondaryColor": "#930087",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:stone",
+    "mutationOutput": "ars_nouveau:arcane_ore",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:nether"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

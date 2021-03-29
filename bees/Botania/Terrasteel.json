@@ -1,0 +1,37 @@
+{
+    "flower": "tag:forge:storage_blocks/terrasteel",
+    "maxTimeInHive": 2000,
+    "hasHoneycomb": true,
+    "baseLayerTexture": "ores/ore_bee",
+    "ColorData": {
+      "isBeeColored": true,
+      "honeycombColor": "#1CED1C",
+      "primaryColor": "#1CED1C",
+      "secondaryColor" : "#1D961D",
+      "primaryLayerTexture":"ores/ore_bee_primary",
+      "secondaryLayerTexture":"ores/ore_bee_secondary",
+      "emissiveLayerTexture":"ores/ore_bee_emissive",
+      "isGlowing": true,
+      "glowColor": "#A4EDFC"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "botania:terrasteel_nugget"
+    },
+    "SpawnData": {
+      "spawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "parent1": "Manasteel",
+      "parent2": "Mana",
+      "feedItem": "tag:forge:ingots/terrasteel",
+      "feedAmount": 3
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }

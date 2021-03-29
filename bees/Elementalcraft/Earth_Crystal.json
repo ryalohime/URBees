@@ -1,0 +1,37 @@
+{
+    "flower": "elementalcraft:earthcrystal_block",
+    "maxTimeInHive": 2000,
+    "hasHoneycomb": true,
+    "baseLayerTexture": "metal/metal_bee",
+    "ColorData": {
+      "isBeeColored": true,
+      "honeycombColor": "#10A355",
+      "primaryColor": "#10A355",
+      "secondaryColor" : "#22F585",
+      "primaryLayerTexture":"metal/metal_bee_primary",
+      "secondaryLayerTexture":"metal/metal_bee_secondary",
+      "emissiveLayerTexture":"metal/metal_bee_emissive",
+      "isGlowing": true,
+      "glowColor": "#A4EDFC"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "elementalcraft:earthcrystal"
+    },
+    "SpawnData": {
+      "spawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "parent1": "Inert_Crystal",
+      "parent2": "Lumber",
+      "feedItem": "elementalcraft:earthcrystal",
+      "feedAmount": 6
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }

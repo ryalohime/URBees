@@ -1,0 +1,31 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "/ores/custom_crystal/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#B5EBEA",
+    "primaryColor": "#ffffff",
+    "secondaryLayerTexture":"ores/gem/custom/custom_gem_bee_secondary",
+    "secondaryColor": "#B5EBEA",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:stone",
+    "mutationOutput": "rftoolsbase:dimensionalshard_overworld",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "rftoolsbase:dimensionalshard"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

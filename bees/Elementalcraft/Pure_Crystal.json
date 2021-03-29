@@ -1,0 +1,37 @@
+{
+    "flower": "elementalcraft:pureinfuser",
+    "maxTimeInHive": 2000,
+    "hasHoneycomb": true,
+    "baseLayerTexture": "ores/ore_bee",
+    "ColorData": {
+      "isBeeColored": true,
+      "honeycombColor": "#F0F5D3",
+      "primaryColor": "#F0F5D3",
+      "secondaryColor" : "#F0F5D3",
+      "primaryLayerTexture":"ores/ore_bee_primary",
+      "secondaryLayerTexture":"ores/ore_bee_secondary",
+      "emissiveLayerTexture":"ores/ore_bee_emissive",
+      "isGlowing": true,
+      "glowColor": "#A4EDFC"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "elementalcraft:purecrystal"
+    },
+    "SpawnData": {
+      "spawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "parent1": "Inert_Crystal",
+      "parent2": "Diamond",
+      "feedItem": "elementalcraft:purecrystal",
+      "feedAmount": 12
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }

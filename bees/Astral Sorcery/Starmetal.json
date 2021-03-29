@@ -1,0 +1,37 @@
+{
+  "flower": "tag:botania:shiny_flower",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 800,
+  "baseLayerTexture": "/ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#0032A8",
+    "primaryColor": "#07062A",
+    "secondaryColor": "#0032A8",
+    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
+    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
+    "emissiveLayerTexture":"ores/starmetal/custom/starmetal_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#D6D8E8",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:iron_ore",
+    "mutationOutput": "astralsorcery:starmetal_ore",
+    "mutationType": "BLOCK_TO_BLOCK",
+	"mutationCount" : 2
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"parent1" : "Iron",
+	"parent2" : "Aquamarine"
+  },
+  "TraitData": {}
+}

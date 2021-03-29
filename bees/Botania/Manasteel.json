@@ -1,0 +1,37 @@
+{
+    "flower": "tag:forge:storage_blocks/manasteel",
+    "maxTimeInHive": 800,
+    "hasHoneycomb": true,
+    "baseLayerTexture": "ores/ore_bee",
+    "ColorData": {
+      "isBeeColored": true,
+      "honeycombColor": "#1944E0",
+      "primaryColor": "#1944E0",
+      "secondaryColor" : "#112E99",
+      "primaryLayerTexture":"ores/ore_bee_primary",
+      "secondaryLayerTexture":"ores/ore_bee_secondary",
+      "emissiveLayerTexture":"ores/ore_bee_emissive",
+      "isGlowing": true,
+      "glowColor": "#A4EDFC"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "botania:manasteel_nugget"
+    },
+    "SpawnData": {
+      "spawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "parent1": "Steel",
+      "parent2": "Mana",
+      "feedItem": "tag:forge:ingots/manasteel",
+      "feedAmount": 3
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }

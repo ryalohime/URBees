@@ -1,0 +1,38 @@
+{
+  "flower": "tag:forge:storage_blocks/amethyst",
+  "maxTimeInHive": 1200,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/ore_bee",
+  "ColorData": {
+    "primaryColor": "#A656D3",
+    "secondaryColor": "#FFFFFF",
+    "honeycombColor": "#A656D3",
+    "primaryLayerTexture":"ores/ore_bee_primary",
+    "secondaryLayerTexture":"ores/ore_bee_secondary",
+    "emissiveLayerTexture":"ores/ore_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#CDA2E5",
+    "isBeeColored": true
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalworld:amethyst",
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Redstone",
+    "parent2": "Lapis",
+    "feedItem": "tag:forge:gems/amethyst",
+    "feedAmount": 2
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

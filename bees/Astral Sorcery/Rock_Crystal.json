@@ -1,0 +1,33 @@
+{
+  "flower": "tag:forge:marble",
+  "hasHoneycomb": false,
+  "maxTimeInHive": 700,
+  "baseLayerTexture": "/ores/custom_crystal/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#FCFCFC",
+    "primaryColor": "#ffffff",
+    "secondaryLayerTexture":"ores/gem/custom/custom_gem_bee_secondary",
+    "secondaryColor": "#FCFCFeC",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "mekanism:block_salt",
+    "mutationOutput": "astralsorcery:rock_crystal_ore",
+    "mutationType": "BLOCK_TO_BLOCK",
+	"mutationCount" : 2
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"parent1" : "Quartz",
+	"parent2" :	"Aquamarine"
+  },
+  "TraitData": {}
+}

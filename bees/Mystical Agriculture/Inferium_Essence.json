@@ -1,0 +1,37 @@
+{
+    "flower": "mysticalagriculture:inferium_block",
+    "maxTimeInHive": 600,
+    "hasHoneycomb": true,
+    "baseLayerTexture": "ores/ore_bee",
+    "ColorData": {
+      "isBeeColored": true,
+      "honeycombColor": "#A2FF0D",
+      "primaryColor": "#A2FF0D",
+      "secondaryColor" : "#82CC0A",
+      "primaryLayerTexture":"ores/ore_bee_primary",
+      "secondaryLayerTexture":"ores/ore_bee_secondary"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "mysticalagriculture:inferium_essence",
+      "mainOutputCount": 1
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "parent1": "Prosperity_Shard",
+      "parent2": "Soulium",
+      "breedWeight": 1,
+      "feedItem": "mysticalagriculture:inferium_essence",
+      "feedAmount": 7
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }
+  

@@ -1,0 +1,37 @@
+{
+    "flower": "elementalcraft:firecrystal_block",
+    "maxTimeInHive": 2000,
+    "hasHoneycomb": true,
+    "baseLayerTexture": "ores/ore_bee",
+    "ColorData": {
+      "isBeeColored": true,
+      "honeycombColor": "#E03A53",
+      "primaryColor": "#E03A53",
+      "secondaryColor" : "#D40625",
+      "primaryLayerTexture":"ores/ore_bee_primary",
+      "secondaryLayerTexture":"ores/ore_bee_secondary",
+      "emissiveLayerTexture":"ores/ore_bee_emissive",
+      "isGlowing": true,
+      "glowColor": "#A4EDFC"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "elementalcraft:firecrystal"
+    },
+    "SpawnData": {
+      "spawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "parent1": "Inert_Crystal",
+      "parent2": "Lava",
+      "feedItem": "elementalcraft:firecrystal",
+      "feedAmount": 6
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }

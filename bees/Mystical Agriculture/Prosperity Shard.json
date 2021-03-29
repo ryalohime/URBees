@@ -1,0 +1,30 @@
+{
+    "flower": "mysticalagriculture:prosperity_block",
+    "maxTimeInHive": 600,
+    "hasHoneycomb": true,
+    "ColorData": {
+      "isBeeColored": true,
+      "primaryColor": "#F1EBF5",
+      "honeycombColor": "#F1EBF5"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "mysticalagriculture:prosperity_shard",
+      "mainOutputCount": 3
+    },
+    "SpawnData": {
+      "canSpawnInWorld": true,
+      "biomeWhitelist": "tag:overworld"
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "feedItem": "mysticalagriculture:prosperity_shard",
+      "feedAmount": 3
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }

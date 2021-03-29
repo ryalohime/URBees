@@ -1,0 +1,33 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": false,
+  "maxTimeInHive": 600,
+  "traits" : ["can_swim"],
+  "ColorData": {
+    "isBeeColored": true,
+    "primaryColor": "#E0DABC",
+    "primaryLayerTexture":"stones/custom/custom_bee_sand_primary",
+    "secondaryLayerTexture":"ores/gem/custom/custom_gem_bee_secondary",
+    "secondaryColor": "#00BDE0",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:sand",
+    "mutationOutput": "astralsorcery:aquamarine_sand_ore",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:beach"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {
+	"hasTraits" : true
+  }
+}
