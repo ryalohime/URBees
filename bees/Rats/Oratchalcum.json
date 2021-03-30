@@ -20,7 +20,7 @@
   },
   "BreedData": {
     "breedable": true,
-    "feedItem": "tag:forge:nuggets/oratchalcum",
+    "feedItem": "tag:forge:ingots/oratchalcum",
     "feedAmount": 1
   },
   "TraitData": {
