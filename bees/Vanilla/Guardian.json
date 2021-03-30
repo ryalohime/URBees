@@ -24,8 +24,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Water",
-    "parent2": "Quartz",
+    "parent1": "Ghost",
+    "parent2": "Coral",
     "feedItem": "xreliquary:guardian_spike",
     "feedAmount": 2
   },
