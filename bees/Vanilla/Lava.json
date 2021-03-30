@@ -1,7 +1,7 @@
 {
   "flower": "minecraft:basalt",
   "maxTimeInHive": 600,
-  "traits": ["blaze", "slime"],
+  "traits": ["blaze"],
   "hasHoneycomb": false,
   "baseLayerTexture": "liquid/liquid_bee",
   "ColorData": {
