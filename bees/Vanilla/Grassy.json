@@ -10,7 +10,7 @@
     "hasMutation": true,
     "mutationType": "BLOCK_TO_BLOCK",
     "mutationInput": "minecraft:dirt",
-    "mutationOutput": "minecraft:grass"
+    "mutationOutput": "minecraft:grass_block"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
