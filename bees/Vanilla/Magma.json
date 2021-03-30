@@ -1,5 +1,5 @@
 {
-  "flower": "tag:misctags:flowers/nether_flowers",
+  "flower": "minecraft:netherrack",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "traits": ["nether", "slime"],
@@ -19,11 +19,12 @@
     "secondaryOutputWeight": 0.05
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-	"biomeWhitelist": "tag:nether"
+    "canSpawnInWorld": false
   },
   "BreedData": {
     "isBreedable": true,
+    "parent1": "Lava",
+    "parent2": "Slimy",
     "feedItem": "xreliquary:molten_core",
     "feedAmount": 2
   },
