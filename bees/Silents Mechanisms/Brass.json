@@ -25,7 +25,9 @@
   "BreedData": {
     "isBreedable": true,
     "parent1": "Copper",
-    "parent2": "Zinc"
+    "parent2": "Zinc",
+    "feedItem": "tag:forge:ingots/brass",
+    "feedAmount": 3
   },
   "TraitData": {
     "hasTraits": true
