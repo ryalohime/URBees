@@ -1,5 +1,5 @@
 {
-  "flower": "tag:misctags:flowers/glowing_flowers",
+  "flower": "tag:botania:shiny_flower",
   "maxTimeInHive": 1000,
   "hasHoneycomb": true,
   "traits": ["nether", "pigman"],
