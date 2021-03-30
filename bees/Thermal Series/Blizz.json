@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "minecraft:snow_block",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
   "baseLayerTexture": "/ores/custom/custom_bee",
@@ -31,7 +31,9 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true.
+    "feedItem": "thermal:blizz_rod",
+    "feedAmount": 3
   },
   "TraitData": {}
 }
