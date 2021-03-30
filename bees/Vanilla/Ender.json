@@ -1,5 +1,5 @@
 {
-  "flower": "minecraft:end_stone",
+  "flower": "minecraft:end_stone_bricks",
   "hasHoneycomb": true,
   "traits": ["ender"],
   "maxTimeInHive": 1800,
