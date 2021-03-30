@@ -25,7 +25,7 @@
     "isBreedable": true,
     "parent1": "Quartz",
     "parent2": "Mason",
-    "feedItem": "tag:forge:ingots/gold",
+    "feedItem": "minecraft:gold_ingot",
     "feedAmount": 3
   },
   "TraitData": {
