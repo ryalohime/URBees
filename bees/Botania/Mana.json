@@ -24,7 +24,9 @@
     "biomeWhitelist": "tag:magical"
   },
   "BreedData": {
-    "isBreedable": false
+    "isBreedable": true,
+    "feedItem": "botania:black_lotus",
+    "feedAmount": 3
   },
   "TraitData": {
     "hasTraits": false
