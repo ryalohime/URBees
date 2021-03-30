@@ -25,7 +25,7 @@
     "isBreedable": true,
     "parent1": "Zinc",
     "parent2": "Breezy",
-    "feedItem": "allomancy:cadmium_flakes",
+    "feedItem": "allomancy:cadmium_ingot",
     "feedAmount": 3
   },
   "TraitData": {
