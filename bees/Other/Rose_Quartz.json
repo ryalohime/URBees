@@ -28,7 +28,9 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "Quartz",
-      "parent2": "Redstone"
+      "parent2": "Redstone",
+      "feedItem": "create:rose_quartz",
+      "feedAmount": 5
     },
     "TraitData": {
       "hasTraits": false
