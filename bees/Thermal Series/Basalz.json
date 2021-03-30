@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "tag:forge:stone",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
   "baseLayerTexture": "/ores/custom/custom_bee",
@@ -31,7 +31,9 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "thermal:basaltz_rod",
+    "feedAmount": 3
   },
   "TraitData": {}
 }
