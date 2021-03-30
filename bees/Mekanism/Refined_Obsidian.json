@@ -27,7 +27,7 @@
     "isBreedable": true,
     "parent1": "Osmium",
     "parent2": "Obsidian",
-    "feedItem": "tag:forge:nuggets/refined_obsidian",
+    "feedItem": "tag:forge:ingots/refined_obsidian",
     "feedAmount": 3
   },
   "TraitData": {
