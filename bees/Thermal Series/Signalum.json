@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "tag:forge:storage_blocks/signalum",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
   "baseLayerTexture": "/ores/custom/custom_bee",
@@ -26,9 +26,10 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Silver",
-    "parent2": "Copper",
-    "feedItem": "minecraft:redstone_dust"
+    "parent1": "Silver, Silver",
+    "parent2": "Copper, Redstone",
+    "feedItem": "tag:forge:ingots/signalum",
+    "feedAmount": 2
   },
   "TraitData": {
     "hasTraits": true
