@@ -1,12 +1,12 @@
 {
     "flower": "tag:forge:storage_blocks/coral",
     "maxTimeInHive": 1200,
-    "hasHoneycomb": true,
+    "hasHoneycomb": false,
+    "traits": ["can_swim"],
     "baseLayerTexture": "ores/ore_bee",
     "ColorData": {
       "primaryColor": "#FAC36B",
       "secondaryColor": "#FFFFFF",
-      "honeycombColor": "#FAC36B",
       "primaryLayerTexture":"ores/ore_bee_primary",
       "secondaryLayerTexture":"ores/ore_bee_secondary",
       "emissiveLayerTexture":"ores/ore_bee_emissive",
@@ -15,24 +15,21 @@
       "isBeeColored": true
     },
     "MutationData": {
-      "hasMutation": false
+      "hasMutation": true
     },
     "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "silentgems:coral",
-      "mainOutputCount": 1
+      "hasCentrifugeOutput": false
     },
     "SpawnData": {
-      "canSpawnInWorld": false
+      "canSpawnInWorld": true,
+      "biomeWhitelist": "minecraft:warm_ocean,byg:coral_mangroves"
     },
     "BreedData": {
       "isBreedable": true,
-      "parent1": "Lepidolite",
-      "parent2": "Pyrope",
-      "feedItem": "tag:forge:gems/coral",
+      "feedItem": "tag:minecraft:corals",
       "feedAmount": 2
     },
     "TraitData": {
-      "hasTraits": false
+      "hasTraits": true
     }
   }
