@@ -25,7 +25,7 @@
     "isBreedable": true,
     "parent1": "Iron",
     "parent2": "Lapis",
-    "feedItem": "tag:forge:nuggets/osmium",
+    "feedItem": "tag:forge:ingots/osmium",
     "feedAmount": 3
   },
   "TraitData": {
