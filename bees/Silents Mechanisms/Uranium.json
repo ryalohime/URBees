@@ -28,7 +28,7 @@
     "isBreedable": true,
     "parent1": "Iron",
     "parent2": "Beeper",
-    "feedItem": "tag:forge:nuggets/uranium",
+    "feedItem": "tag:forge:ingots/uranium",
     "feedAmount": 3
   },
   "TraitData": {
