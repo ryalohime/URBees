@@ -29,7 +29,9 @@
 	  "biomeWhitelist": "tag:beach"
     },
     "BreedData": {
-      "isBreedable": false
+      "isBreedable": true,
+      "feedItem": "mysticalworld:pearl_block",
+      "feedAmount": 2
     },
     "TraitData": {
       "hasTraits": true
