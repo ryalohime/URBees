@@ -2,6 +2,7 @@
     "flower": "minecraft:sand",
     "maxTimeInHive": 800,
     "hasHoneycomb": true,
+    "traits": ["can_swim"],
     "baseLayerTexture": "ores/ore_bee",
     "ColorData": {
       "primaryColor": "#E3E2E1",
@@ -15,12 +16,13 @@
       "isBeeColored": true
     },
     "MutationData": {
-      "hasMutation": false
+      "hasMutation": true,
+      "mutationType": "BLOCK_TO_BLOCK",
+      "mutationInput": "compressium:sand_1",
+      "mutationOutput": "mysticalworld:pearl_block"
     },
     "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "mysticalworld:lustrous_pearl",
-      "mainOutputCount": 3
+      "hasCentrifugeOutput": false
     },
     "SpawnData": {
       "canSpawnInWorld": true,
@@ -30,6 +32,6 @@
       "isBreedable": false
     },
     "TraitData": {
-      "hasTraits": false
+      "hasTraits": true
     }
   }
