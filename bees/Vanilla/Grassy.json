@@ -7,7 +7,10 @@
     "primaryColor": "#B1FF6D"
   },
   "MutationData": {
-    "hasMutation": false
+    "hasMutation": true,
+    "mutationType": "BLOCK_TO_BLOCK",
+    "mutationInput": "minecraft:dirt",
+    "mutationOutput": "minecraft:grass"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
