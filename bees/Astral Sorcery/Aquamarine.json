@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "tag:botania:mystical_flowers",
   "hasHoneycomb": false,
   "maxTimeInHive": 600,
   "traits" : ["can_swim"],
