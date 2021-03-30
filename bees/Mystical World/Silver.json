@@ -25,7 +25,7 @@
     "isBreedable": true,
     "parent1": "Iron",
     "parent2": "Mason",
-    "feedItem": "tag:forge:nuggets/silver",
+    "feedItem": "tag:forge:ingots/silver",
     "feedAmount": 3
   },
   "TraitData": {
