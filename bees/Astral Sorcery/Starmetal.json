@@ -30,8 +30,10 @@
   },
   "BreedData": {
     "isBreedable": true,
-	"parent1" : "Iron",
-	"parent2" : "Aquamarine"
+    "parent1" : "Iron",
+    "parent2" : "Aquamarine",
+    "feedItem": "astralsorcery:starmetal_ingot",
+    "feedAmount": 3
   },
   "TraitData": {}
 }
