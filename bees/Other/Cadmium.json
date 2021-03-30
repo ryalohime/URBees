@@ -24,7 +24,7 @@
   "BreedData": {
     "isBreedable": true,
     "parent1": "Zinc",
-    "parent2": "Breezy",
+    "parent2": "Dimensional_Shard",
     "feedItem": "allomancy:cadmium_flakes",
     "feedAmount": 3
   },
