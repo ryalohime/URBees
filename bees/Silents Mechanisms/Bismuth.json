@@ -20,6 +20,8 @@
   },
   "BreedData": {
     "isBreedable": true,
+    "parent1": "Rocky",
+    "parent2": "Tin",
     "feedItem": "tag:forge:ingots/bismuth",
     "feedAmount": 3
   },
