@@ -25,7 +25,7 @@
     "isBreedable": true,
     "parent1": "Gold",
     "parent2": "Silver",
-    "feedItem": "tag:forge:nuggets/electrum",
+    "feedItem": "tag:forge:ingots/electrum",
     "feedAmount": 3
   },
   "TraitData": {
