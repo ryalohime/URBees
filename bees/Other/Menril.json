@@ -53,7 +53,9 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "integrateddynamics:crystalized_menril_chunk",
+    "feedAmount": 5
   },
   "TraitData": {}
 }
