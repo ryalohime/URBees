@@ -26,7 +26,9 @@
     "biomeWhitelist": "tag:nether"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "ars_nouveau:mana_gem",
+    "feedAmount": 3
   },
   "TraitData": {}
 }
