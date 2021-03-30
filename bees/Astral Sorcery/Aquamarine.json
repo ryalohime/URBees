@@ -25,7 +25,9 @@
     "biomeWhitelist": "tag:beach"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "astralsorcery:aquamarine",
+    "feedAmount": 4
   },
   "TraitData": {
 	"hasTraits" : true
