@@ -14,7 +14,7 @@
   "MutationData": {
     "hasMutation": true,
 	"mutationType": "BLOCK_TO_BLOCK",
-	"mutationInput": "minecraft:logs_that_burn",
+	"mutationInput": "tag:minecraft:logs_that_burn",
 	"mutationOutput": "tag:forge:storage_blocks/charcoal"
   },
   "CentrifugeData": {
