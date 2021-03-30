@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "tag:forge:storage_blocks/lumium",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
   "baseLayerTexture": "/ores/custom/custom_bee",
@@ -29,9 +29,10 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Silver",
-    "parent2": "Tin",
-    "feedItem": "minecraft:glowstone_dust"
+    "parent1": "Silver, Silver",
+    "parent2": "Tin, Glowing",
+    "feedItem": "tag:forge:ingots/lumium",
+    "feedAmount": 2
   },
   "TraitData": {
     "hasTraits": true
