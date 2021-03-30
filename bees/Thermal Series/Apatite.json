@@ -27,7 +27,9 @@
 	  "biomeWhitelist": "tag:Overworld"
     },
     "BreedData": {
-      "isBreedable": false
+      "isBreedable": true,
+      "feedItem": "thermal:apatite",
+      "feedAmount": 6
     },
     "TraitData": {
       "hasTraits": false
