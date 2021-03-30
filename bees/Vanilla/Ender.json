@@ -15,7 +15,9 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:ender_pearl",
-    "bottleOutput": "botania:ender_air_bottle"
+    "bottleOutput": "botania:ender_air_bottle",
+    "secondaryOutput": "xreliquary:nebulous_heart",
+    "secondaryOutputWeight": "0.1"
   },
   "SpawnData": {
     "canSpawnInWorld": true,
