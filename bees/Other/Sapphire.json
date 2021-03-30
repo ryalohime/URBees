@@ -28,7 +28,9 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "Icy",
-      "parent2": "Lapis"
+      "parent2": "Lapis",
+      "feedItem": "iceandfire:sapphire_gem",
+      "feedAmount": 4
     },
     "TraitData": {
       "hasTraits": false
