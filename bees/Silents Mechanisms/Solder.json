@@ -25,9 +25,11 @@
   "BreedData": {
     "isBreedable": true,
     "parent1": "Lead",
-    "parent2": "Tin"
+    "parent2": "Tin",
+    "feedItem": "silents_mechanisms:solder",
+    "feedAmount": 5
   },
   "TraitData": {
-    "hasTraits": true
+    "hasTraits": false
   }
 }
