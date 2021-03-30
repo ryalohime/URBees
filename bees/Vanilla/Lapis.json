@@ -30,7 +30,7 @@
     "parent1": "Redstone",
     "parent2": "RGBee",
     "feedItem": "tag:forge:gems/lapis",
-    "feedAmount": 5
+    "feedAmount": 6
   },
   "TraitData": {
     "hasTraits": false
