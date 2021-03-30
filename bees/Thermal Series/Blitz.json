@@ -1,7 +1,8 @@
 {
-  "flower": "ALL",
+  "flower": "tag:forge:sandstone",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
+  "traits": ["desert"],
   "baseLayerTexture": "/ores/custom/custom_bee",
   "ColorData": {
     "isBeeColored": true,
@@ -31,7 +32,11 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "thermal:blitz_rod",
+    "feedAmount": 3
   },
-  "TraitData": {}
+  "TraitData": {
+    "hasTraits": true
+  }
 }
