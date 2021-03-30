@@ -22,10 +22,14 @@
     "mainOutput": "rftoolsbase:dimensionalshard"
   },
   "SpawnData": {
-    "canSpawnInWorld": false
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:overworld",
+    "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "breedingItem": "rftoolsbase:dimensional_shard",
+    "itemAmount": 3
   },
   "TraitData": {}
 }
