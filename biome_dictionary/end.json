@@ -4,6 +4,17 @@
     "minecraft:small_end_islands",
     "minecraft:end_midlands",
     "minecraft:end_highlands",
-    "minecraft:end_barrens"
+    "minecraft:end_barrens",
+    "byg:bulbis_gardens",
+    "byg:ethereal_islands",
+    "byg:ivis_fields",
+    "byg:nightshade_forest",
+    "byg:shulkren_forest",
+    "betterendforge:megalake_grove",
+    "betterendforge:chorus_forest",
+    "betterendforge:shadow_forest",
+    "betterendforge:blossoming_spires",
+    "betterendforge:umbrella_jungle",
+    "betterendforge:glowing_grasslands"
   ]
 }
