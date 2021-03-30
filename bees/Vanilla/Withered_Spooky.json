@@ -9,7 +9,10 @@
     "honeycombColor": "#444444"
   },
   "MutationData": {
-    "hasMutation": false
+    "hasMutation": true,
+    "mutationType": "ENTITY_TO_ENTITY",
+    "mutationInput": "entity:minecraft:skeleton",
+    "mutationOutput": "entity:minecraft:wither_skeleton"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
