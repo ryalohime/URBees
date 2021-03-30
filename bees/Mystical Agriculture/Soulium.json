@@ -1,5 +1,5 @@
 {
-    "flower": "tag:misctags:flowers/nether_flowers",
+    "flower": "mysticalagriculture:soulium_block",
     "maxTimeInHive": 600,
     "hasHoneycomb": true,
     "traits": ["nether"],
