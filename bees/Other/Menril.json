@@ -16,7 +16,7 @@
     "mutations": [
       {
         "type": "BLOCK_TO_BLOCK",
-        "inputID": "minecraft:logs",
+        "inputID": "tag:minecraft:logs",
         "outputs": [
           {
             "outputID": "integrateddynamics:menril_log"
@@ -34,7 +34,7 @@
       },
       {
         "type": "BLOCK_TO_BLOCK",
-        "inputID": "minecraft:leaves",
+        "inputID": "tag:minecraft:leaves",
         "outputs": [
           {
             "outputID": "integrateddynamics:menril_leaves"
