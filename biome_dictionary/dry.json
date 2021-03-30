@@ -12,6 +12,14 @@
     "minecraft:shattered_savanna_plateau",
     "minecraft:eroded_badlands",
     "minecraft:modified_wooded_badlands_plateau",
-    "minecraft:modified_badlands_plateau"
+    "minecraft:modified_badlands_plateau",
+    "byg:autumnal_valley",
+    "byg:baobab_savanna",
+    "byg:dunes",
+    "byg:mojave_desert",
+    "byg:prairie",
+    "byg:red_desert",
+    "byg:red_rock_mountians",
+    "byg:sierra_valley"
   ]
 }
