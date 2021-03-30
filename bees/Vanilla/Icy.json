@@ -26,7 +26,7 @@
     "canSpawnInWorld": false
   },
   "BreedData": {
-    "isBreedable": false,
+    "isBreedable": true,
     "feedItem": "minecraft:ice",
     "parent1": "Frosty",
     "parent2": "Water",
