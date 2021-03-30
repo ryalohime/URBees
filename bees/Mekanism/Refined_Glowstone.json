@@ -30,7 +30,7 @@
     "isBreedable": true,
     "parent1": "Osmium",
     "parent2": "Glowing",
-    "feedItem": "tag:forge:nuggets/refined_glowstone",
+    "feedItem": "tag:forge:ingots/refined_glowstone",
     "feedAmount": 3
   },
   "TraitData": {
