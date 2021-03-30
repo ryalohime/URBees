@@ -12,7 +12,10 @@
     "secondaryLayerTexture":"liquid/liquid_bee_secondary"
   },
   "MutationData": {
-    "hasMutation": false
+    "hasMutation": true,
+    "mutationType": "FLUID_TO_BLOCK",
+    "mutationInput": "minecraft:water",
+    "mutationOutput": "minecraft:ice"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
