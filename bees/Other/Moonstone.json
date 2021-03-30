@@ -28,9 +28,11 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "Starmetal",
-      "parent2": "Pure_Crystal"
+      "parent2": "Pure_Crystal",
+      "feedItem": "druidcraft:moonstone",
+      "feedAmount": 3
     },
     "TraitData": {
-      "hasTraits": false
+      "hasTraits": false,
     }
   }
