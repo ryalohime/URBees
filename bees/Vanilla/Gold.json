@@ -25,7 +25,7 @@
     "isBreedable": true,
     "parent1": "Quartz",
     "parent2": "Mason",
-    "feedItem": "tag:forge:nuggets/gold",
+    "feedItem": "tag:forge:ingots/gold",
     "feedAmount": 3
   },
   "TraitData": {
