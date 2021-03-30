@@ -19,7 +19,9 @@
     "biomeWhitelist": "tag:overworld"
   },
   "BreedData": {
-    "isBreedable": false
+    "isBreedable": true,
+    "feedItem": "tag:forge:ingots/bismuth",
+    "feedAmount": 3
   },
   "TraitData": {
     "hasTraits": false
