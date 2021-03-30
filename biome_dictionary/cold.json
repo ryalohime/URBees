@@ -17,6 +17,23 @@
     "minecraft:deep_frozen_ocean",
     "minecraft:taiga_mountains",
     "minecraft:ice_spikes",
-    "minecraft:snowy_taiga_mountains"
+    "minecraft:snowy_taiga_mountains",
+    "byg:blue_taiga",
+    "byg:bluff_steeps",
+    "byg:cika_woods",
+    "byg:coniferous_forest",
+    "byg:dover_mountains",
+    "byg:evergreen_taiga",
+    "byg:lush_tundra",
+    "byg:maple_taiga",
+    "byg:seasonal_birch_forest",
+    "byg:seasonal_forest",
+    "byg:seasonal_taiga",
+    "byg:skyris_highlands",
+    "byg:snowy_blue_taiga",
+    "byg:the_black_forest",
+    "byg:twilight_valley",
+    "byg:weeping_witch_forest",
+    "byg:zelkova_forest"
   ]
 }
