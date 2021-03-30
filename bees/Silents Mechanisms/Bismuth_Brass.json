@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "tag:forge:storage_blocks/bismuth_brass",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
   "baseLayerTexture": "/ores/custom/custom_bee",
@@ -25,7 +25,9 @@
   "BreedData": {
     "isBreedable": true,
     "parent1": "Bismuth",
-    "parent2": "Brass"
+    "parent2": "Brass",
+    "feedItem": "tag:forge:ingots/bismuth_brass",
+    "feedAmount": 3
   },
   "TraitData": {
     "hasTraits": true
