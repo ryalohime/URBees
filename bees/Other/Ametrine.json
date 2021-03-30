@@ -29,6 +29,8 @@
       "isBreedable": true,
       "parent1": "Netherite",
       "parent2": "Rose Quartz"
+      "feedItem": "byg:ametrine_gems",
+      "feedAmount": 5
     },
     "TraitData": {
       "hasTraits": false
