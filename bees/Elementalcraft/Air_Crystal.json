@@ -15,7 +15,10 @@
       "glowColor": "#A4EDFC"
     },
     "MutationData": {
-      "hasMutation": false
+      "hasMutation": true,
+	  "mutationType": "BLOCK_TO_BLOCK",
+	  "mutationInput": "elementalcraft:crystalore",
+	  "mutationOutput": "elementalcraft:aircrystal_block"
     },
     "CentrifugeData": {
       "hasCentrifugeOutput": true,

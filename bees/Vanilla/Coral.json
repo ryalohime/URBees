@@ -1,5 +1,5 @@
 {
-    "flower": "tag:forge:storage_blocks/coral",
+    "flower": "minecraft:sea_pickle",
     "maxTimeInHive": 1200,
     "hasHoneycomb": false,
     "traits": ["can_swim"],
@@ -15,7 +15,23 @@
       "isBeeColored": true
     },
     "MutationData": {
-      "hasMutation": true
+      "hasMutation": true,
+	  "mutations" : [
+	  {
+		  "type": "BLOCK_TO_ITEM",
+		  "inputID": "minecraft:dead_tube_coral_block",
+		  "outputs": [
+			{"outputID": "minecraft:tube_coral_block"}
+		  ]
+	  },
+	  {
+		  "type": "BLOCK_TO_ITEM",
+		  "inputID": "minecraft:dead_brain_coral_block",
+		  "outputs": [
+			{"outputID": "minecraft:brain_coral_block"}
+		  ]
+	  }
+	  ]
     },
     "CentrifugeData": {
       "hasCentrifugeOutput": false
