@@ -23,7 +23,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Leafcutter",
+    "parent1": "Leafy",
     "parent2": "Water",
     "feedItem": "minecraft:sugar_cane",
     "feedAmount": 5
