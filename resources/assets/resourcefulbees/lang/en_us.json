@@ -742,5 +742,9 @@
 	"entity.resourcefulbees.starmetal_bee" : "Starmetal Bee",
     "item.resourcefulbees.starmetal_bee_spawn_egg" : "Starmetal Bee Spawn Egg",
     "item.resourcefulbees.starmetal_honeycomb" : "Starmetal Honeycomb",
-    "block.resourcefulbees.starmetal_honeycomb_block" : "Starmetal Honeycomb Block"
+    "block.resourcefulbees.starmetal_honeycomb_block" : "Starmetal Honeycomb Block",
+	"entity.resourcefulbees.constantan_bee" : "Constantan Bee",
+    "item.resourcefulbees.constantan_bee_spawn_egg" : "Constantan Bee Spawn Egg",
+    "item.resourcefulbees.constantan_honeycomb" : "Constantan Honeycomb",
+    "block.resourcefulbees.constantan_honeycomb_block" : "Constantan Honeycomb Block"
 }
