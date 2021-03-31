@@ -8,9 +8,7 @@
     "secondaryColor": "#880B0B"
   },
   "MutationData": {
-    "hasMutation": true,
-    "mutationType": "BLOCK_TO_BLOCK",
-    "mutationInput": 
+    "hasMutation": true 
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
