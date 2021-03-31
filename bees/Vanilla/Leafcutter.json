@@ -10,7 +10,7 @@
     "hasMutation": true,
     "mutationType": "BLOCK_TO_ITEM",
     "mutationInput": "tag:minecraft:leaves",
-    "mutationOutput": "tag:forge:fruits",
+    "mutationOutput": "minecraft:apple",
     "chance": 0.05
   },
   "CentrifugeData": {
