@@ -21,7 +21,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Leafcutter",
+    "parent1": "Leafy",
     "parent2": "Lava",
     "feedItem": "minecraft:nether_wart",
     "feedAmount": 5
