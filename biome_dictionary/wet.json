@@ -5,6 +5,19 @@
     "minecraft:jungle_hills",
     "minecraft:jungle_edge",
     "minecraft:swamp_hills",
-    "minecraft:modified_jungle"
+    "minecraft:modified_jungle",
+	"byg:bog",
+	"byg:bayou",
+	"byg:canyon_edge",
+	"byg:coral_mangroves",
+	"byg:crag_gardens",
+	"byg:fresh_water_lake",
+	"byg:frozen_lake",
+	"byg:glowshroom_bayou",
+	"byg:mangrove_marshes",
+	"byg:marshlands",
+	"byg:oasis",
+	"byg:polluted_lake",
+	"byg:vibrant_swamplands"
   ]
 }

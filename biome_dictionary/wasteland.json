@@ -1,5 +1,10 @@
 {
   "biomes": [
-    "minecraft:snowy_tundra"
+    "minecraft:snowy_tundra",
+	"byg:dead_sea",
+	"byg:polluted_lake",
+	"byg:red_desert_dunes",
+	"byg:twilight_valley",
+	"byg:twilight_valley_hills"
   ]
 }
