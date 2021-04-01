@@ -3,9 +3,9 @@
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "traits" : ["desert"],
+  "baseLayerTexture": "stones/sandy_bee",
   "ColorData": {
-    "isBeeColored": true,
-    "primaryColor": "#DDD2B7",
+    "isBeeColored": false,
     "honeycombColor": "#DDD2B7"
   },
   "MutationData": {

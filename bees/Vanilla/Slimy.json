@@ -3,10 +3,10 @@
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "traits" : ["slimy"],
+  "baseLayerTexture": "liquid/slimy_bee",
   "ColorData": {
-    "isBeeColored": true,
-    "honeycombColor": "#A5FC97",
-    "primaryColor": "#A5FC97"
+    "isBeeColored": false,
+    "honeycombColor": "#A5FC97"
   },
   "MutationData": {
     "hasMutation": false
