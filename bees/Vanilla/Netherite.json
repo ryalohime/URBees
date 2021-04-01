@@ -2,7 +2,7 @@
   "flower": "minecraft:ancient_debris",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
-  "baseLayerTexture": "netherite/netherite_bee",
+  "baseLayerTexture": "/ores/netherite/netherite_bee",
   "traits": ["nether"],
   "ColorData": {
     "isBeeColored": true,
