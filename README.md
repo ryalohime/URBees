@@ -1,2 +1,4 @@
 # URBees
-3/29: Finished breeding log in spreadsheet, updated lang file to fix name displays.
+Resourceful Bees configs/textures for the Unlikely Reunion modpack (packdev KirinDave). 
+
+https://www.curseforge.com/minecraft/modpacks/unlikely-reunion
