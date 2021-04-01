@@ -8,7 +8,7 @@
     "honeycombColor": "#FCFCFC",
     "primaryColor": "#ffffff",
     "secondaryLayerTexture":"ores/gem/custom/custom_gem_bee_secondary",
-    "secondaryColor": "#FCFCFeC",
+    "secondaryColor": "#FCFCFC",
     "modelType": "ORE"
   },
   "MutationData": {
@@ -28,7 +28,7 @@
     "isBreedable": true,
     "parent1" : "Quartz",
     "parent2" : "Aquamarine",
-    "feedItem": "astralsorcery:rock_crystal"
+    "feedItem": "astralsorcery:rock_crystal",
     "feedAmount": 1
   },
   "TraitData": {}

@@ -1,0 +1,47 @@
+{
+  "flower": "tag:botania:shiny_flowers",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": false,
+  "traits": ["nether"],
+  "baseLayerTexture": "pumpkin/jackolantern/jackolantern_bee_primary",
+  "ColorData": {
+    "isBeeColored": false,
+	"emissiveLayerTexture": "pumpkin/jackolantern/jackolantern_bee_primary",
+    "honeycombColor": "#CF7E1A",
+	"isGlowing": true,
+    "glowColor": "#FFFFFF"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutation": [
+	{
+		"type": "BLOCK_TO_BLOCK",
+		"inputID": "minecraft:pumpkin",
+		"outputs": [
+		{"outputID": "minecraft:jack_o_lantern", "weight": 5},
+		{"outputID": "extlights:light_mini_jack_sad", "weight": 3},
+		{"outputID": "extlights:light_mini_jack_angry", "weight": 3},
+		{"outputID": "extlights:light_mini_jack_happy", "weight": 3},
+		{"outputID": "extlights:light_mini_jack_crazy", "weight": 3},
+		{"outputID": "rats:jack_o_ratern", "weight": 1}
+		]
+	}
+	]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Pumpkin",
+    "parent2": "Glowing",
+    "feedItem": "minecraft:jack_o_lantern",
+    "feedAmount": 3
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

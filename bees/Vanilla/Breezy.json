@@ -1,0 +1,29 @@
+{
+  "flower": "All",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "ColorData": {
+    "isBeeColored": true,
+    "primaryColor": "#FFFFFF"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:feather",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+	"biomeWhitelist": "tag:plains"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:feather",
+    "feedAmount": 3
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}
