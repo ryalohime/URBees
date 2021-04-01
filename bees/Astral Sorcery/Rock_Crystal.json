@@ -8,7 +8,7 @@
     "honeycombColor": "#FCFCFC",
     "primaryColor": "#ffffff",
     "secondaryLayerTexture":"ores/gem/custom/custom_gem_bee_secondary",
-    "secondaryColor": "#FCFCFeC",
+    "secondaryColor": "#FCFCFC",
     "modelType": "ORE"
   },
   "MutationData": {
