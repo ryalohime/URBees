@@ -1,0 +1,34 @@
+{
+  "flower": "all",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": false,
+  "baseLayerTexture": "zombie/zombie_bee",
+  "traits": ["zombie"],
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#2F4E32"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false,
+    "mainOutput": "minecraft:rotten_flesh",
+    "mainOutputCount": 2,
+    "secondaryOutput": "xreliquary:zombie_heart",
+    "secondaryOutputWeight": 0.05
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:overworld",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": false,
+    "feedItem": "xreliquary:zombie_heart",
+    "feedAmount": 2
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}
