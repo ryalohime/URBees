@@ -1,13 +1,13 @@
 {
   "flower": "all",
   "maxTimeInHive": 600,
-  "hasHoneycomb": true,
+  "hasHoneycomb": false,
   "baseLayerTexture": "/creeper/creeper_bee",
   "traits": ["creeper"],
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#0C9F0A",
-    "isGlowing": true,
+    "isGlowing": false,
     "glowColor": "#E2D3D3",
     "glowingPulse": 2,
     "emissiveLayerTexture": "/creeper/creeper_bee_emissive"
@@ -16,19 +16,19 @@
     "hasMutation": false
   },
   "CentrifugeData": {
-    "hasCentrifugeOutput": true,
+    "hasCentrifugeOutput": false,
     "mainOutput": "minecraft:gunpowder",
     "mainOutputCount": 4,
 	"secondaryOutput": "xreliquary:catalyzing_gland",
     "secondaryOutputWeight": 0.05
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
+    "canSpawnInWorld": false,
     "biomeWhitelist": "tag:overworld",
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true,
+    "isBreedable": false,
     "feedItem": "xreliquary:catalyzing_gland",
     "feedAmount": 3
   },
