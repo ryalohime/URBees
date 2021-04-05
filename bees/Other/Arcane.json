@@ -1,0 +1,28 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": false,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#9E72BE",
+    "primaryColor": "#C4DDE6",
+    "secondaryColor": "#9E72BE"
+  },
+  "MutationData": {
+    "hasMutation": false,
+    "mutationInput": "minecraft:stone",
+    "mutationOutput": "forbidden_arcanus:arcane_crystal_ore",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false,
+    "mainOutput": "forbidden_arcanus:arcane_crystal"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": 	false
+  },
+  "BreedData": {
+    "isBreedable": false
+  },
+  "TraitData": {}
+}
