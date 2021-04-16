@@ -2,17 +2,11 @@
     "flower": "botania:gaia_head",
     "maxTimeInHive": 2000,
     "hasHoneycomb": true,
-    "baseLayerTexture": "ores/ore_bee",
+    "baseLayerTexture": "other/gaia_bee_eye",
     "ColorData": {
-      "isBeeColored": true,
-      "honeycombColor": "#CCC2A9",
-      "primaryColor": "#CCC2A9",
-      "secondaryColor" : "#B3AFA8",
-      "primaryLayerTexture":"ores/ore_bee_primary",
-      "secondaryLayerTexture":"ores/ore_bee_secondary",
-      "emissiveLayerTexture":"ores/ore_bee_emissive",
-      "isGlowing": true,
-      "glowColor": "#A4EDFC"
+      "isBeeColored": false,
+	  "primaryColor": "#000000",
+	  "secondaryColor": "#FFFFFF"
     },
     "MutationData": {
       "hasMutation": false
@@ -27,7 +21,7 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "Alfsteel",
-      "parent2": "Mana",
+      "parent2": "Obsidian",
       "feedItem": "botania:gaia_ingot",
       "feedAmount": 20
     },

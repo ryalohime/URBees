@@ -1,0 +1,36 @@
+{
+  "flower": "tag:minecraft:beds",
+  "maxTimeInHive": 1000,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "other/villager_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "primaryColor": "#523931",
+    "secondaryColor": "#D8C348",
+    "honeycombColor": "#523931",
+	"modelType": "VILLAGER"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+	"mainOutput": "minecraft:wheat",
+	"secondaryOutput": "minecraft:villager_spawn_egg",
+	"secondaryOutputWeight": 0.05
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:overworld",
+	"biomeBlacklist": "tag:ocean",
+	"spawnWeight": 5
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:bread",
+    "feedAmount": 4
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

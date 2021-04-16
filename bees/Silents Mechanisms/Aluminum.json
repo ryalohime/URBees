@@ -23,8 +23,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Quartz",
-    "parent2": "Rocky",
+    "parent1": "Redstone",
+    "parent2": "Chromium",
     "feedItem": "tag:forge:ingots/aluminum",
     "feedAmount": 3
   },

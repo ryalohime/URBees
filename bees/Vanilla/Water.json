@@ -3,14 +3,12 @@
   "maxTimeInHive": 600,
   "traits": ["can_swim"],
   "hasHoneycomb": true,
-  "baseLayerTexture": "liquid/liquid_bee",
+  "baseLayerTexture": "liquid/water_bee",
   "ColorData": {
-    "isBeeColored": true,
-    "primaryColor": "#8499D6",
-    "secondaryColor": "#6D7EAF",
-    "honeycombColor": "#8499D6",
-    "primaryLayerTexture":"liquid/liquid_bee_primary",
-    "secondaryLayerTexture":"liquid/liquid_bee_secondary"
+    "isBeeColored": false,
+    "primaryColor": "#234eca",
+    "secondaryColor": "#345aa4",
+    "honeycombColor": "#234eca"
   },
   "MutationData": {
     "hasMutation": false

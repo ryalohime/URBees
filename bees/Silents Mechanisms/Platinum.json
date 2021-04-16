@@ -26,8 +26,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Ender",
-    "parent2": "Gold",
+    "parent1": "Osmium",
+    "parent2": "Water_Crystal",
     "feedItem": "tag:forge:ingots/platinum",
     "feedAmount": 3
   },

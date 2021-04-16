@@ -23,8 +23,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Quartz",
-    "parent2": "Rocky",
+    "parent1": "Zinc",
+    "parent2": "Cadmium",
     "feedItem": "tag:forge:ingots/tin",
     "feedAmount": 3
   },

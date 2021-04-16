@@ -1,5 +1,5 @@
 {
-  "flower": "minecraft:end_stone_bricks",
+  "flower": "betterendforge:ender_block",
   "hasHoneycomb": true,
   "traits": ["ender"],
   "maxTimeInHive": 1800,
@@ -25,6 +25,8 @@
   },
   "BreedData": {
     "isBreedable": true,
+	"parent1": "Pearl",
+	"parent2": "Soul",
     "feedItem": "xreliquary:nebulous_heart",
     "feedAmount": 4
   },

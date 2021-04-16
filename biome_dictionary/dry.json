@@ -16,15 +16,10 @@
     "byg:autumnal_valley",
     "byg:baobab_savanna",
     "byg:dunes",
-	"byg:lush_red_desert",
     "byg:mojave_desert",
     "byg:prairie",
-	"byg:prairie_clearing",
     "byg:red_desert",
     "byg:red_rock_mountians",
-	"byg:redwood_mountains",
-	"byg:sierra_range",
-    "byg:sierra_valley",
-	"byg:wooded_red_rock_mountains"
+    "byg:sierra_valley"
   ]
 }

@@ -26,7 +26,6 @@
       "isBreedable": true,
       "parent1": "Prosperity_Shard",
       "parent2": "Soulium",
-      "breedWeight": 1,
       "feedItem": "mysticalagriculture:inferium_essence",
       "feedAmount": 7
     },

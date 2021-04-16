@@ -4,8 +4,12 @@
     "hasHoneycomb": true,
     "ColorData": {
       "isBeeColored": true,
-      "primaryColor": "#F1EBF5",
-      "honeycombColor": "#F1EBF5"
+      "honeycombColor": "#DDFBFB",
+      "primaryColor": "#FFFFFF",
+      "secondaryColor" : "#DDFBFB",
+      "primaryLayerTexture":"/ores/custom_crystal/custom_bee_primary",
+      "secondaryLayerTexture":"/ores/custom_crystal/custom_bee_secondary",
+	  "modelType": "ORE"
     },
     "MutationData": {
       "hasMutation": false
@@ -16,11 +20,12 @@
       "mainOutputCount": 3
     },
     "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:overworld"
+      "canSpawnInWorld": false
     },
     "BreedData": {
       "isBreedable": true,
+	  "parent1": "Mana",
+	  "parent2": "Coral",
       "feedItem": "mysticalagriculture:prosperity_shard",
       "feedAmount": 3
     },

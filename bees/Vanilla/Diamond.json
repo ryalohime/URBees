@@ -26,8 +26,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Ender",
-    "parent2": "Lapis",
+    "parent1": "Air_Crystal",
+    "parent2": "Sapphire",
     "feedItem": "tag:forge:gems/diamond",
     "feedAmount": 1
   },

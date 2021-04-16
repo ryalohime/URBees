@@ -1,16 +1,15 @@
 {
-  "flower": "ALL",
+  "flower": "tag:forge:storage_blocks/brass",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
-  "baseLayerTexture": "/ores/custom/custom_bee",
+  "baseLayerTexture": "metal/metal_bee",
   "ColorData": {
     "isBeeColored": true,
-    "honeycombColor": "#FCF085",
-    "primaryColor": "#ffffff",
-    "secondaryColor": "#FCF085",
-    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
-    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
-    "modelType": "ORE"
+    "honeycombColor": "#E1C469",
+    "primaryColor": "#FCF085",
+    "secondaryColor": "#E1C469",
+    "primaryLayerTexture":"metal/metal_bee",
+    "secondaryLayerTexture":"metal/metal_bee_secondarylight"
   },
   "MutationData": {
     "hasMutation": false

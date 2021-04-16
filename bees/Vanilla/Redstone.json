@@ -28,7 +28,7 @@
   "BreedData": {
     "isBreedable": true,
     "parent1": "Glowing",
-    "parent2": "Rocky",
+    "parent2": "RGBee",
     "feedItem": "tag:forge:dusts/redstone",
     "feedAmount": 6
   },

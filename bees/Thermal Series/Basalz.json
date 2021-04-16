@@ -26,12 +26,12 @@
     "mainOutput": "thermal:basalz_rod"
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:mountain",
-    "biomeBlacklist": "tag:ocean"
+    "canSpawnInWorld": false
   },
   "BreedData": {
     "isBreedable": true,
+	"parent1": "Soul",
+	"parent2": "Rocky",
     "feedItem": "thermal:basaltz_rod",
     "feedAmount": 3
   },

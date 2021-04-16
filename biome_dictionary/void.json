@@ -1,7 +1,5 @@
 {
   "biomes": [
-    "minecraft:the_void",
-	"byg:shattered_viscal_isles",
-	"byg:viscal_isles"
+    "minecraft:the_void"
   ]
 }

@@ -25,8 +25,7 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "Imperium_Essence",
-      "parent2": "Prosperity_Shard",
-      "breedWeight": 5,
+      "parent2": "Redstone_Alloy",
       "feedItem": "mysticalagriculture:supremium_essence",
       "feedAmount": 7
     },

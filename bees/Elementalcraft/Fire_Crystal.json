@@ -2,17 +2,19 @@
     "flower": "elementalcraft:firecrystal_block",
     "maxTimeInHive": 2000,
     "hasHoneycomb": true,
-    "baseLayerTexture": "ores/ore_bee",
+	"traits": ["nether"],
+    "baseLayerTexture": "ores/custom/custom_bee",
     "ColorData": {
       "isBeeColored": true,
       "honeycombColor": "#E03A53",
-      "primaryColor": "#E03A53",
-      "secondaryColor" : "#D40625",
-      "primaryLayerTexture":"ores/ore_bee_primary",
-      "secondaryLayerTexture":"ores/ore_bee_secondary",
-      "emissiveLayerTexture":"ores/ore_bee_emissive",
+      "primaryColor": "#D40625",
+      "secondaryColor" : "#E03A53",
+      "primaryLayerTexture":"ores/custom/custom_bee_primary",
+      "secondaryLayerTexture":"ores/custom/custom_bee_secondary",
+      "emissiveLayerTexture":"ores/custom/custom_bee_emissive",
       "isGlowing": true,
-      "glowColor": "#A4EDFC"
+      "glowColor": "#D37080",
+	  "modelType": "ORE"
     },
     "MutationData": {
       "hasMutation": true,
@@ -35,6 +37,6 @@
       "feedAmount": 6
     },
     "TraitData": {
-      "hasTraits": false
+      "hasTraits": true
     }
   }

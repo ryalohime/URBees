@@ -1,13 +1,11 @@
 {
   "flower": "minecraft:ancient_debris",
-  "maxTimeInHive": 600,
+  "maxTimeInHive": 1200,
   "hasHoneycomb": true,
-  "baseLayerTexture": "netherite/netherite_bee",
+  "baseLayerTexture": "ores/netherite_bee",
   "traits": ["nether"],
   "ColorData": {
-    "isBeeColored": true,
-    "primaryColor": "#654740",
-    "secondaryColor" : "#FFFFFF",
+    "isBeeColored": false,
     "honeycombColor": "#654740"
   },
   "MutationData": {
@@ -24,7 +22,7 @@
   "BreedData": {
     "isBreedable": true,
     "parent1": "Withered_Spooky",
-    "parent2": "Diamond",
+    "parent2": "Arcane_Gold",
     "feedItem": "minecraft:netherite_scrap",
     "feedAmount": 1
   },

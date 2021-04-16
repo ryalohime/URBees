@@ -1,5 +1,5 @@
 {
-  "flower": "all",
+  "flower": "botania:fel_pumpkin",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "baseLayerTexture": "skeleton/skeleton_bee",
@@ -17,12 +17,12 @@
     "secondaryOutputWeight": 0.05
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:overworld",
-    "biomeBlacklist": "tag:ocean"
+    "canSpawnInWorld": false
   },
   "BreedData": {
     "isBreedable": true,
+	"parent1": "Soul",
+	"parent2": "Quartz",
     "feedItem": "xreliquary:rib_bone",
     "feedAmount": 3
   },

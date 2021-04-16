@@ -1,5 +1,5 @@
 {
-  "flower": "all",
+  "flower": "botania:fel_pumpkin",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "baseLayerTexture": "/creeper/creeper_bee",
@@ -23,12 +23,12 @@
     "secondaryOutputWeight": 0.05
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:overworld",
-    "biomeBlacklist": "tag:ocean"
+    "canSpawnInWorld": false
   },
   "BreedData": {
     "isBreedable": true,
+	"parent1": "Soul",
+	"parent2": "Coal",
     "feedItem": "xreliquary:catalyzing_gland",
     "feedAmount": 3
   },

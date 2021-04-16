@@ -26,8 +26,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Diamond,Diamond",
-    "parent2": "Lead,Ender",
+    "parent1": "Diamond, Diamond",
+    "parent2": "Lead, Ender",
     "feedItem": "forge:ingots/enderium",
     "feedAmount": 2
   },

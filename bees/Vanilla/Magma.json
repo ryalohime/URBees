@@ -2,12 +2,17 @@
   "flower": "minecraft:netherrack",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
-  "traits": ["nether", "slime"],
+  "traits": ["fiery", "slime"],
+  "baseLayerTexture": "liquid/magma_slime",
   "ColorData": {
-    "isBeeColored": true,
+    "isBeeColored": false,
     "honeycombColor": "#fc490b",
     "primaryColor": "#c6db57",
-	"secondaryColor": "#fc490b" 
+	"secondaryColor": "#fc490b",
+	"emissiveLayerTexture": "liquid/magma_slime_emissive",
+	"isGlowing": true,
+	"glowColor": "#660000",
+	"modelType": "GELATINOUS"
   },
   "MutationData": {
     "hasMutation": false

@@ -2,17 +2,18 @@
     "flower": "elementalcraft:earthcrystal_block",
     "maxTimeInHive": 2000,
     "hasHoneycomb": true,
-    "baseLayerTexture": "metal/metal_bee",
+    "baseLayerTexture": "ores/custom/custom_bee",
     "ColorData": {
       "isBeeColored": true,
       "honeycombColor": "#10A355",
-      "primaryColor": "#10A355",
-      "secondaryColor" : "#22F585",
-      "primaryLayerTexture":"metal/metal_bee_primary",
-      "secondaryLayerTexture":"metal/metal_bee_secondary",
-      "emissiveLayerTexture":"metal/metal_bee_emissive",
+      "primaryColor": "#22F585",
+      "secondaryColor" : "#10A355",
+      "primaryLayerTexture":"ores/custom/custom_bee_primary",
+      "secondaryLayerTexture":"ores/custom/custom_bee_secondary",
+      "emissiveLayerTexture":"ores/custom/custom_bee_emissive",
       "isGlowing": true,
-      "glowColor": "#A4EDFC"
+      "glowColor": "#97F4C3",
+	  "modelType": "ORE"
     },
     "MutationData": {
       "hasMutation": true,

@@ -2,18 +2,19 @@
     "flower": "elementalcraft:aircrystal_block",
     "maxTimeInHive": 2000,
     "hasHoneycomb": true,
-    "baseLayerTexture": "ores/ore_bee",
+    "baseLayerTexture": "ores/custom/custom_bee",
     "ColorData": {
       "isBeeColored": true,
       "honeycombColor": "#EAF2BB",
-      "primaryColor": "#EAF2BB",
-      "secondaryColor" : "#CAD19F",
-      "primaryLayerTexture":"ores/ore_bee_primary",
-      "secondaryLayerTexture":"ores/ore_bee_secondary",
-      "emissiveLayerTexture":"ores/ore_bee_emissive",
+      "primaryColor": "#CAD19F",
+      "secondaryColor" : "#EAF2BB",
+      "primaryLayerTexture":"ores/custom/custom_bee_primary",
+      "secondaryLayerTexture":"ores/custom/custom_bee_secondary",
+      "emissiveLayerTexture":"ores/custom/custom_bee_emissive",
       "isGlowing": true,
-      "glowColor": "#A4EDFC"
-    },
+      "glowColor": "#E8DFA2",
+	  "modelType": "ORE"
+	},
     "MutationData": {
       "hasMutation": true,
 	  "mutationType": "BLOCK_TO_BLOCK",

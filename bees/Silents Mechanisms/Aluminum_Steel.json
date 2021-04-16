@@ -2,15 +2,14 @@
   "flower": "tag:forge:storage_blocks/aluminum_steel",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
-  "baseLayerTexture": "/ores/custom/custom_bee",
+  "baseLayerTexture": "metal/metal_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#B2C1CC",
     "primaryColor": "#888888",
     "secondaryColor": "#B2C1CC",
-    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
-    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
-    "modelType": "ORE"
+    "primaryLayerTexture":"metal/metal_bee",
+    "secondaryLayerTexture":"metal/metal_bee_secondary"
   },
   "MutationData": {
     "hasMutation": false

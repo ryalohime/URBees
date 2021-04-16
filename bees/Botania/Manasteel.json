@@ -2,17 +2,16 @@
     "flower": "tag:forge:storage_blocks/manasteel",
     "maxTimeInHive": 800,
     "hasHoneycomb": true,
-    "baseLayerTexture": "ores/ore_bee",
     "ColorData": {
       "isBeeColored": true,
       "honeycombColor": "#1944E0",
       "primaryColor": "#1944E0",
       "secondaryColor" : "#112E99",
-      "primaryLayerTexture":"ores/ore_bee_primary",
-      "secondaryLayerTexture":"ores/ore_bee_secondary",
-      "emissiveLayerTexture":"ores/ore_bee_emissive",
+      "primaryLayerTexture":"metal/metal_bee",
+      "secondaryLayerTexture":"metal/metal_bee_secondary",
+      "emissiveLayerTexture":"metal/metal_bee_emissivefulldark",
       "isGlowing": true,
-      "glowColor": "#A4EDFC"
+      "glowColor": "#112E99"
     },
     "MutationData": {
       "hasMutation": false

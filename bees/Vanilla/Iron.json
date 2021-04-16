@@ -23,7 +23,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Quartz",
+    "parent1": "Coal",
     "parent2": "Rocky",
     "feedItem": "tag:forge:ingots/iron",
     "feedAmount": 3

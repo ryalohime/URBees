@@ -2,10 +2,12 @@
   "flower": "minecraft:clay",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
+  "baseLayerTexture": "stones/clay_beeeye",
   "ColorData": {
-    "isBeeColored": true,
-    "primaryColor": "#48544F",
-    "honeycombColor": "#48544F"
+    "isBeeColored": false,
+    "honeycombColor": "#A1A7B1",
+	"primaryColor": "#A1A7B1",
+	"secondaryColor": "#AFB9D6"
   },
   "MutationData": {
     "hasMutation": false
@@ -19,13 +21,13 @@
     "secondaryOutputWeight": 0.8
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:overworld",
-    "biomeBlacklist": "tag:ocean"
+    "canSpawnInWorld": false
   },
   "BreedData": {
     "isBreedable": true,
-    "feedItem": "tag:forge:clay",
+	"parent1": "Sandy",
+	"parent2": "Water",
+    "feedItem": "minecraft:clay",
     "feedAmount": 5
   },
   "TraitData": {

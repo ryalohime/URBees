@@ -1,28 +1,44 @@
 {
-  "flower": "minecraft:cobweb",
+  "flower": "botania:fel_pumpkin",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
+  "baseLayerTexture": "other/spider_bee",
   "ColorData": {
-    "isBeeColored": true,
-    "primaryColor": "#0B3C46",
-    "secondaryColor": "#880B0B"
+    "isBeeColored": false,
+    "primaryColor": "#251F1A",
+    "secondaryColor": "#C50303",
+	"isGlowing": true,
+	"glowColor": "#C50303",
+	"emissiveLayerTexture": "other/spider_bee_emissive"
   },
   "MutationData": {
-    "hasMutation": true 
+    "hasMutation": true,
+	  "mutations" : [
+	  {
+		  "type": "BLOCK_TO_ITEM",
+		  "inputID": "quark:stick_block",
+		  "outputs": [
+			{"outputID": "mysticalworld:silk_cocoon"}
+		  ]
+	  }
+	]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:string",
-    "mainOutputCount": 4
+    "mainOutput": "minecraft:spider_eye",
+    "mainOutputCount": 4,
+	"secondaryOutput": "xreliquary:chelicerae",
+	"secondaryOutputWeight": 0.05
+	
   },
   "SpawnData": {
     "canSpawnInWorld": false
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Mason",
-    "parent2": "Sandy",
-    "feedItem": "minecraft:string",
+    "parent1": "Soul",
+    "parent2": "Mushroom",
+    "feedItem": "xreliquary:chelicerae",
     "feedAmount": 2
   },
   "TraitData": {

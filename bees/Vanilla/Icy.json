@@ -2,14 +2,12 @@
   "flower": "minecraft:ice",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
-  "baseLayerTexture": "liquid/liquid_bee",
+  "baseLayerTexture": "stones/icy_bee",
   "ColorData": {
-    "isBeeColored": true,
-    "honeycombColor": "#6B88C0",
-    "primaryColor": "#AFE2FC",
-    "secondaryColor": "#90B7FB",
-    "primaryLayerTexture":"liquid/liquid_bee_primary",
-    "secondaryLayerTexture":"liquid/liquid_bee_secondary"
+    "isBeeColored": false,
+    "honeycombColor": "#93BAFD",
+	"primaryColor": "#93BAFD",
+	"secondaryColor": "#C9DDFF"
   },
   "MutationData": {
     "hasMutation": true,

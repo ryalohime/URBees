@@ -3,12 +3,13 @@
   "maxTimeInHive": 1000,
   "hasHoneycomb": true,
   "traits": ["nether", "pigman"],
+  "baseLayerTexture": "stones/custom/glowstone_colored",
   "ColorData": {
-    "isBeeColored": true,
-    "honeycombColor": "#F1ED95",
-    "primaryColor": "#D6D30D",
+    "isBeeColored": false,
+    "honeycombColor": "#F8D773",
+	"emissiveLayerTexture": "stones/custom/glowstone_colored",
     "isGlowing": true,
-    "glowColor": "#D6D30D"
+    "glowColor": "#FFFFFF"
   },
   "MutationData": {
     "hasMutation": false

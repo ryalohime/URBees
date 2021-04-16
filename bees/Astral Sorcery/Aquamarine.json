@@ -21,11 +21,12 @@
     "hasCentrifugeOutput": false
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:beach"
+    "canSpawnInWorld": false
   },
   "BreedData": {
     "isBreedable": true,
+	"parent1": "Quartz",
+	"parent2": "Water",
     "feedItem": "astralsorcery:aquamarine",
     "feedAmount": 4
   },

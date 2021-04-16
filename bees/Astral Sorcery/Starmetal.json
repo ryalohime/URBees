@@ -1,5 +1,5 @@
 {
-  "flower": "tag:botania:shiny_flower",
+  "flower": "tag:botania:shiny_flowers",
   "hasHoneycomb": true,
   "maxTimeInHive": 800,
   "baseLayerTexture": "/ores/custom/custom_bee",

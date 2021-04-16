@@ -13,7 +13,8 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:obsidian"
+    "mainOutput": "minecraft:obsidian",
+	"mainOutputWeight": 0.25
   },
   "SpawnData": {
     "canSpawnInWorld": false

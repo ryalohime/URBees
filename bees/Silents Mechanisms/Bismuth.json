@@ -11,17 +11,16 @@
     "hasMutation": false
   },
   "CentrifugeData": {
-    "hasCentrifugeOutput": false,
+    "hasCentrifugeOutput": true,
     "mainOutput": "silents_mechanisms:bismuth_ingot"
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:overworld"
+    "canSpawnInWorld": false
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Rocky",
-    "parent2": "Tin",
+    "parent1": "Pearl",
+    "parent2": "Frosty",
     "feedItem": "tag:forge:ingots/bismuth",
     "feedAmount": 3
   },

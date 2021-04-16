@@ -21,7 +21,7 @@
   "BreedData": {
     "breedable": true,
     "feedItem": "tag:forge:ingots/oratchalcum",
-    "feedAmount": 1
+    "feedAmount": 3
   },
   "TraitData": {
     "hasTraits": false

@@ -23,8 +23,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Quartz",
-    "parent2": "Mason",
+    "parent1": "Coal",
+    "parent2": "Earth_Crystal",
     "feedItem": "minecraft:gold_ingot",
     "feedAmount": 3
   },

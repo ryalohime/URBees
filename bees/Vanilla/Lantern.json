@@ -13,7 +13,7 @@
   },
   "MutationData": {
     "hasMutation": true,
-	"mutation": [
+	"mutations": [
 	{
 		"type": "BLOCK_TO_BLOCK",
 		"inputID": "minecraft:pumpkin",

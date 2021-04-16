@@ -1,0 +1,37 @@
+{
+  "flower": "forbidden_arcanus:arcane_crystal_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/arcane_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#9E72BE",
+    "primaryColor": "#C4DDE6",
+    "secondaryColor": "#9E72BE",
+	"isGlowing": true,
+	"emissiveLayerTexture": "ores/arcane_bee_emissive",
+	"glowColor": "#E0F7FF",
+	"modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:stone",
+    "mutationOutput": "forbidden_arcanus:arcane_crystal_ore",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "forbidden_arcanus:arcane_crystal"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Prosperity_Shard",
+    "parent2": "Lapis",
+    "feedItem": "forbidden_arcanus:arcane_crystal",
+    "feedAmount": 5
+  },
+  "TraitData": {}
+}

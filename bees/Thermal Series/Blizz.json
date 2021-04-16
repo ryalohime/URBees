@@ -17,21 +17,21 @@
   },
   "MutationData": {
     "hasMutation": true,
+	"mutationType": "BLOCK_TO_BLOCK",
     "mutationInput": "minecraft:stone",
-    "mutationOutput": "minecraft:packed_ice",
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutationOutput": "minecraft:packed_ice"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "thermal:blizz_rod"
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:cold",
-    "biomeBlacklist": "tag:ocean"
+    "canSpawnInWorld": false
   },
   "BreedData": {
-    "isBreedable": true.
+    "isBreedable": true,
+	"parent1": "Soul",
+	"parent2": "Icy",
     "feedItem": "thermal:blizz_rod",
     "feedAmount": 3
   },

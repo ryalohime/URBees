@@ -2,15 +2,14 @@
   "flower": "tag:forge:storage_blocks/redstone_alloy",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
-  "baseLayerTexture": "/ores/custom/custom_bee",
+  "baseLayerTexture": "metal/metal_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#B3251D",
     "primaryColor": "#7A89B4",
     "secondaryColor": "#B3251D",
-    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
-    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
-    "modelType": "ORE"
+    "primaryLayerTexture":"metal/metal_bee",
+    "secondaryLayerTexture":"metal/metal_bee_secondary"
   },
   "MutationData": {
     "hasMutation": false

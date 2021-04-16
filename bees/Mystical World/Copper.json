@@ -23,8 +23,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Quartz",
-    "parent2": "Rocky",
+    "parent1": "Mason",
+    "parent2": "Nickel",
     "feedItem": "tag:forge:ingots/copper",
     "feedAmount": 3
   },

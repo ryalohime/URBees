@@ -27,8 +27,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Redstone",
-    "parent2": "RGBee",
+    "parent1": "Water",
+    "parent2": "Mana_Gem",
     "feedItem": "tag:forge:gems/lapis",
     "feedAmount": 6
   },

@@ -25,8 +25,7 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "Supremium_Essence",
-      "parent2": "Prosperity_Shard",
-      "breedWeight": 1,
+      "parent2": "Amethyst",
       "feedItem": "mysticalagradditions:insanium_essence",
       "feedAmount": 7
     },

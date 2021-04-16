@@ -2,17 +2,16 @@
     "flower": "byg:ametrine_block",
     "maxTimeInHive": 1200,
     "hasHoneycomb": true,
-    "baseLayerTexture": "ores/ore_bee",
+	"baseLayerTexture": "ores/ametrine_bee",
     "ColorData": {
-      "primaryColor": "#BF1D8C",
+      "primaryColor": "#F4CBCB",
       "secondaryColor": "#FFFFFF",
-      "honeycombColor": "#BF1D8C",
-      "primaryLayerTexture":"ores/ore_bee_primary",
-      "secondaryLayerTexture":"ores/ore_bee_secondary",
-      "emissiveLayerTexture":"ores/ore_bee_emissive",
+      "honeycombColor": "#F4CBCB",
+      "emissiveLayerTexture":"ores/arcane_bee_emissive",
       "isGlowing": true,
-      "glowColor": "#CDA2E5",
-      "isBeeColored": true
+      "glowColor": "#F8E9E2",
+      "isBeeColored": false,
+	  "modelType": "ORE"
     },
     "MutationData": {
       "hasMutation": false
@@ -28,7 +27,7 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "Netherite",
-      "parent2": "Rose Quartz"
+      "parent2": "Rose Quartz",
       "feedItem": "byg:ametrine_gems",
       "feedAmount": 5
     },

@@ -27,10 +27,10 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Redstone",
-    "parent2": "Lapis",
+    "parent1": "Mana_Gem",
+    "parent2": "Arcane",
     "feedItem": "tag:forge:gems/amethyst",
-    "feedAmount": 2
+    "feedAmount": 5
   },
   "TraitData": {
     "hasTraits": false

@@ -1,0 +1,59 @@
+ {
+  "flower": "mysticalworld:mushroom_inside_block",
+  "maxTimeInHive": 800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "other/mushroom_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#CC9978",
+    "primaryColor": "#CC9978",
+	"secondaryColor": "#FE2A2A",
+	"modelType": "MUSHROOM"
+  },
+  "MutationData": {
+    "hasMutation": true,
+	"mutations": [
+	{
+		  "type": "BLOCK_TO_BLOCK",
+		  "inputID": "minecraft:coarse_dirt",
+		  "outputs": [
+			{"outputID": "minecraft:mycelium"}
+		  ]
+	},
+	{
+		  "type": "BLOCK_TO_BLOCK",
+		  "inputID": "minecraft:red_mushroom",
+		  "outputs": [
+			{"outputID": "minecraft:brown_mushroom"}
+		  ]
+	},
+	{
+		  "type": "BLOCK_TO_BLOCK",
+		  "inputID": "minecraft:brown_mushroom",
+		  "outputs": [
+			{"outputID": "minecraft:red_mushroom"}
+		  ]
+	}
+	]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:brown_mushroom",
+    "mainOutputWeight": 0.75,
+	"secondaryOutput": "minecraft:red_mushroom",
+	"secondaryOutputWeight": 0.75
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Leafy",
+    "parent2": "Villager",
+    "feedItem": "minecraft:brown_mushroom",
+    "feedAmount": 3
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

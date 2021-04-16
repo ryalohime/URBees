@@ -3,14 +3,17 @@
     "maxTimeInHive": 600,
     "hasHoneycomb": false,
     "traits": ["nether"],
+	"baseLayerTexture": "ores/ore_bee",
     "ColorData": {
       "isBeeColored": true,
-      "honeycombColor": "#885956",
-      "primaryColor": "#885956"
+      "primaryColor": "#422D23",
+      "secondaryColor" : "#8A553B",
+      "primaryLayerTexture":"ores/ore_bee_primarybright",
+      "secondaryLayerTexture":"ores/ore_bee_secondarybright"
     },
     "MutationData": {
       "hasMutation": true,
-      "mutationType": "BLOCK_TO_BLOCK"
+      "mutationType": "BLOCK_TO_BLOCK",
       "mutationInput": "mysticalagriculture:soulstone",
       "mutationOutput": "mysticalagriculture:soulium_ore"
     },

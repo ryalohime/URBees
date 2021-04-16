@@ -2,15 +2,14 @@
   "flower": "tag:forge:storage_blocks/bismuth_brass",
   "hasHoneycomb": true,
   "maxTimeInHive": 600,
-  "baseLayerTexture": "/ores/custom/custom_bee",
+  "baseLayerTexture": "metal/metal_bee",
   "ColorData": {
     "isBeeColored": true,
-    "honeycombColor": "#d6b1a5",
-    "primaryColor": "#805E68",
-    "secondaryColor": "#d6b1a5",
-    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
-    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
-    "modelType": "ORE"
+    "honeycombColor": "#C19BAF",
+    "primaryColor": "#E6D4DC",
+    "secondaryColor": "#C19BAF",
+    "primaryLayerTexture":"metal/metal_bee",
+    "secondaryLayerTexture":"metal/metal_bee_transparent"
   },
   "MutationData": {
     "hasMutation": false

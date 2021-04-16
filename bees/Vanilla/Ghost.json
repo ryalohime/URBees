@@ -3,10 +3,12 @@
   "maxTimeInHive": 800,
   "hasHoneycomb": true,
   "traits": ["nether"],
+  "baseLayerTexture": "other/ghost_bee",
   "ColorData": {
-    "isBeeColored": true,
+    "isBeeColored": false,
     "honeycombColor": "#B7C7C7",
-    "primaryColor": "#B7C7C7"
+    "primaryColor": "#B7C7C7",
+	"secondaryColor": "#EAEAEA"
   },
   "MutationData": {
     "hasMutation": false
@@ -22,7 +24,7 @@
   "BreedData": {
     "isBreedable": true,
     "parent1": "Beeper",
-    "parent2": "Blazing",
+    "parent2": "Blizz",
     "feedItem": "xreliquary:catalyzing_gland",
     "feedAmount": 6
   },

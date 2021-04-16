@@ -2,19 +2,20 @@
   "flower": "ALL",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
+  "baseLayerTexture": "stones/custom/lumber_bee",
   "ColorData": {
-    "isBeeColored": true,
-    "primaryColor": "#453B2A",
-    "honeycombColor": "#453B2A"
+    "isBeeColored": false,
+    "primaryColor": "#594529",
+	"secondaryColor": "#A0824E",
+    "honeycombColor": "#594529"
   },
   "MutationData": {
     "hasMutation": false
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:apple",
+    "mainOutput": "minecraft:oak_log",
     "bottleOutputWeight": 0.15,
-    "mainOutputWeight": 0.33,
     "mainOutputCount": 2
   },
   "SpawnData": {

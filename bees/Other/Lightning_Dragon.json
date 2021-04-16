@@ -1,0 +1,50 @@
+{
+    "flower": "tag:forge:storage_blocks/lightning_dragon_scale",
+    "maxTimeInHive": 1200,
+    "hasHoneycomb": true,
+	"baseLayerTexture": "/dragon/dragon_bee",
+    "ColorData": {
+      "primaryColor": "#450E73",
+      "secondaryColor": "#1D072F",
+      "honeycombColor": "#450E73",
+      "primaryLayerTexture":"/dragon/dragon_bee_primary",
+      "secondaryLayerTexture":"/dragon/dragon_bee_secondary",
+      "isBeeColored": true,
+	  "modelType": "DRAGON"
+    },
+    "MutationData": {
+      "hasMutation": true,
+	  "mutations": [
+	  {
+		  "type": "BLOCK_TO_BLOCK",
+		  "inputID": "tag:forge:storage_blocks/lightning_dragon_scale",
+		  "outputs": [
+		    {"outputID": "iceandfire:dragonscale_amythest", "weight": 1},
+		    {"outputID": "iceandfire:dragonscale_electric", "weight": 1},
+		    {"outputID": "iceandfire:dragonscale_copper", "weight": 1},
+		    {"outputID": "iceandfire:dragonscale_black", "weight": 1}
+		]
+	  }
+	  ]
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "iceandfire:dragonscales_amythest",
+      "mainOutputCount": 1,
+	  "bottleOutput": "iceandfire:lightning_dragon_blood",
+	  "bottleOutputWeight": 0.01
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "parent1": "Dragon_Bone",
+      "parent2": "Blitz",
+      "feedItem": "iceandfire:dragonscales_amythest",
+      "feedAmount": 4
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }

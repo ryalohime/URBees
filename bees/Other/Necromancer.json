@@ -1,0 +1,93 @@
+{
+  "flower": "tag:tombstone:decorative_graves",
+  "hasHoneycomb": false,
+  "maxTimeInHive": 1200,
+  "baseLayerTexture": "other/necro",
+  "ColorData": {
+    "isBeeColored": false,
+    "primaryColor": "#000000",
+    "secondaryColor": "#CBC6A5"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:skeleton_skull",
+        "outputs": [
+          {
+            "outputID": "minecraft:skeleton_spawn_egg"
+          }
+        ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:zombie_skull",
+        "outputs": [
+          {
+            "outputID": "minecraft:zombie_spawn_egg"
+          }
+        ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:creeper_skull",
+        "outputs": [
+          {
+            "outputID": "minecraft:creeper_spawn_egg"
+          }
+        ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:enderman_skull",
+        "outputs": [
+          {
+            "outputID": "minecraft:enderman_spawn_egg"
+          }
+        ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:wither_skeleton_skull",
+        "outputs": [
+          {
+            "outputID": "minecraft:wither_skeleton_spawn_egg"
+          }
+        ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:slime_block",
+        "outputs": [
+          {
+            "outputID": "minecraft:slime_spawn_egg"
+          }
+        ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:magma_block",
+        "outputs": [
+          {
+            "outputID": "minecraft:magma_cube_spawn_egg"
+          }
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"parent1": "Withered_Spooky",
+	"parent2": "Coral",
+    "feedItem": "tombstone:dark_marble",
+    "feedAmount": 5
+  },
+  "TraitData": {}
+}

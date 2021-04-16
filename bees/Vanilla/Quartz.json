@@ -3,17 +3,17 @@
   "maxTimeInHive": 700,
   "hasHoneycomb": true,
   "traits": ["nether"],
-  "baseLayerTexture": "ores/ore_bee",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#D4CABA",
-    "primaryColor": "#DAD6C9",
-    "secondaryColor": "#713131",
-    "primaryLayerTexture":"ores/ore_bee_primary",
-    "secondaryLayerTexture":"ores/ore_bee_secondary",
-    "emissiveLayerTexture":"ores/ore_bee_emissive",
+    "primaryColor": "#9E0000",
+    "secondaryColor": "#D4CABA",
+    "primaryLayerTexture":"/ores/custom_crystal/custom_bee_primary",
+    "secondaryLayerTexture":"/ores/custom_crystal/custom_bee_secondary",
+    "emissiveLayerTexture":"/ores/custom_crystal/custom_bee_emissive",
     "isGlowing": true,
-    "glowColor": "#D4CABA"
+    "glowColor": "#D4CABA",
+	"modelType": "ORE"
   },
   "MutationData": {
     "hasMutation": false

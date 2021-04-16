@@ -2,17 +2,16 @@
     "flower": "tag:forge:storage_blocks/elementium",
     "maxTimeInHive": 2000,
     "hasHoneycomb": true,
-    "baseLayerTexture": "ores/ore_bee",
     "ColorData": {
       "isBeeColored": true,
-      "honeycombColor": "#FF0ADE",
-      "primaryColor": "#FF0ADE",
-      "secondaryColor" : "#FFA3F3",
-      "primaryLayerTexture":"ores/ore_bee_primary",
-      "secondaryLayerTexture":"ores/ore_bee_secondary",
-      "emissiveLayerTexture":"ores/ore_bee_emissive",
+      "honeycombColor": "#EE5BAC",
+      "primaryColor": "#EE5BAC",
+      "secondaryColor" : "#940052",
+      "primaryLayerTexture":"metal/metal_bee",
+      "secondaryLayerTexture":"metal/metal_bee_secondary",
+      "emissiveLayerTexture":"metal/metal_bee_emissivefulldark",
       "isGlowing": true,
-      "glowColor": "#A4EDFC"
+      "glowColor": "#EA3298"
     },
     "MutationData": {
       "hasMutation": false
@@ -27,7 +26,7 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "Terrasteel",
-      "parent2": "Mana",
+      "parent2": "Manasteel",
       "feedItem": "tag:forge:ingots/elementium",
       "feedAmount": 3
     },

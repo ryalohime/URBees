@@ -1,0 +1,14 @@
+{
+    "damageImmunities": [
+        "inFire",
+        "onFire",
+        "lava",
+        "hotFloor"
+    ],
+    "damageTypes": [
+        {
+            "damageTypeName": "setOnFire",
+            "amplifier": 6
+        }
+    ]
+}

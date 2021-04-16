@@ -25,8 +25,7 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "Inferium_Essence",
-      "parent2": "Prosperity_Shard",
-      "breedWeight": 5,
+      "parent2": "Leafy",
       "feedItem": "mysticalagriculture:prudentium_essence",
       "feedAmount": 7
     },

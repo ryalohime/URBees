@@ -1,5 +1,5 @@
 {
-  "flower": "byg:crimson_berries",
+  "flower": "botania:blaze_block",
   "maxTimeInHive": 1000,
   "traits": ["blaze", "nether"],
   "hasHoneycomb": true,
@@ -23,8 +23,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Magma",
-    "parent2": "Spooky",
+    "parent1": "Fire_Crystal",
+    "parent2": "Blitz",
     "feedItem": "xreliquary:molten_core",
     "feedAmount": 4
   },

@@ -7,10 +7,10 @@
   "ColorData": {
     "isBeeColored": true,
     "primaryColor": "#DB4819",
-    "secondaryColor": "#A04646",
+    "secondaryColor": "#db4819",
     "honeycombColor": "#DB4819",
     "primaryLayerTexture":"liquid/liquid_bee_primary",
-    "secondaryLayerTexture":"liquid/liquid_bee_secondary",
+    "secondaryLayerTexture":"liquid/liquid_bee_secondarylight",
     "emissiveLayerTexture":"liquid/liquid_bee_emissive",
     "isGlowing": true,
     "glowColor": "#DB4819"
@@ -22,7 +22,9 @@
 	"mutationOutput": "minecraft:lava"
   },
   "CentrifugeData": {
-    "hasCentrifugeOutput": false
+    "hasCentrifugeOutput": true,
+	"mainOutput": "druidcraft:fiery_glass",
+	"outputAmount": 1
   },
   "SpawnData": {
     "canSpawnInWorld": true,
@@ -31,7 +33,7 @@
   "BreedData": {
     "isBreedable": true,
     "feedItem": "druidcraft:fiery_glass",
-    "feedAmount": 1
+    "feedAmount": 3
   },
   "TraitData": {
     "hasTraits": true

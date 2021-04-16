@@ -7,12 +7,12 @@
       "isBeeColored": true,
       "honeycombColor": "#dE9D04",
       "primaryColor": "#dE9D04",
-      "secondaryColor" : "#FFB300",
-      "primaryLayerTexture":"ores/ore_bee_primary",
-      "secondaryLayerTexture":"ores/ore_bee_secondary",
-      "emissiveLayerTexture":"ores/ore_bee_emissive",
+      "secondaryColor" : "#873D00",
+      "primaryLayerTexture":"metal/metal_bee",
+      "secondaryLayerTexture":"metal/metal_bee_secondary",
+      "emissiveLayerTexture":"metal/metal_bee_emissivefulldark",
       "isGlowing": true,
-      "glowColor": "#A4EDFC"
+      "glowColor": "#FCBB00"
     },
     "MutationData": {
       "hasMutation": false
@@ -27,7 +27,7 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "Elementium",
-      "parent2": "Mana",
+      "parent2": "Arcane_Gold",
       "feedItem": "mythicbotany:alfsteel_ingot",
       "feedAmount": 10
     },

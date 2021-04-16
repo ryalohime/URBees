@@ -9,7 +9,22 @@
     "primaryColor": "#A22428"
   },
   "MutationData": {
-    "hasMutation": true
+    "hasMutation": true,
+	"mutations" : [
+	  {
+		  "type": "BLOCK_TO_ITEM",
+		  "inputID": "minecraft:brown_mushroom",
+		  "outputs": [
+			{"outputID": "minecraft:nether_wart"}
+		  ]
+	  },
+	  {
+		  "type": "BLOCK_TO_ITEM",
+		  "inputID": "minecraft:red_mushroom",
+		  "outputs": [
+			{"outputID": "minecraft:nether_wart"}
+		  ]
+	  }
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -21,7 +36,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Leafy",
+    "parent1": "Mushroom",
     "parent2": "Lava",
     "feedItem": "minecraft:nether_wart",
     "feedAmount": 5

@@ -2,10 +2,15 @@
   "flower": "botania:mystical_flowers",
   "maxTimeInHive": 1000,
   "hasHoneycomb": true,
+  "baseLayerTexture": "liquid/liquid_bee_colored",
   "ColorData": {
-    "isBeeColored": true,
-    "primaryColor": "#00C9EA",
-    "honeycombColor": "#00C9EA"
+	  "isBeeColored": false,
+	  "honeycombColor": "#20D7FC",
+	  "primaryColor": "#31ECFC",
+	  "secondaryColor": "#19ACC6",
+	  "emissiveLayerTexture": "liquid/emissive_test",
+	  "isGlowing": true,
+	  "glowColor": "#1cb9d8"
   },
   "MutationData": {
     "hasMutation": false

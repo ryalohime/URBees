@@ -5,7 +5,10 @@
     "ColorData": {
       "isBeeColored": true,
       "honeycombColor": "#FFFFFF",
-      "primaryColor": "#FFFFFF"
+      "primaryColor": "#7F7F7F",
+	  "secondaryColor": "#FFFFFF",
+	  "primaryLayerTexture":"ores/ore_bee_primarygem",
+      "secondaryLayerTexture":"ores/gem/custom/custom_ore_bee_secondary"
     },
     "MutationData": {
       "hasMutation": false
@@ -15,11 +18,12 @@
       "mainOutput": "elementalcraft:inertcrystal"
     },
     "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:beach"
+      "canSpawnInWorld": false
     },
     "BreedData": {
       "breedable": true,
+	  "parent1": "Quartz",
+	  "parent2": "RGBee",
       "feedItem": "elementalcraft:inertcrystal",
       "feedAmount": 3
     },

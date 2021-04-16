@@ -2,10 +2,12 @@
   "flower": "minecraft:melon",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
+  "baseLayerTexture": "other/melon_bee",
   "ColorData": {
-    "isBeeColored": true,
+    "isBeeColored": false,
     "honeycombColor": "#A5AA1D",
-    "primaryColor": "#A5AA1D"
+    "primaryColor": "#A5AA1D",
+	"secondaryColor": "#AD160B"
   },
   "MutationData": {
     "hasMutation": false

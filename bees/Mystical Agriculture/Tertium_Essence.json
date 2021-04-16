@@ -5,9 +5,9 @@
     "baseLayerTexture": "ores/ore_bee",
     "ColorData": {
       "isBeeColored": true,
-      "honeycombColor": "#EDAD09",
-      "primaryColor": "#EDAD09",
-      "secondaryColor" : "#82CC0A",
+      "honeycombColor": "#B54800",
+      "primaryColor": "#DF5500",
+      "secondaryColor" : "#B54800",
       "primaryLayerTexture":"ores/ore_bee_primary",
       "secondaryLayerTexture":"ores/ore_bee_secondary"
     },
@@ -25,8 +25,7 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "Prudentium_Essence",
-      "parent2": "Prosperity_Shard",
-      "breedWeight": 5,
+      "parent2": "Magma",
       "feedItem": "mysticalagriculture:tertium_essence",
       "feedAmount": 7
     },

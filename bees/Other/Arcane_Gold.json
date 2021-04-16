@@ -1,0 +1,33 @@
+{
+  "flower": "forbidden_arcanus:arcane_gold_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 1000,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#CA902E",
+    "primaryColor": "#CA902E",
+	"primaryLayerTexture": "metal/metal_bee",
+    "secondaryColor": "#B17D23",
+	"secondaryLayerTexture": "metal/metal_bee_secondary"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:gold_block",
+    "mutationOutput": "forbidden_arcanus:arcane_gold_block",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Gold",
+    "parent2": "Arcane",
+    "feedItem": "forbidden_arcanus:arcane_gold_ingot",
+    "feedAmount": 3
+  },
+  "TraitData": {}
+}
