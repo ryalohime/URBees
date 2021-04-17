@@ -2,7 +2,9 @@
   "flower": "minecraft:nether_wart",
   "maxTimeInHive": 800,
   "hasHoneycomb": true,
-  "traits": ["nether"],
+  "traits": [
+    "nether"
+  ],
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#A22428",
@@ -10,21 +12,26 @@
   },
   "MutationData": {
     "hasMutation": true,
-	"mutations" : [
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:brown_mushroom",
-		  "outputs": [
-			{"outputID": "minecraft:nether_wart"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:red_mushroom",
-		  "outputs": [
-			{"outputID": "minecraft:nether_wart"}
-		  ]
-	  }
+    "mutations": [
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:brown_mushroom",
+        "outputs": [
+          {
+            "outputID": "minecraft:nether_wart"
+          }
+        ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:red_mushroom",
+        "outputs": [
+          {
+            "outputID": "minecraft:nether_wart"
+          }
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
