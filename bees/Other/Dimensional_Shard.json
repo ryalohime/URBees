@@ -7,7 +7,7 @@
     "isBeeColored": true,
     "honeycombColor": "#B5EBEA",
     "primaryColor": "#ffffff",
-    "secondaryLayerTexture":"ores/gem/custom/custom_gem_bee_secondary",
+    "secondaryLayerTexture": "ores/gem/custom/custom_gem_bee_secondary",
     "secondaryColor": "#B5EBEA",
     "modelType": "ORE"
   },

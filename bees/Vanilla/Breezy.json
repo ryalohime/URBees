@@ -4,9 +4,9 @@
   "hasHoneycomb": true,
   "ColorData": {
     "isBeeColored": true,
-	"honeycombColor": "#FFFFFF",
-	"primaryColor": "#00fff6",
-	"secondaryColor": "#ff0022"
+    "honeycombColor": "#FFFFFF",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#ECECF6"
   },
   "MutationData": {
     "hasMutation": false
@@ -18,7 +18,7 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-	"biomeWhitelist": "tag:plains"
+    "biomeWhitelist": "tag:plains"
   },
   "BreedData": {
     "isBreedable": true,

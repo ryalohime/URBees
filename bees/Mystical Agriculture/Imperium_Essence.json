@@ -1,36 +1,35 @@
 {
-    "flower": "mysticalagriculture:imperium_block",
-    "maxTimeInHive": 600,
-    "hasHoneycomb": true,
-    "baseLayerTexture": "ores/ore_bee",
-    "ColorData": {
-      "isBeeColored": true,
-      "honeycombColor": "#007DD8",
-      "primaryColor": "#0092FC",
-      "secondaryColor" : "#007DD8",
-      "primaryLayerTexture":"ores/ore_bee_primary",
-      "secondaryLayerTexture":"ores/ore_bee_secondary"
-    },
-    "MutationData": {
-      "hasMutation": false
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "mysticalagriculture:imperium_essence",
-      "mainOutputCount": 1
-    },
-    "SpawnData": {
-      "canSpawnInWorld": false
-    },
-    "BreedData": {
-      "isBreedable": true,
-      "parent1": "Tertium_Essence",
-      "parent2": "Manasteel",
-      "feedItem": "mysticalagriculture:imperium_essence",
-      "feedAmount": 7
-    },
-    "TraitData": {
-      "hasTraits": false
-    }
+  "flower": "mysticalagriculture:imperium_block",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/ore_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#007DD8",
+    "primaryColor": "#0092FC",
+    "secondaryColor": "#007DD8",
+    "primaryLayerTexture": "ores/ore_bee_primary",
+    "secondaryLayerTexture": "ores/ore_bee_secondary"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:imperium_essence",
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Tertium_Essence",
+    "parent2": "Manasteel",
+    "feedItem": "mysticalagriculture:imperium_essence",
+    "feedAmount": 7
+  },
+  "TraitData": {
+    "hasTraits": false
   }
-  
+}

@@ -1,7 +1,9 @@
 {
   "flower": "tag:forge:storage_blocks/refined_obsidian",
   "maxTimeInHive": 900,
-  "traits": ["nether"],
+  "traits": [
+    "nether"
+  ],
   "hasHoneycomb": true,
   "baseLayerTexture": "metal/metal_bee",
   "ColorData": {
@@ -9,8 +11,8 @@
     "honeycombColor": "#9680B9",
     "primaryColor": "#9680B9",
     "secondaryColor": "#999999",
-    "primaryLayerTexture":"metal/metal_bee",
-    "secondaryLayerTexture":"metal/metal_bee_secondary"
+    "primaryLayerTexture": "metal/metal_bee",
+    "secondaryLayerTexture": "metal/metal_bee_secondary"
   },
   "MutationData": {
     "hasMutation": false

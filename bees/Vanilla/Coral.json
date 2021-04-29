@@ -1,143 +1,170 @@
 {
-    "flower": "minecraft:sea_pickle",
-    "maxTimeInHive": 1200,
-    "hasHoneycomb": false,
-    "traits": ["can_swim"],
-    "baseLayerTexture": "ores/ore_bee",
-    "ColorData": {
-      "primaryColor": "#FAC36B",
-      "secondaryColor": "#FFFFFF",
-      "primaryLayerTexture":"ores/ore_bee_primary",
-      "secondaryLayerTexture":"ores/ore_bee_secondary",
-      "emissiveLayerTexture":"ores/ore_bee_emissive",
-      "isGlowing": true,
-      "glowColor": "#CDA2E5",
-      "isBeeColored": true
-    },
-    "MutationData": {
-      "hasMutation": true,
-	  "mutations" : [
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_tube_coral_block",
-		  "outputs": [
-			{"outputID": "minecraft:tube_coral_block"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_brain_coral_block",
-		  "outputs": [
-			{"outputID": "minecraft:brain_coral_block"}
-		  ]
-	  },
-	  	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_bubble_coral_block",
-		  "outputs": [
-			{"outputID": "minecraft:bubble_coral_block"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_fire_coral_block",
-		  "outputs": [
-			{"outputID": "minecraft:fire_coral_block"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_horn_coral_block",
-		  "outputs": [
-			{"outputID": "minecraft:horn_coral_block"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_tube_coral",
-		  "outputs": [
-			{"outputID": "minecraft:tube_coral"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_brain_coral",
-		  "outputs": [
-			{"outputID": "minecraft:brain_coral"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_bubble_coral",
-		  "outputs": [
-			{"outputID": "minecraft:bubble_coral"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_fire_coral",
-		  "outputs": [
-			{"outputID": "minecraft:fire_coral"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_horn_coral",
-		  "outputs": [
-			{"outputID": "minecraft:horn_coral"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_tube_coral_fan",
-		  "outputs": [
-			{"outputID": "minecraft:tube_coral_fan"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_brain_coral_fan",
-		  "outputs": [
-			{"outputID": "minecraft:brain_coral_fan"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_bubble_coral_fan",
-		  "outputs": [
-			{"outputID": "minecraft:bubble_coral_fan"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_fire_coral_fan",
-		  "outputs": [
-			{"outputID": "minecraft:fire_coral_fan"}
-		  ]
-	  },
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "minecraft:dead_horn_coral_fan",
-		  "outputs": [
-			{"outputID": "minecraft:horn_coral_fan"}
-		  ]
-	  }
-	  ]
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": false
-    },
-    "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "minecraft:warm_ocean,byg:coral_mangroves",
-	  "spawnWeight": 100
-    },
-    "BreedData": {
-      "isBreedable": true,
-      "feedItem": "tag:minecraft:corals",
-      "feedAmount": 2
-    },
-    "TraitData": {
-      "hasTraits": true
-    }
-  }
+	"flower": "minecraft:sea_pickle",
+	"maxTimeInHive": 1200,
+	"hasHoneycomb": false,
+	"traits": [
+		"can_swim"
+	],
+	"baseLayerTexture": "stones/coral_bee",
+	"ColorData": {
+		"primaryColor": "#FAC36B",
+		"secondaryColor": "#FFFFFF",
+		"isBeeColored": false
+	},
+	"MutationData": {
+		"hasMutation": true,
+		"mutations": [
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_tube_coral_block",
+				"outputs": [
+					{
+						"outputID": "minecraft:tube_coral_block"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_brain_coral_block",
+				"outputs": [
+					{
+						"outputID": "minecraft:brain_coral_block"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_bubble_coral_block",
+				"outputs": [
+					{
+						"outputID": "minecraft:bubble_coral_block"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_fire_coral_block",
+				"outputs": [
+					{
+						"outputID": "minecraft:fire_coral_block"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_horn_coral_block",
+				"outputs": [
+					{
+						"outputID": "minecraft:horn_coral_block"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_tube_coral",
+				"outputs": [
+					{
+						"outputID": "minecraft:tube_coral"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_brain_coral",
+				"outputs": [
+					{
+						"outputID": "minecraft:brain_coral"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_bubble_coral",
+				"outputs": [
+					{
+						"outputID": "minecraft:bubble_coral"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_fire_coral",
+				"outputs": [
+					{
+						"outputID": "minecraft:fire_coral"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_horn_coral",
+				"outputs": [
+					{
+						"outputID": "minecraft:horn_coral"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_tube_coral_fan",
+				"outputs": [
+					{
+						"outputID": "minecraft:tube_coral_fan"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_brain_coral_fan",
+				"outputs": [
+					{
+						"outputID": "minecraft:brain_coral_fan"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_bubble_coral_fan",
+				"outputs": [
+					{
+						"outputID": "minecraft:bubble_coral_fan"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_fire_coral_fan",
+				"outputs": [
+					{
+						"outputID": "minecraft:fire_coral_fan"
+					}
+				]
+			},
+			{
+				"type": "BLOCK_TO_ITEM",
+				"inputID": "minecraft:dead_horn_coral_fan",
+				"outputs": [
+					{
+						"outputID": "minecraft:horn_coral_fan"
+					}
+				]
+			}
+		]
+	},
+	"CentrifugeData": {
+		"hasCentrifugeOutput": false
+	},
+	"SpawnData": {
+		"canSpawnInWorld": true,
+		"biomeWhitelist": "minecraft:warm_ocean,byg:coral_mangroves",
+		"spawnWeight": 100
+	},
+	"BreedData": {
+		"isBreedable": true,
+		"feedItem": "tag:minecraft:corals",
+		"feedAmount": 2
+	},
+	"TraitData": {
+		"hasTraits": true
+	}
+}

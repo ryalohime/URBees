@@ -2,17 +2,20 @@
   "flower": "minecraft:netherrack",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
-  "traits": ["fiery", "slime"],
+  "traits": [
+    "fiery",
+    "slime"
+  ],
   "baseLayerTexture": "liquid/magma_slime",
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#fc490b",
     "primaryColor": "#c6db57",
-	"secondaryColor": "#fc490b",
-	"emissiveLayerTexture": "liquid/magma_slime_emissive",
-	"isGlowing": true,
-	"glowColor": "#660000",
-	"modelType": "GELATINOUS"
+    "secondaryColor": "#fc490b",
+    "emissiveLayerTexture": "liquid/magma_slime_emissive",
+    "isGlowing": true,
+    "glowColor": "#660000",
+    "modelType": "GELATINOUS"
   },
   "MutationData": {
     "hasMutation": false
@@ -20,7 +23,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:magma_cream",
-	"secondaryOutput": "xreliquary:molten_core",
+    "secondaryOutput": "xreliquary:molten_core",
     "secondaryOutputWeight": 0.05
   },
   "SpawnData": {

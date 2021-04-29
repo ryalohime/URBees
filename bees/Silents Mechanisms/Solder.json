@@ -8,8 +8,8 @@
     "honeycombColor": "#8099B6",
     "primaryColor": "#7A89B4",
     "secondaryColor": "#8099B6",
-    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
-    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
+    "primaryLayerTexture": "/ores/custom/custom_bee_primary",
+    "secondaryLayerTexture": "/ores/custom/custom_bee_secondary",
     "modelType": "ORE"
   },
   "MutationData": {

@@ -7,9 +7,9 @@
     "isBeeColored": true,
     "honeycombColor": "#A5F1EF",
     "primaryColor": "#A5F1EF",
-    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
-    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
-    "emissiveLayerTexture":"ores/custom/custom_bee_emissive",
+    "primaryLayerTexture": "/ores/custom/custom_bee_primary",
+    "secondaryLayerTexture": "/ores/custom/custom_bee_secondary",
+    "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
     "secondaryColor": "#3B7ED7",
     "isGlowing": true,
     "glowColor": "#A5F1EF",
@@ -17,7 +17,7 @@
   },
   "MutationData": {
     "hasMutation": true,
-	"mutationType": "BLOCK_TO_BLOCK",
+    "mutationType": "BLOCK_TO_BLOCK",
     "mutationInput": "minecraft:stone",
     "mutationOutput": "minecraft:packed_ice"
   },
@@ -30,8 +30,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-	"parent1": "Soul",
-	"parent2": "Icy",
+    "parent1": "Soul",
+    "parent2": "Icy",
     "feedItem": "thermal:blizz_rod",
     "feedAmount": 3
   },

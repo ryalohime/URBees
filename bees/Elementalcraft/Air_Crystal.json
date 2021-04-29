@@ -1,41 +1,41 @@
 {
-    "flower": "elementalcraft:aircrystal_block",
-    "maxTimeInHive": 2000,
-    "hasHoneycomb": true,
-    "baseLayerTexture": "ores/custom/custom_bee",
-    "ColorData": {
-      "isBeeColored": true,
-      "honeycombColor": "#EAF2BB",
-      "primaryColor": "#CAD19F",
-      "secondaryColor" : "#EAF2BB",
-      "primaryLayerTexture":"ores/custom/custom_bee_primary",
-      "secondaryLayerTexture":"ores/custom/custom_bee_secondary",
-      "emissiveLayerTexture":"ores/custom/custom_bee_emissive",
-      "isGlowing": true,
-      "glowColor": "#E8DFA2",
-	  "modelType": "ORE"
-	},
-    "MutationData": {
-      "hasMutation": true,
-	  "mutationType": "BLOCK_TO_BLOCK",
-	  "mutationInput": "elementalcraft:crystalore",
-	  "mutationOutput": "elementalcraft:aircrystal_block"
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "elementalcraft:aircrystal"
-    },
-    "SpawnData": {
-      "spawnInWorld": false
-    },
-    "BreedData": {
-      "isBreedable": true,
-      "parent1": "Inert_Crystal",
-      "parent2": "Breezy",
-      "feedItem": "elementalcraft:aircrystal",
-      "feedAmount": 6
-    },
-    "TraitData": {
-      "hasTraits": false
-    }
+  "flower": "elementalcraft:aircrystal_block",
+  "maxTimeInHive": 2000,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#EAF2BB",
+    "primaryColor": "#CAD19F",
+    "secondaryColor": "#EAF2BB",
+    "primaryLayerTexture": "ores/custom/custom_bee_primary",
+    "secondaryLayerTexture": "ores/custom/custom_bee_secondary",
+    "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#E8DFA2",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationType": "BLOCK_TO_BLOCK",
+    "mutationInput": "elementalcraft:crystalore",
+    "mutationOutput": "elementalcraft:aircrystal_block"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "elementalcraft:aircrystal"
+  },
+  "SpawnData": {
+    "spawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Inert_Crystal",
+    "parent2": "Breezy",
+    "feedItem": "elementalcraft:aircrystal",
+    "feedAmount": 6
+  },
+  "TraitData": {
+    "hasTraits": false
   }
+}

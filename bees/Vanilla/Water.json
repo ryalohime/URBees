@@ -1,7 +1,9 @@
 {
   "flower": "minecraft:lily_pad",
   "maxTimeInHive": 600,
-  "traits": ["can_swim"],
+  "traits": [
+    "can_swim"
+  ],
   "hasHoneycomb": true,
   "baseLayerTexture": "liquid/water_bee",
   "ColorData": {
@@ -15,9 +17,9 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-	"hasFluidOutput": true,
-	"mainOutput": "minecraft:water",
-	"mainOutputCount": 250
+    "hasFluidOutput": true,
+    "mainOutput": "minecraft:water",
+    "mainOutputCount": 250
   },
   "SpawnData": {
     "canSpawnInWorld": true,

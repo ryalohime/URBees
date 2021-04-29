@@ -3,7 +3,10 @@
   "maxTimeInHive": 1200,
   "hasHoneycomb": true,
   "baseLayerTexture": "wither/wither_bee",
-  "traits": ["nether", "wither"],
+  "traits": [
+    "nether",
+    "wither"
+  ],
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#444444"

@@ -1,29 +1,29 @@
 {
-    "flower": "undergarden:cloggrum_block",
-    "maxTimeInHive": 800,
-    "hasHoneycomb": true,
-    "ColorData": {
-      "isBeeColored": true,
-      "honeycombColor": "#8F5F28",
-      "primaryColor": "#8F5F28"
-    },
-    "MutationData": {
-      "hasMutation": false
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "undergarden:cloggrum_ingot"
-    },
-    "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:undergarden"
-    },
-    "BreedData": {
-      "breedable": true,
-      "feedItem": "undergarden:cloggrum_ingot",
-      "feedAmount": 1
-    },
-    "TraitData": {
-      "hasTraits": false
-    }
+  "flower": "undergarden:cloggrum_block",
+  "maxTimeInHive": 800,
+  "hasHoneycomb": true,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#8F5F28",
+    "primaryColor": "#8F5F28"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "undergarden:cloggrum_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:undergarden"
+  },
+  "BreedData": {
+    "breedable": true,
+    "feedItem": "undergarden:cloggrum_ingot",
+    "feedAmount": 1
+  },
+  "TraitData": {
+    "hasTraits": false
   }
+}

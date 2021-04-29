@@ -6,9 +6,9 @@
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#C5E8E8",
-	"primaryColor": "#C5E8E8",
-	"secondaryColor": "#F0FDFD",
-	"modelType": "MUSHROOM"
+    "primaryColor": "#C5E8E8",
+    "secondaryColor": "#F0FDFD",
+    "modelType": "MUSHROOM"
   },
   "MutationData": {
     "hasMutation": false
@@ -21,7 +21,7 @@
   "SpawnData": {
     "canSpawnInWorld": true,
     "biomeWhitelist": "tag:cold",
-	"biomeBlacklist": "tag:end"
+    "biomeBlacklist": "tag:end"
   },
   "BreedData": {
     "isBreedable": true,

@@ -1,38 +1,38 @@
 {
-    "flower": "botania:red_quartz",
-    "maxTimeInHive": 800,
-    "hasHoneycomb": true,
-    "baseLayerTexture": "ores/ore_bee",
-    "ColorData": {
-      "primaryColor": "#FFB0E9",
-      "secondaryColor": "#FFFFFF",
-      "honeycombColor": "#FFB0E9",
-      "primaryLayerTexture":"ores/ore_bee_primary",
-      "secondaryLayerTexture":"ores/ore_bee_secondary",
-      "emissiveLayerTexture":"ores/ore_bee_emissive",
-      "isGlowing": true,
-      "glowColor": "#CDA2E5",
-      "isBeeColored": true
-    },
-    "MutationData": {
-      "hasMutation": false
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-	  "mainOutput": "create:rose_quartz",
-	  "mainOutputCount": 1
-    },
-    "SpawnData": {
-      "canSpawnInWorld": false
-    },
-    "BreedData": {
-      "isBreedable": true,
-      "parent1": "Quartz",
-      "parent2": "Redstone",
-      "feedItem": "create:rose_quartz",
-      "feedAmount": 5
-    },
-    "TraitData": {
-      "hasTraits": false
-    }
+  "flower": "botania:red_quartz",
+  "maxTimeInHive": 800,
+  "hasHoneycomb": true,
+  "ColorData": {
+    "primaryColor": "#F5676B",
+    "secondaryColor": "#FCBBA1",
+    "honeycombColor": "#F5676B",
+    "primaryLayerTexture": "/ores/custom_crystal/custom_bee_primary",
+    "secondaryLayerTexture": "/ores/custom_crystal/custom_bee_secondary",
+    "emissiveLayerTexture": "/ores/custom_crystal/custom_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#F5676B",
+    "modelType": "ORE",
+    "isBeeColored": true
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "create:rose_quartz",
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Quartz",
+    "parent2": "Redstone",
+    "feedItem": "create:rose_quartz",
+    "feedAmount": 5
+  },
+  "TraitData": {
+    "hasTraits": false
   }
+}

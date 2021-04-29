@@ -6,23 +6,23 @@
   "ColorData": {
     "isBeeColored": false,
     "primaryColor": "#46342A",
-	"secondaryColor": "#000000"
+    "secondaryColor": "#000000"
   },
   "MutationData": {
     "hasMutation": true,
     "mutationType": "BLOCK_TO_BLOCK",
     "mutationInput": "tag:forge:soul_speed_blocks",
     "mutationOutput": "forbidden_arcanus:souless_sand",
-	"mutationCount": 1
+    "mutationCount": 1
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "forbidden_arcanus:soul",
     "mainOutputCount": 1,
-	"mainOutputWeight": 0.3,
-	"secondaryOutput": "iceandfire:ectoplasm",
-	"secondaryOutputCount": 1,
-	"secondaryOutputWeight": 0.1
+    "mainOutputWeight": 0.3,
+    "secondaryOutput": "iceandfire:ectoplasm",
+    "secondaryOutputCount": 1,
+    "secondaryOutputWeight": 0.1
   },
   "SpawnData": {
     "canSpawnInWorld": false
@@ -31,8 +31,8 @@
     "isBreedable": true,
     "parent1": "Soulium",
     "parent2": "Mana",
-	"feedItem": "iceandfire:ectoplasm",
-	"itemCount": 5
+    "feedItem": "iceandfire:ectoplasm",
+    "itemCount": 5
   },
   "TraitData": {
     "hasTraits": false

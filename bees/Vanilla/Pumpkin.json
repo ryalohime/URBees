@@ -3,7 +3,7 @@
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "baseLayerTexture": "pumpkin/pumpkin/pumpkin_bee",
-  "secondaryLayerTexture" : "pumpkin/pumpkin/pumpkin_bee",
+  "secondaryLayerTexture": "pumpkin/pumpkin/pumpkin_bee",
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#E0A44A"

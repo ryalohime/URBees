@@ -1,29 +1,29 @@
 {
-    "flower": "undergarden:regalium_block",
-    "maxTimeInHive": 800,
-    "hasHoneycomb": true,
-    "ColorData": {
-      "isBeeColored": true,
-      "honeycombColor": "#D3D92B",
-      "primaryColor": "#D3D92B"
-    },
-    "MutationData": {
-      "hasMutation": false
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "undergarden:regalium_ingot"
-    },
-    "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:undergarden"
-    },
-    "BreedData": {
-      "breedable": true,
-      "feedItem": "undergarden:regalium_ingot",
-      "feedAmount": 1
-    },
-    "TraitData": {
-      "hasTraits": false
-    }
+  "flower": "undergarden:regalium_block",
+  "maxTimeInHive": 800,
+  "hasHoneycomb": true,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#D3D92B",
+    "primaryColor": "#D3D92B"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "undergarden:regalium_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:undergarden"
+  },
+  "BreedData": {
+    "breedable": true,
+    "feedItem": "undergarden:regalium_ingot",
+    "feedAmount": 1
+  },
+  "TraitData": {
+    "hasTraits": false
   }
+}

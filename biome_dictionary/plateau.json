@@ -5,6 +5,10 @@
     "minecraft:badlands_plateau",
     "minecraft:shattered_savanna_plateau",
     "minecraft:modified_wooded_badlands_plateau",
-    "minecraft:modified_badlands_plateau"
+    "minecraft:modified_badlands_plateau",
+	"byg:canyons",
+	"byg:crag_gardens",
+	"byg:pointed_stone_forest",
+	"byg:stone_forest"
   ]
 }

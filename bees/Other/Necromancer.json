@@ -2,11 +2,12 @@
   "flower": "tag:tombstone:decorative_graves",
   "hasHoneycomb": false,
   "maxTimeInHive": 1200,
-  "baseLayerTexture": "other/necro",
+  "baseLayerTexture": "other/necro_bee",
   "ColorData": {
     "isBeeColored": false,
     "primaryColor": "#000000",
-    "secondaryColor": "#CBC6A5"
+    "secondaryColor": "#CBC6A5",
+    "modelType":  "MUSHROOM"
   },
   "MutationData": {
     "hasMutation": true,
@@ -84,8 +85,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-	"parent1": "Withered_Spooky",
-	"parent2": "Coral",
+    "parent1": "Withered_Spooky",
+    "parent2": "Coral",
     "feedItem": "tombstone:dark_marble",
     "feedAmount": 5
   },

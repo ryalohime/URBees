@@ -1,0 +1,35 @@
+{
+    "flower": "minecraft:dirt",
+    "maxTimeInHive": 600,
+    "hasHoneycomb": true,
+    "baseLayerTexture": "stones/dirt_bee",
+    "ColorData": {
+      "isBeeColored": false,
+      "primaryColor": "#6E4E35",
+      "secondaryColor": "#A97954"
+    },
+    "MutationData": {
+      "hasMutation": true,
+      "mutationType": "BLOCK_TO_BLOCK",
+      "mutationInput": "rats:garbage_pile",
+      "mutationOutput": "minecraft:dirt"
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "minecraft:dirt",
+      "mainOutputCount": 2
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "parent1": "Trash",
+      "parent2": "Lumber",
+      "feedItem": "minecraft:dirt",
+      "feedAmount": 5
+    },
+    "TraitData": {
+      "hasTraits": false
+    }
+  }

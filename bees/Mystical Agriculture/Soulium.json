@@ -1,35 +1,37 @@
 {
-    "flower": "mysticalagriculture:soulium_block",
-    "maxTimeInHive": 600,
-    "hasHoneycomb": false,
-    "traits": ["nether"],
-	"baseLayerTexture": "ores/ore_bee",
-    "ColorData": {
-      "isBeeColored": true,
-      "primaryColor": "#422D23",
-      "secondaryColor" : "#8A553B",
-      "primaryLayerTexture":"ores/ore_bee_primarybright",
-      "secondaryLayerTexture":"ores/ore_bee_secondarybright"
-    },
-    "MutationData": {
-      "hasMutation": true,
-      "mutationType": "BLOCK_TO_BLOCK",
-      "mutationInput": "mysticalagriculture:soulstone",
-      "mutationOutput": "mysticalagriculture:soulium_ore"
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": false
-    },
-    "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:nether"
-    },
-    "BreedData": {
-      "isBreedable": true,
-      "feedItem": "mysticalagriculture:soulium_ingot",
-      "feedAmount": 5
-    },
-    "TraitData": {
-      "hasTraits": true
-    }
+  "flower": "mysticalagriculture:soulium_block",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": false,
+  "traits": [
+    "nether"
+  ],
+  "baseLayerTexture": "ores/ore_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "primaryColor": "#422D23",
+    "secondaryColor": "#8A553B",
+    "primaryLayerTexture": "ores/ore_bee_primarybright",
+    "secondaryLayerTexture": "ores/ore_bee_secondarybright"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationType": "BLOCK_TO_BLOCK",
+    "mutationInput": "mysticalagriculture:soulstone",
+    "mutationOutput": "mysticalagriculture:soulium_ore"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:nether"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "mysticalagriculture:soulium_ingot",
+    "feedAmount": 5
+  },
+  "TraitData": {
+    "hasTraits": true
   }
+}

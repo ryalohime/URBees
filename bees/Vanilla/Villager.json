@@ -8,22 +8,22 @@
     "primaryColor": "#523931",
     "secondaryColor": "#D8C348",
     "honeycombColor": "#523931",
-	"modelType": "VILLAGER"
+    "modelType": "VILLAGER"
   },
   "MutationData": {
     "hasMutation": false
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-	"mainOutput": "minecraft:wheat",
-	"secondaryOutput": "minecraft:villager_spawn_egg",
-	"secondaryOutputWeight": 0.05
+    "mainOutput": "minecraft:wheat",
+    "secondaryOutput": "minecraft:villager_spawn_egg",
+    "secondaryOutputWeight": 0.05
   },
   "SpawnData": {
     "canSpawnInWorld": true,
     "biomeWhitelist": "tag:overworld",
-	"biomeBlacklist": "tag:ocean",
-	"spawnWeight": 5
+    "biomeBlacklist": "tag:ocean",
+    "spawnWeight": 5
   },
   "BreedData": {
     "isBreedable": true,

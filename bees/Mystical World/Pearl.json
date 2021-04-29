@@ -1,39 +1,36 @@
 {
-    "flower": "minecraft:sand",
-    "maxTimeInHive": 800,
-    "hasHoneycomb": true,
-    "traits": ["can_swim"],
-    "baseLayerTexture": "ores/ore_bee",
-    "ColorData": {
-      "primaryColor": "#E3E2E1",
-      "secondaryColor": "#A69792",
-      "honeycombColor": "#E3E2E1",
-      "primaryLayerTexture":"ores/ore_bee_primary",
-      "secondaryLayerTexture":"ores/ore_bee_secondary",
-      "emissiveLayerTexture":"ores/ore_bee_emissive",
-      "isGlowing": true,
-      "glowColor": "#CDA2E5",
-      "isBeeColored": true
-    },
-    "MutationData": {
-      "hasMutation": true,
-      "mutationType": "BLOCK_TO_BLOCK",
-      "mutationInput": "compressium:sand_1",
-      "mutationOutput": "mysticalworld:pearl_block"
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": false
-    },
-    "SpawnData": {
-      "canSpawnInWorld": true,
-	  "biomeWhitelist": "tag:beach"
-    },
-    "BreedData": {
-      "isBreedable": true,
-      "feedItem": "mysticalworld:pearl_block",
-      "feedAmount": 2
-    },
-    "TraitData": {
-      "hasTraits": true
-    }
+  "flower": "minecraft:sand",
+  "maxTimeInHive": 800,
+  "hasHoneycomb": true,
+  "traits": [
+    "can_swim"
+  ],
+  "baseLayerTexture": "stones/pearl_bee",
+  "ColorData": {
+    "primaryColor": "#E3E2E1",
+    "secondaryColor": "#A69792",
+    "honeycombColor": "#E3E2E1",
+    "isBeeColored": false
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationType": "BLOCK_TO_BLOCK",
+    "mutationInput": "compressium:sand_1",
+    "mutationOutput": "mysticalworld:pearl_block"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:beach"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "mysticalworld:pearl_block",
+    "feedAmount": 2
+  },
+  "TraitData": {
+    "hasTraits": true
   }
+}

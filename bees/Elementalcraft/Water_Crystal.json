@@ -1,42 +1,44 @@
 {
-    "flower": "elementalcraft:watercrystal_block",
-    "maxTimeInHive": 2000,
-    "hasHoneycomb": true,
-	"traits" : ["can_swim"],
-    "baseLayerTexture": "ores/custom/custom_bee",
-    "ColorData": {
-      "isBeeColored": true,
-      "honeycombColor": "#1215C9",
-      "primaryColor": "#4648E8",
-      "secondaryColor" : "#1215C9",
-      "primaryLayerTexture":"ores/custom/custom_bee_primary",
-      "secondaryLayerTexture":"ores/custom/custom_bee_secondary",
-      "emissiveLayerTexture":"ores/custom/custom_bee_emissive",
-      "isGlowing": true,
-      "glowColor": "#A4EDFC",
-	  "modelType": "ORE"
-    },
-    "MutationData": {
-      "hasMutation": true,
-	  "mutationType": "BLOCK_TO_BLOCK",
-	  "mutationInput": "elementalcraft:crystalore",
-	  "mutationOutput": "elementalcraft:watercrystal_block"
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "elementalcraft:watercrystal"
-    },
-    "SpawnData": {
-      "spawnInWorld": false
-    },
-    "BreedData": {
-      "isBreedable": true,
-      "parent1": "Inert_Crystal",
-      "parent2": "Water",
-      "feedItem": "elementalcraft:watercrystal",
-      "feedAmount": 6
-    },
-    "TraitData": {
-      "hasTraits": true
-    }
+  "flower": "elementalcraft:watercrystal_block",
+  "maxTimeInHive": 2000,
+  "hasHoneycomb": true,
+  "traits": [
+    "can_swim"
+  ],
+  "baseLayerTexture": "ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#1215C9",
+    "primaryColor": "#4648E8",
+    "secondaryColor": "#1215C9",
+    "primaryLayerTexture": "ores/custom/custom_bee_primary",
+    "secondaryLayerTexture": "ores/custom/custom_bee_secondary",
+    "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#A4EDFC",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationType": "BLOCK_TO_BLOCK",
+    "mutationInput": "elementalcraft:crystalore",
+    "mutationOutput": "elementalcraft:watercrystal_block"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "elementalcraft:watercrystal"
+  },
+  "SpawnData": {
+    "spawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Inert_Crystal",
+    "parent2": "Water",
+    "feedItem": "elementalcraft:watercrystal",
+    "feedAmount": 6
+  },
+  "TraitData": {
+    "hasTraits": true
   }
+}

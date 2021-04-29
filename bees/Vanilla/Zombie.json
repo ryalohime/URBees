@@ -3,7 +3,9 @@
   "maxTimeInHive": 600,
   "hasHoneycomb": false,
   "baseLayerTexture": "zombie/zombie_bee",
-  "traits": ["zombie"],
+  "traits": [
+    "zombie"
+  ],
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#2F4E32"

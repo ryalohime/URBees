@@ -1,0 +1,35 @@
+{
+  "flower": "iceandfire:dragon_bone_block",
+  "maxTimeInHive": 1200,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "other/bone_dragon",
+  "ColorData": {
+    "primaryColor": "#1736E6",
+    "secondaryColor": "#FFFFFF",
+    "honeycombColor": "#1736E6",
+    "isGlowing": false,
+    "isBeeColored": false,
+    "modelType": "DRAGON"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "iceandfire:dragon_bone",
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Spooky",
+    "parent2": "Sapphire",
+    "feedItem": "iceandfire:dragon_bone",
+    "feedAmount": 4
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

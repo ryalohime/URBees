@@ -8,8 +8,8 @@
     "honeycombColor": "#B3251D",
     "primaryColor": "#7A89B4",
     "secondaryColor": "#B3251D",
-    "primaryLayerTexture":"metal/metal_bee",
-    "secondaryLayerTexture":"metal/metal_bee_secondary"
+    "primaryLayerTexture": "metal/metal_bee",
+    "secondaryLayerTexture": "metal/metal_bee_secondary"
   },
   "MutationData": {
     "hasMutation": false

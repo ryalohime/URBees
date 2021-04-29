@@ -1,29 +1,29 @@
 {
-    "flower": "undergarden:froststeel_block",
-    "maxTimeInHive": 800,
-    "hasHoneycomb": true,
-    "ColorData": {
-      "isBeeColored": true,
-      "honeycombColor": "#4FC7E8",
-      "primaryColor": "#4FC7E8"
-    },
-    "MutationData": {
-      "hasMutation": false
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "undergarden:froststeel_ingot"
-    },
-    "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:undergarden"
-    },
-    "BreedData": {
-      "breedable": true,
-      "feedItem": "undergarden:froststeel_ingot",
-      "feedAmount": 1
-    },
-    "TraitData": {
-      "hasTraits": false
-    }
+  "flower": "undergarden:froststeel_block",
+  "maxTimeInHive": 800,
+  "hasHoneycomb": true,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#4FC7E8",
+    "primaryColor": "#4FC7E8"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "undergarden:froststeel_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:undergarden"
+  },
+  "BreedData": {
+    "breedable": true,
+    "feedItem": "undergarden:froststeel_ingot",
+    "feedAmount": 1
+  },
+  "TraitData": {
+    "hasTraits": false
   }
+}

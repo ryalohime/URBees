@@ -2,12 +2,15 @@
   "flower": "tag:botania:shiny_flower",
   "maxTimeInHive": 1000,
   "hasHoneycomb": true,
-  "traits": ["nether", "pigman"],
+  "traits": [
+    "nether",
+    "pigman"
+  ],
   "baseLayerTexture": "stones/custom/glowstone_colored",
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#F8D773",
-	"emissiveLayerTexture": "stones/custom/glowstone_colored",
+    "emissiveLayerTexture": "stones/custom/glowstone_colored",
     "isGlowing": true,
     "glowColor": "#FFFFFF"
   },

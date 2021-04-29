@@ -8,9 +8,9 @@
     "honeycombColor": "#00ffff",
     "primaryColor": "#00ffff",
     "secondaryColor": "#FFFFFF",
-    "primaryLayerTexture":"ores/ore_bee_primary",
-    "secondaryLayerTexture":"ores/ore_bee_secondary",
-    "emissiveLayerTexture":"ores/ore_bee_emissive",
+    "primaryLayerTexture": "ores/ore_bee_primary",
+    "secondaryLayerTexture": "ores/ore_bee_secondary",
+    "emissiveLayerTexture": "ores/ore_bee_emissive",
     "isGlowing": true,
     "glowColor": "#00ffff"
   },

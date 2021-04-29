@@ -7,9 +7,9 @@
     "isBeeColored": true,
     "honeycombColor": "#B6DBD8",
     "primaryColor": "#B6DBD8",
-    "secondaryColor" : "#FFFFFF",
-    "primaryLayerTexture":"ores/ore_bee_primary",
-    "secondaryLayerTexture":"ores/ore_bee_secondary"
+    "secondaryColor": "#FFFFFF",
+    "primaryLayerTexture": "ores/ore_bee_primary",
+    "secondaryLayerTexture": "ores/ore_bee_secondary"
   },
   "MutationData": {
     "hasMutation": false

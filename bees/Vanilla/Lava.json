@@ -1,7 +1,9 @@
 {
   "flower": "minecraft:basalt",
   "maxTimeInHive": 600,
-  "traits": ["blaze"],
+  "traits": [
+    "blaze"
+  ],
   "hasHoneycomb": false,
   "baseLayerTexture": "liquid/liquid_bee",
   "ColorData": {
@@ -9,22 +11,22 @@
     "primaryColor": "#DB4819",
     "secondaryColor": "#db4819",
     "honeycombColor": "#DB4819",
-    "primaryLayerTexture":"liquid/liquid_bee_primary",
-    "secondaryLayerTexture":"liquid/liquid_bee_secondarylight",
-    "emissiveLayerTexture":"liquid/liquid_bee_emissive",
+    "primaryLayerTexture": "liquid/liquid_bee_primary",
+    "secondaryLayerTexture": "liquid/liquid_bee_secondarylight",
+    "emissiveLayerTexture": "liquid/liquid_bee_emissive",
     "isGlowing": true,
     "glowColor": "#DB4819"
   },
   "MutationData": {
     "hasMutation": true,
-	"mutationType": "BLOCK_TO_FLUID",
-	"mutationInput": "minecraft:magma_block",
-	"mutationOutput": "minecraft:lava"
+    "mutationType": "BLOCK_TO_FLUID",
+    "mutationInput": "minecraft:magma_block",
+    "mutationOutput": "minecraft:lava"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-	"mainOutput": "druidcraft:fiery_glass",
-	"outputAmount": 1
+    "mainOutput": "druidcraft:fiery_glass",
+    "outputAmount": 1
   },
   "SpawnData": {
     "canSpawnInWorld": true,

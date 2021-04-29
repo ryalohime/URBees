@@ -1,33 +1,33 @@
 {
-    "flower": "thermal:apatite_block",
-    "maxTimeInHive": 1200,
-    "hasHoneycomb": true,
-    "baseLayerTexture": "ores/apatite_bee",
-    "ColorData": {
-	  "isColored": false,
-      "primaryColor": "#05FFE6",
-      "secondaryColor": "#FFFFFF",
-      "honeycombColor": "#05FFE6"
-    },
-    "MutationData": {
-      "hasMutation": false
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "thermal:apatite",
-      "mainOutputCount": 1
-    },
-    "SpawnData": {
-      "canSpawnInWorld": false
-    },
-    "BreedData": {
-      "isBreedable": true,
-	  "parent1": "Sandy",
-	  "parent2": "Glowing",
-      "feedItem": "thermal:apatite",
-      "feedAmount": 6
-    },
-    "TraitData": {
-      "hasTraits": false
-    }
+  "flower": "thermal:apatite_block",
+  "maxTimeInHive": 1200,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/apatite_bee",
+  "ColorData": {
+    "isColored": false,
+    "primaryColor": "#05FFE6",
+    "secondaryColor": "#FFFFFF",
+    "honeycombColor": "#05FFE6"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:apatite",
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Sandy",
+    "parent2": "Glowing",
+    "feedItem": "thermal:apatite",
+    "feedAmount": 6
+  },
+  "TraitData": {
+    "hasTraits": false
   }
+}

@@ -7,7 +7,7 @@
     "isBeeColored": true,
     "honeycombColor": "#FCFCFC",
     "primaryColor": "#ffffff",
-    "secondaryLayerTexture":"ores/gem/custom/custom_gem_bee_secondary",
+    "secondaryLayerTexture": "ores/gem/custom/custom_gem_bee_secondary",
     "secondaryColor": "#FCFCFC",
     "modelType": "ORE"
   },
@@ -16,7 +16,7 @@
     "mutationInput": "mekanism:block_salt",
     "mutationOutput": "astralsorcery:rock_crystal_ore",
     "mutationType": "BLOCK_TO_BLOCK",
-	"mutationCount" : 2
+    "mutationCount": 2
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": false
@@ -26,8 +26,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1" : "Inert_Crystal",
-    "parent2" : "Starmetal",
+    "parent1": "Inert_Crystal",
+    "parent2": "Starmetal",
     "feedItem": "astralsorcery:rock_crystal",
     "feedAmount": 1
   },

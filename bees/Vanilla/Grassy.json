@@ -2,12 +2,12 @@
   "flower": "minecraft:grass",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
-  "baseLayerTexture": "stones/dirt_bee",
+  "baseLayerTexture": "stones/grassy_bee",
   "ColorData": {
     "isBeeColored": false,
     "primaryColor": "#896343",
-	"secondaryColor": "#405E38",
-	"modelType": "MUSHROOM"
+    "secondaryColor": "#405E38",
+    "modelType": "MUSHROOM"
   },
   "MutationData": {
     "hasMutation": true,

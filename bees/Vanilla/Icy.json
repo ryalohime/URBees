@@ -6,8 +6,8 @@
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#93BAFD",
-	"primaryColor": "#93BAFD",
-	"secondaryColor": "#C9DDFF"
+    "primaryColor": "#93BAFD",
+    "secondaryColor": "#C9DDFF"
   },
   "MutationData": {
     "hasMutation": true,

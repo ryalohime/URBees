@@ -1,36 +1,35 @@
 {
-    "flower": "rats:trash_can",
-    "maxTimeInHive": 600,
-    "hasHoneycomb": true,
-    "baseLayerTexture": "ores/ore_bee",
-    "ColorData": {
-      "isBeeColored": true,
-      "honeycombColor": "#A2FF0D",
-      "primaryColor": "#A2FF0D",
-      "secondaryColor" : "#82CC0A",
-      "primaryLayerTexture":"ores/ore_bee_primary",
-      "secondaryLayerTexture":"ores/ore_bee_secondary"
-    },
-    "MutationData": {
-      "hasMutation": false
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "rats:garbage_pile",
-      "mainOutputCount": 1
-    },
-    "SpawnData": {
-      "canSpawnInWorld": true,
-	  "biomeWhitelist": "tag:wasteland",
-	  "biomeBlacklist": "tag:ocean"
-    },
-    "BreedData": {
-      "isBreedable": true,
-      "feedItem": "rats:garbage_pile",
-      "feedAmount": 7
-    },
-    "TraitData": {
-      "hasTraits": false
-    }
+  "flower": "rats:trash_can",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/ore_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#A2FF0D",
+    "primaryColor": "#A2FF0D",
+    "secondaryColor": "#82CC0A",
+    "primaryLayerTexture": "ores/ore_bee_primary",
+    "secondaryLayerTexture": "ores/ore_bee_secondary"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "rats:garbage_pile",
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:wasteland",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "rats:garbage_pile",
+    "feedAmount": 7
+  },
+  "TraitData": {
+    "hasTraits": false
   }
-  
+}

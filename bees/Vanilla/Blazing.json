@@ -1,10 +1,14 @@
 {
   "flower": "botania:blaze_block",
   "maxTimeInHive": 1000,
-  "traits": ["blaze", "nether"],
+  "traits": [
+    "blaze",
+    "nether"
+  ],
   "hasHoneycomb": true,
+  "baseLayerTexture": "other/blaze_bee",
   "ColorData": {
-    "isBeeColored": true,
+    "isBeeColored": false,
     "honeycombColor": "#BD5900",
     "primaryColor": "#BD5900"
   },

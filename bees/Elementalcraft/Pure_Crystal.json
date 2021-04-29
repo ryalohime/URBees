@@ -1,38 +1,38 @@
 {
-    "flower": "elementalcraft:pureinfuser",
-    "maxTimeInHive": 2000,
-    "hasHoneycomb": true,
-    "baseLayerTexture": "ores/custom/custom_bee",
-    "ColorData": {
-      "isBeeColored": true,
-      "honeycombColor": "#F0F5D3",
-      "primaryColor": "#F0F5D3",
-      "secondaryColor" : "#F0F5D3",
-      "primaryLayerTexture":"ores/custom/custom_bee_primary",
-      "secondaryLayerTexture":"ores/custom/custom_bee_secondary",
-      "emissiveLayerTexture":"ores/custom/custom_bee_emissive",
-      "isGlowing": true,
-      "glowColor": "#A4EDFC",
-	  "modelType": "ORE"
-    },
-    "MutationData": {
-      "hasMutation": false
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "elementalcraft:purecrystal"
-    },
-    "SpawnData": {
-      "spawnInWorld": false
-    },
-    "BreedData": {
-      "isBreedable": true,
-      "parent1": "Inert_Crystal",
-      "parent2": "Diamond",
-      "feedItem": "elementalcraft:purecrystal",
-      "feedAmount": 12
-    },
-    "TraitData": {
-      "hasTraits": false
-    }
+  "flower": "elementalcraft:pureinfuser",
+  "maxTimeInHive": 2000,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#F0F5D3",
+    "primaryColor": "#F0F5D3",
+    "secondaryColor": "#F0F5D3",
+    "primaryLayerTexture": "ores/custom/custom_bee_primary",
+    "secondaryLayerTexture": "ores/custom/custom_bee_secondary",
+    "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#A4EDFC",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "elementalcraft:purecrystal"
+  },
+  "SpawnData": {
+    "spawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Inert_Crystal",
+    "parent2": "Diamond",
+    "feedItem": "elementalcraft:purecrystal",
+    "feedAmount": 12
+  },
+  "TraitData": {
+    "hasTraits": false
   }
+}

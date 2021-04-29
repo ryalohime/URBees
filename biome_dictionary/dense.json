@@ -9,13 +9,22 @@
     "minecraft:dark_forest_hills",
     "minecraft:giant_spruce_taiga",
     "minecraft:giant_spruce_taiga_hills",
+	"byg:acaicaroa_forest",
+	"byg:bamboo_forest",
+	"byg:ebony_hills",
     "byg:ebony_woods",
+	"byg:flowering_ancient_forest",
+	"byg:fungal_patch",
+	"byg:glowing_ancient_forest",
     "byg:guiana_shield",
+	"byg:jacaranda_forest_hills",
     "byg:mangrove_marches",
     "byg:redwood_tropics",
     "byg:stone_forest",
     "byg:tropical_fungal_forest",
+	"byg:tropical_fungal_rainforest_hills",
     "byg:tropical_rainforest",
+	"byg:tropical_rainforest_hills",
     "byg:woodlands"
   ]
 }

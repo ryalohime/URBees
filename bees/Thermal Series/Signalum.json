@@ -8,8 +8,8 @@
     "honeycombColor": "#FA631A",
     "primaryColor": "#ffffff",
     "secondaryColor": "#FA631A",
-    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
-    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
+    "primaryLayerTexture": "/ores/custom/custom_bee_primary",
+    "secondaryLayerTexture": "/ores/custom/custom_bee_secondary",
     "modelType": "ORE"
   },
   "MutationData": {
@@ -31,6 +31,5 @@
     "feedItem": "tag:forge:ingots/signalum",
     "feedAmount": 2
   },
-  "TraitData": {
-  }
+  "TraitData": {}
 }

@@ -1,12 +1,16 @@
 {
   "flower": "minecraft:prismarine_bricks",
   "hasHoneycomb": true,
-  "traits": ["can_swim"],
+  "traits": [
+    "can_swim"
+  ],
   "maxTimeInHive": 800,
+  "baseLayerTexture": "other/guardian_bee",
   "ColorData": {
-    "isBeeColored": true,
+    "isBeeColored": false,
     "honeycombColor": "#8FC0AA",
-    "primaryColor": "#8FC0AA"
+    "primaryColor": "#8FC0AA",
+    "secondaryColor": "#FF8F34"
   },
   "MutationData": {
     "hasMutation": false
@@ -14,9 +18,9 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:prismarine_shard",
-    "secondaryOutput" : "minecraft:prismarine_crystals",
+    "secondaryOutput": "minecraft:prismarine_crystals",
     "mainOutputCount": 3,
-    "secondaryOutputCount":2
+    "secondaryOutputCount": 2
   },
   "SpawnData": {
     "canSpawnInWorld": false,

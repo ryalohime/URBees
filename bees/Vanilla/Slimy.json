@@ -2,14 +2,16 @@
   "flower": "minecraft:lilypad",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
-  "traits" : ["slimy"],
+  "traits": [
+    "slimy"
+  ],
   "baseLayerTexture": "liquid/slimy_bee",
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#A5FC97",
-	"primaryColor": "#A5FC97",
-	"secondaryColor": "#54AB43",
-	"modelType": "GELATINOUS"
+    "primaryColor": "#A5FC97",
+    "secondaryColor": "#54AB43",
+    "modelType": "GELATINOUS"
   },
   "MutationData": {
     "hasMutation": false
@@ -26,8 +28,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-	"parent1": "Water",
-	"parent2": "Soul",
+    "parent1": "Water",
+    "parent2": "Soul",
     "feedItem": "xreliquary:slime_pearl",
     "feedAmount": 2
   },

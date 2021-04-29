@@ -3,7 +3,9 @@
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "baseLayerTexture": "zombie/zombie_bee",
-  "traits": ["zombie"],
+  "traits": [
+    "zombie"
+  ],
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#2F4E32"
@@ -23,8 +25,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-	"parent1": "Soul",
-	"parent2": "Villager",
+    "parent1": "Soul",
+    "parent2": "Villager",
     "feedItem": "xreliquary:zombie_heart",
     "feedAmount": 2
   },

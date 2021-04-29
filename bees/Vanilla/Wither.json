@@ -4,7 +4,10 @@
   "hasHoneycomb": true,
   "sizeModifier": 1.5,
   "baseLayerTexture": "other/wither",
-  "traits": ["nether", "wither"],
+  "traits": [
+    "nether",
+    "wither"
+  ],
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#444444"
@@ -15,7 +18,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:nether_star",
-	"mainInputCount": 9,
+    "mainInputCount": 9,
     "mainOutputCount": 1
   },
   "SpawnData": {

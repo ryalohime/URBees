@@ -2,12 +2,14 @@
   "flower": "tag:botania:mystical_flowers",
   "hasHoneycomb": false,
   "maxTimeInHive": 600,
-  "traits" : ["can_swim"],
+  "traits": [
+    "can_swim"
+  ],
   "ColorData": {
     "isBeeColored": true,
     "primaryColor": "#E0DABC",
-    "primaryLayerTexture":"stones/custom/custom_bee_sand_primary",
-    "secondaryLayerTexture":"ores/gem/custom/custom_gem_bee_secondary",
+    "primaryLayerTexture": "stones/custom/custom_bee_sand_primary",
+    "secondaryLayerTexture": "ores/gem/custom/custom_gem_bee_secondary",
     "secondaryColor": "#00BDE0",
     "modelType": "ORE"
   },
@@ -25,12 +27,12 @@
   },
   "BreedData": {
     "isBreedable": true,
-	"parent1": "Quartz",
-	"parent2": "Water",
+    "parent1": "Quartz",
+    "parent2": "Water",
     "feedItem": "astralsorcery:aquamarine",
     "feedAmount": 4
   },
   "TraitData": {
-	"hasTraits" : true
+    "hasTraits": true
   }
 }

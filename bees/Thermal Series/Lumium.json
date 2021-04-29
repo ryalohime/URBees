@@ -7,9 +7,9 @@
     "isBeeColored": true,
     "honeycombColor": "#FCAA00",
     "primaryColor": "#ffffff",
-    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
-    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
-    "emissiveLayerTexture":"ores/custom/custom_bee_emissive",
+    "primaryLayerTexture": "/ores/custom/custom_bee_primary",
+    "secondaryLayerTexture": "/ores/custom/custom_bee_secondary",
+    "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
     "secondaryColor": "#D7CD7C",
     "isGlowing": true,
     "glowColor": "#D7CD7C",
@@ -34,6 +34,5 @@
     "feedItem": "tag:forge:ingots/lumium",
     "feedAmount": 2
   },
-  "TraitData": {
-  }
+  "TraitData": {}
 }

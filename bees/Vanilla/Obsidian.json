@@ -2,7 +2,9 @@
   "flower": "minecraft:obsidian",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
-  "traits": ["nether"],
+  "traits": [
+    "nether"
+  ],
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#211B20",
@@ -14,7 +16,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:obsidian",
-	"mainOutputWeight": 0.25
+    "mainOutputWeight": 0.25
   },
   "SpawnData": {
     "canSpawnInWorld": false

@@ -1,36 +1,35 @@
 {
-    "flower": "mysticalagriculture:tertium_block",
-    "maxTimeInHive": 600,
-    "hasHoneycomb": true,
-    "baseLayerTexture": "ores/ore_bee",
-    "ColorData": {
-      "isBeeColored": true,
-      "honeycombColor": "#B54800",
-      "primaryColor": "#DF5500",
-      "secondaryColor" : "#B54800",
-      "primaryLayerTexture":"ores/ore_bee_primary",
-      "secondaryLayerTexture":"ores/ore_bee_secondary"
-    },
-    "MutationData": {
-      "hasMutation": false
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "mysticalagriculture:tertium_essence",
-      "mainOutputCount": 1
-    },
-    "SpawnData": {
-      "canSpawnInWorld": false
-    },
-    "BreedData": {
-      "isBreedable": true,
-      "parent1": "Prudentium_Essence",
-      "parent2": "Magma",
-      "feedItem": "mysticalagriculture:tertium_essence",
-      "feedAmount": 7
-    },
-    "TraitData": {
-      "hasTraits": false
-    }
+  "flower": "mysticalagriculture:tertium_block",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/ore_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#B54800",
+    "primaryColor": "#DF5500",
+    "secondaryColor": "#B54800",
+    "primaryLayerTexture": "ores/ore_bee_primary",
+    "secondaryLayerTexture": "ores/ore_bee_secondary"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:tertium_essence",
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Prudentium_Essence",
+    "parent2": "Magma",
+    "feedItem": "mysticalagriculture:tertium_essence",
+    "feedAmount": 7
+  },
+  "TraitData": {
+    "hasTraits": false
   }
-  
+}

@@ -7,29 +7,30 @@
     "isBeeColored": false,
     "primaryColor": "#251F1A",
     "secondaryColor": "#C50303",
-	"isGlowing": true,
-	"glowColor": "#C50303",
-	"emissiveLayerTexture": "other/spider_bee_emissive"
+    "isGlowing": true,
+    "glowColor": "#C50303",
+    "emissiveLayerTexture": "other/spider_bee_emissive"
   },
   "MutationData": {
     "hasMutation": true,
-	  "mutations" : [
-	  {
-		  "type": "BLOCK_TO_ITEM",
-		  "inputID": "quark:stick_block",
-		  "outputs": [
-			{"outputID": "mysticalworld:silk_cocoon"}
-		  ]
-	  }
-	]
+    "mutations": [
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "quark:stick_block",
+        "outputs": [
+          {
+            "outputID": "mysticalworld:silk_cocoon"
+          }
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:spider_eye",
     "mainOutputCount": 4,
-	"secondaryOutput": "xreliquary:chelicerae",
-	"secondaryOutputWeight": 0.05
-	
+    "secondaryOutput": "xreliquary:chelicerae",
+    "secondaryOutputWeight": 0.05
   },
   "SpawnData": {
     "canSpawnInWorld": false

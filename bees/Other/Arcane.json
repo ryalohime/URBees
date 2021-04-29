@@ -8,10 +8,10 @@
     "honeycombColor": "#9E72BE",
     "primaryColor": "#C4DDE6",
     "secondaryColor": "#9E72BE",
-	"isGlowing": true,
-	"emissiveLayerTexture": "ores/arcane_bee_emissive",
-	"glowColor": "#E0F7FF",
-	"modelType": "ORE"
+    "isGlowing": true,
+    "emissiveLayerTexture": "ores/arcane_bee_emissive",
+    "glowColor": "#E0F7FF",
+    "modelType": "ORE"
   },
   "MutationData": {
     "hasMutation": true,

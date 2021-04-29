@@ -7,7 +7,7 @@
     "isBeeColored": false,
     "honeycombColor": "#414141",
     "primaryColor": "#414141",
-    "secondaryColor" : "#141414"
+    "secondaryColor": "#141414"
   },
   "MutationData": {
     "hasMutation": false
@@ -15,7 +15,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "powah:dielectric_paste",
-	"mainOutputCount": 8
+    "mainOutputCount": 8
   },
   "SpawnData": {
     "spawnInWorld": false

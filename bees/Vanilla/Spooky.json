@@ -13,7 +13,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:bone",
-	"secondaryOutput": "xreliquary:rib_bone",
+    "secondaryOutput": "xreliquary:rib_bone",
     "secondaryOutputWeight": 0.05
   },
   "SpawnData": {
@@ -21,8 +21,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-	"parent1": "Soul",
-	"parent2": "Quartz",
+    "parent1": "Soul",
+    "parent2": "Quartz",
     "feedItem": "xreliquary:rib_bone",
     "feedAmount": 3
   },

@@ -1,33 +1,33 @@
 {
-    "flower": "elementalcraft:inertcrystal_block",
-    "maxTimeInHive": 800,
-    "hasHoneycomb": true,
-    "ColorData": {
-      "isBeeColored": true,
-      "honeycombColor": "#FFFFFF",
-      "primaryColor": "#7F7F7F",
-	  "secondaryColor": "#FFFFFF",
-	  "primaryLayerTexture":"ores/ore_bee_primarygem",
-      "secondaryLayerTexture":"ores/gem/custom/custom_ore_bee_secondary"
-    },
-    "MutationData": {
-      "hasMutation": false
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "elementalcraft:inertcrystal"
-    },
-    "SpawnData": {
-      "canSpawnInWorld": false
-    },
-    "BreedData": {
-      "breedable": true,
-	  "parent1": "Quartz",
-	  "parent2": "RGBee",
-      "feedItem": "elementalcraft:inertcrystal",
-      "feedAmount": 3
-    },
-    "TraitData": {
-      "hasTraits": false
-    }
+  "flower": "elementalcraft:inertcrystal_block",
+  "maxTimeInHive": 800,
+  "hasHoneycomb": true,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#FFFFFF",
+    "primaryColor": "#7F7F7F",
+    "secondaryColor": "#FFFFFF",
+    "primaryLayerTexture": "ores/ore_bee_primarygem",
+    "secondaryLayerTexture": "ores/gem/custom/custom_ore_bee_secondary"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "elementalcraft:inertcrystal"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "breedable": true,
+    "parent1": "Quartz",
+    "parent2": "RGBee",
+    "feedItem": "elementalcraft:inertcrystal",
+    "feedAmount": 3
+  },
+  "TraitData": {
+    "hasTraits": false
   }
+}

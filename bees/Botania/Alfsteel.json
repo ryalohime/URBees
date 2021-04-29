@@ -1,37 +1,37 @@
 {
-    "flower": "mythicbotany:alfsteel_block",
-    "maxTimeInHive": 2000,
-    "hasHoneycomb": true,
-    "baseLayerTexture": "ores/ore_bee",
-    "ColorData": {
-      "isBeeColored": true,
-      "honeycombColor": "#dE9D04",
-      "primaryColor": "#dE9D04",
-      "secondaryColor" : "#873D00",
-      "primaryLayerTexture":"metal/metal_bee",
-      "secondaryLayerTexture":"metal/metal_bee_secondary",
-      "emissiveLayerTexture":"metal/metal_bee_emissivefulldark",
-      "isGlowing": true,
-      "glowColor": "#FCBB00"
-    },
-    "MutationData": {
-      "hasMutation": false
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "mythicbotany:alfsteel_nugget"
-    },
-    "SpawnData": {
-      "spawnInWorld": false
-    },
-    "BreedData": {
-      "isBreedable": true,
-      "parent1": "Elementium",
-      "parent2": "Arcane_Gold",
-      "feedItem": "mythicbotany:alfsteel_ingot",
-      "feedAmount": 10
-    },
-    "TraitData": {
-      "hasTraits": false
-    }
+  "flower": "mythicbotany:alfsteel_block",
+  "maxTimeInHive": 2000,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/ore_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#dE9D04",
+    "primaryColor": "#dE9D04",
+    "secondaryColor": "#873D00",
+    "primaryLayerTexture": "metal/metal_bee",
+    "secondaryLayerTexture": "metal/metal_bee_secondary",
+    "emissiveLayerTexture": "metal/metal_bee_emissivefulldark",
+    "isGlowing": true,
+    "glowColor": "#FCBB00"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mythicbotany:alfsteel_nugget"
+  },
+  "SpawnData": {
+    "spawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Elementium",
+    "parent2": "Arcane_Gold",
+    "feedItem": "mythicbotany:alfsteel_ingot",
+    "feedAmount": 10
+  },
+  "TraitData": {
+    "hasTraits": false
   }
+}

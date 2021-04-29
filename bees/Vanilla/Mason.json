@@ -6,8 +6,8 @@
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#A1A7B1",
-	"primaryColor": "#A1A7B1",
-	"secondaryColor": "#AFB9D6"
+    "primaryColor": "#A1A7B1",
+    "secondaryColor": "#AFB9D6"
   },
   "MutationData": {
     "hasMutation": false
@@ -25,8 +25,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-	"parent1": "Sandy",
-	"parent2": "Water",
+    "parent1": "Sandy",
+    "parent2": "Water",
     "feedItem": "minecraft:clay",
     "feedAmount": 5
   },

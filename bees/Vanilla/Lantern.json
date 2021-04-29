@@ -2,31 +2,51 @@
   "flower": "tag:botania:shiny_flowers",
   "maxTimeInHive": 600,
   "hasHoneycomb": false,
-  "traits": ["nether"],
+  "traits": [
+    "nether"
+  ],
   "baseLayerTexture": "pumpkin/jackolantern/jackolantern_bee_primary",
   "ColorData": {
     "isBeeColored": false,
-	"emissiveLayerTexture": "pumpkin/jackolantern/jackolantern_bee_primary",
+    "emissiveLayerTexture": "pumpkin/jackolantern/jackolantern_bee_primary",
     "honeycombColor": "#CF7E1A",
-	"isGlowing": true,
+    "isGlowing": true,
     "glowColor": "#FFFFFF"
   },
   "MutationData": {
     "hasMutation": true,
-	"mutations": [
-	{
-		"type": "BLOCK_TO_BLOCK",
-		"inputID": "minecraft:pumpkin",
-		"outputs": [
-		{"outputID": "minecraft:jack_o_lantern", "weight": 5},
-		{"outputID": "extlights:light_mini_jack_sad", "weight": 3},
-		{"outputID": "extlights:light_mini_jack_angry", "weight": 3},
-		{"outputID": "extlights:light_mini_jack_happy", "weight": 3},
-		{"outputID": "extlights:light_mini_jack_crazy", "weight": 3},
-		{"outputID": "rats:jack_o_ratern", "weight": 1}
-		]
-	}
-	]
+    "mutations": [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:pumpkin",
+        "outputs": [
+          {
+            "outputID": "minecraft:jack_o_lantern",
+            "weight": 5
+          },
+          {
+            "outputID": "extlights:light_mini_jack_sad",
+            "weight": 3
+          },
+          {
+            "outputID": "extlights:light_mini_jack_angry",
+            "weight": 3
+          },
+          {
+            "outputID": "extlights:light_mini_jack_happy",
+            "weight": 3
+          },
+          {
+            "outputID": "extlights:light_mini_jack_crazy",
+            "weight": 3
+          },
+          {
+            "outputID": "rats:jack_o_ratern",
+            "weight": 1
+          }
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": false

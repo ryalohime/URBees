@@ -6,9 +6,9 @@
     "isBeeColored": true,
     "honeycombColor": "#CA902E",
     "primaryColor": "#CA902E",
-	"primaryLayerTexture": "metal/metal_bee",
+    "primaryLayerTexture": "metal/metal_bee",
     "secondaryColor": "#B17D23",
-	"secondaryLayerTexture": "metal/metal_bee_secondary"
+    "secondaryLayerTexture": "metal/metal_bee_secondary"
   },
   "MutationData": {
     "hasMutation": true,

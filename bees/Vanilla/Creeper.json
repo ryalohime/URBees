@@ -3,7 +3,9 @@
   "maxTimeInHive": 600,
   "hasHoneycomb": false,
   "baseLayerTexture": "/creeper/creeper_bee",
-  "traits": ["creeper"],
+  "traits": [
+    "creeper"
+  ],
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#0C9F0A",
@@ -19,7 +21,7 @@
     "hasCentrifugeOutput": false,
     "mainOutput": "minecraft:gunpowder",
     "mainOutputCount": 4,
-	"secondaryOutput": "xreliquary:catalyzing_gland",
+    "secondaryOutput": "xreliquary:catalyzing_gland",
     "secondaryOutputWeight": 0.05
   },
   "SpawnData": {

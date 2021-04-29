@@ -1,31 +1,31 @@
 {
-    "flower": "botania:gaia_head",
-    "maxTimeInHive": 2000,
-    "hasHoneycomb": true,
-    "baseLayerTexture": "other/gaia_bee_eye",
-    "ColorData": {
-      "isBeeColored": false,
-	  "primaryColor": "#000000",
-	  "secondaryColor": "#FFFFFF"
-    },
-    "MutationData": {
-      "hasMutation": false
-    },
-    "CentrifugeData": {
-      "hasCentrifugeOutput": true,
-      "mainOutput": "botania:life_essence"
-    },
-    "SpawnData": {
-      "spawnInWorld": false
-    },
-    "BreedData": {
-      "isBreedable": true,
-      "parent1": "Alfsteel",
-      "parent2": "Obsidian",
-      "feedItem": "botania:gaia_ingot",
-      "feedAmount": 20
-    },
-    "TraitData": {
-      "hasTraits": false
-    }
+  "flower": "botania:gaia_head",
+  "maxTimeInHive": 2000,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "other/gaia_bee_eye",
+  "ColorData": {
+    "isBeeColored": false,
+    "primaryColor": "#000000",
+    "secondaryColor": "#FFFFFF"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "botania:life_essence"
+  },
+  "SpawnData": {
+    "spawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Alfsteel",
+    "parent2": "Obsidian",
+    "feedItem": "botania:gaia_ingot",
+    "feedAmount": 20
+  },
+  "TraitData": {
+    "hasTraits": false
   }
+}

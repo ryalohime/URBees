@@ -1,10 +1,13 @@
 {
-  "flower": "betterendforge:ender_block",
+  "flower": "minecraft:end_stone",
   "hasHoneycomb": true,
-  "traits": ["ender"],
+  "traits": [
+    "ender"
+  ],
   "maxTimeInHive": 1800,
+  "baseLayerTexture":"liquid/ender_bee",
   "ColorData": {
-    "isBeeColored": true,
+    "isBeeColored": false,
     "honeycombColor": "#339786",
     "primaryColor": "#339786",
     "secondaryColor": "#303030"
@@ -25,8 +28,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-	"parent1": "Pearl",
-	"parent2": "Soul",
+    "parent1": "Pearl",
+    "parent2": "Soul",
     "feedItem": "xreliquary:nebulous_heart",
     "feedAmount": 4
   },
