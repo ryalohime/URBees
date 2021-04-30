@@ -1,14 +1,14 @@
 {
-    "biomes": [
-      "undergarden:undergarden",
-      "undergarden:mogstem_forest",
-      "undergarden:mushroom_bog",
-      "undergarden:wigglewood_forest",
-      "undergarden:forgotten_field",
-      "undergarden:barren_abyss",
-      "undergarden:smogstem_forest",
-      "undergarden:gronglegrowth",
-      "undergarden:dense_forest",
-      "undergarden:smog_spires"
-    ]
-  }
+  "biomes": [
+    "undergarden:undergarden",
+    "undergarden:mogstem_forest",
+    "undergarden:mushroom_bog",
+    "undergarden:wigglewood_forest",
+    "undergarden:forgotten_field",
+    "undergarden:barren_abyss",
+    "undergarden:smogstem_forest",
+    "undergarden:gronglegrowth",
+    "undergarden:dense_forest",
+    "undergarden:smog_spires"
+  ]
+}

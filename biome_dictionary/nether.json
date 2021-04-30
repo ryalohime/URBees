@@ -1,21 +1,21 @@
 {
-  "biomes": [
-    "minecraft:nether_wastes",
-    "minecraft:soul_sand_valley",
-    "minecraft:crimson_forest",
-    "minecraft:warped_forest",
-    "minecraft:basalt_deltas",
-	"byg:brimstone_caverns",
-	"byg:crimson_gardens",
-    "byg:embur_bog",
-	"byg:glowstone_gardens",
-	"byg:magma_wastes",
-	"byg:quartz_desert",
-	"byg:subzero_hypogeal",
-    "byg:sythian_torrids",
-	"byg:wailing_garth",
-	"byg:warped_desert",
-	"byg:weeping_mire",
-	"byg:withering_woods"
-  ]
+	"biomes": [
+		"minecraft:nether_wastes",
+		"minecraft:soul_sand_valley",
+		"minecraft:crimson_forest",
+		"minecraft:warped_forest",
+		"minecraft:basalt_deltas",
+		"byg:brimstone_caverns",
+		"byg:crimson_gardens",
+		"byg:embur_bog",
+		"byg:glowstone_gardens",
+		"byg:magma_wastes",
+		"byg:quartz_desert",
+		"byg:subzero_hypogeal",
+		"byg:sythian_torrids",
+		"byg:wailing_garth",
+		"byg:warped_desert",
+		"byg:weeping_mire",
+		"byg:withering_woods"
+	]
 }

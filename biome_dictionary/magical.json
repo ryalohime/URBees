@@ -1,10 +1,10 @@
 {
-    "biomes": [
+	"biomes": [
 		"byg:ancient_forest",
 		"byg:crag_gardens",
-        "byg:enchanted_forest",
-        "byg:enchanted_forest_hills",
-        "byg:enchanted_grove",
+		"byg:enchanted_forest",
+		"byg:enchanted_forest_hills",
+		"byg:enchanted_grove",
 		"byg:flowering_ancient_forest",
 		"byg:flowering_enchanted_grove",
 		"byg:fungal_patch",
@@ -18,5 +18,5 @@
 		"byg:weeping_witch_clearing",
 		"byg:weeping_witch_forest",
 		"byg:woodlands"
-    ]
+	]
 }
