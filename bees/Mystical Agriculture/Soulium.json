@@ -1,7 +1,7 @@
 {
   "flower": "mysticalagriculture:soulium_block",
   "maxTimeInHive": 600,
-  "hasHoneycomb": false,
+  "hasHoneycomb": true,
   "traits": [
     "nether"
   ],
@@ -20,7 +20,8 @@
     "mutationOutput": "mysticalagriculture:soulium_ore"
   },
   "CentrifugeData": {
-    "hasCentrifugeOutput": false
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:soulstone"
   },
   "SpawnData": {
     "canSpawnInWorld": true,

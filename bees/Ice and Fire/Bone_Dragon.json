@@ -4,9 +4,9 @@
   "hasHoneycomb": true,
   "baseLayerTexture": "other/bone_dragon",
   "ColorData": {
-    "primaryColor": "#1736E6",
+    "primaryColor": "#D9D9CD",
     "secondaryColor": "#FFFFFF",
-    "honeycombColor": "#1736E6",
+    "honeycombColor": "#D9D9CD",
     "isGlowing": false,
     "isBeeColored": false,
     "modelType": "DRAGON"

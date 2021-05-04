@@ -156,12 +156,13 @@
 	},
 	"SpawnData": {
 		"canSpawnInWorld": true,
-		"biomeWhitelist": "minecraft:warm_ocean,byg:coral_mangroves",
+		"biomeWhitelist": "tag:coralbee",
+		"biomeBlacklist": "tag:nether",
 		"spawnWeight": 100
 	},
 	"BreedData": {
 		"isBreedable": true,
-		"feedItem": "tag:minecraft:corals",
+		"feedItem": "mysticalagriculture:coral_agglomeratio",
 		"feedAmount": 2
 	},
 	"TraitData": {

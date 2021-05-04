@@ -1,0 +1,38 @@
+{
+  "flower": "evilcraft:bloody_cobblestone",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#930087",
+    "primaryColor": "#707070",
+    "secondaryColor": "#930087"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "bloodmagic:life_essence_fluid",
+    "mutationOutput": "evilcraft:blood",
+    "mutationType": "FLUID_TO_FLUID"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "hasFluidOutput": true,
+    "mainOutput": "bloodmagic:life_essence_fluid",
+    "mainOutputCount": 100,
+    "bottleOutput": "vampirism:blood_bottle",
+    "bottleNBTData": {
+      "Damage": 1
+    }
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Villager",
+    "parent2": "Copper",
+    "feedItem": "evilcraft:hardened_blood_shard",
+    "feedAmount": 5
+  },
+  "TraitData": {}
+}

@@ -1,5 +1,5 @@
 {
-  "flower": "tag:forge:soul_speed_blocks",
+  "flower": "minecraft:soul_sand",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "baseLayerTexture": "other/soul_bee",
@@ -11,7 +11,7 @@
   "MutationData": {
     "hasMutation": true,
     "mutationType": "BLOCK_TO_BLOCK",
-    "mutationInput": "tag:forge:soul_speed_blocks",
+    "mutationInput": "minecraft:soul_sand",
     "mutationOutput": "forbidden_arcanus:souless_sand",
     "mutationCount": 1
   },

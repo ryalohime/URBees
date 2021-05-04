@@ -1,0 +1,102 @@
+{
+  "flower": "mana-and-artifice:runeforge",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#930087",
+    "primaryColor": "#707070",
+    "secondaryColor": "#930087"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:stone",
+        "outputs": [
+          {
+            "outputID": "mana-and-artifice:stone_rune_black",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_blue",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_brown",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_cyan",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_gray",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_green",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_light_blue",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_light_gray",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_lime",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_magenta",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_orange",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_pink",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_purple",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_red",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_white",
+            "weight": 1
+          },
+          {
+            "outputID": "mana-and-artifice:stone_rune_yellow",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mana-and-artifice:stone_rune_blank",
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "RGBee",
+    "parent2": "Inert_Crystal",
+    "feedItem": "mana-and-artifice:stone_rune_blank",
+    "feedAmount": 3
+  },
+  "TraitData": {}
+}

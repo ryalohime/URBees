@@ -85,7 +85,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Withered_Spooky",
+    "parent1": "Human_Heart",
     "parent2": "Coral",
     "feedItem": "tombstone:dark_marble",
     "feedAmount": 5

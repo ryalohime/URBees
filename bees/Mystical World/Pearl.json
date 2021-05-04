@@ -19,7 +19,9 @@
     "mutationOutput": "mysticalworld:pearl_block"
   },
   "CentrifugeData": {
-    "hasCentrifugeOutput": false
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalworld:young_pearl",
+    "mainOutputWeight": 0.05
   },
   "SpawnData": {
     "canSpawnInWorld": true,

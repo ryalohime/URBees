@@ -13,14 +13,18 @@
     "secondaryColor": "#303030"
   },
   "MutationData": {
-    "hasMutation": false
+    "hasMutation": true,
+    "mutationType": "BLOCK_TO_ITEM",
+    "mutationInput": "mysticalworld:pearl_block",
+    "mutationOutput": "betterendforge:ender_block"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:ender_pearl",
     "bottleOutput": "botania:ender_air_bottle",
+    "bottleOutputWeight": 0.25,
     "secondaryOutput": "xreliquary:nebulous_heart",
-    "secondaryOutputWeight": "0.1"
+    "secondaryOutputWeight": 0.1
   },
   "SpawnData": {
     "canSpawnInWorld": true,

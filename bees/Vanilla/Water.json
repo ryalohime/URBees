@@ -23,7 +23,8 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:ocean,tag:river"
+    "biomeWhitelist": "tag:water",
+    "biomeBlacklist": "tag:nether"
   },
   "BreedData": {
     "isBreedable": true,

@@ -1,5 +1,5 @@
 {
-  "flower": "botania:mystical_flowers",
+  "flower": "tag:botania:mystical_flowers",
   "maxTimeInHive": 1000,
   "hasHoneycomb": true,
   "baseLayerTexture": "liquid/liquid_bee_colored",
