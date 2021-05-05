@@ -2,11 +2,16 @@
   "flower": "vampirism:hunter_table",
   "hasHoneycomb": true,
   "maxTimeInHive": 1200,
+  "baseLayerTexture": "other/heart_bee",
   "ColorData": {
-    "isBeeColored": true,
-    "honeycombColor": "#930087",
-    "primaryColor": "#707070",
-    "secondaryColor": "#930087"
+    "isBeeColored": false,
+    "honeycombColor": "#8A1915",
+    "primaryColor": "#4B138D",
+    "secondaryColor": "#8A1915",
+    "emissiveLayerTexture": "other/heart_emissive",
+    "isGlowing": true,
+    "glowColor": "#5E0F0F",
+    "glowingPulse": 3
   },
   "MutationData": {
     "hasMutation": false

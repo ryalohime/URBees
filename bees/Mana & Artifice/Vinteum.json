@@ -1,12 +1,13 @@
 {
   "flower": "mana-and-artifice:vinteum_ore",
   "hasHoneycomb": true,
-  "maxTimeInHive": 800,
+  "maxTimeInHive": 1000,
+  "baseLayerTexture": "stones/vinteum",
   "ColorData": {
-    "isBeeColored": true,
-    "honeycombColor": "#930087",
+    "isBeeColored": false,
+    "honeycombColor": "#4A62FC",
     "primaryColor": "#707070",
-    "secondaryColor": "#930087"
+    "secondaryColor": "#4A62FC"
   },
   "MutationData": {
     "hasMutation": false

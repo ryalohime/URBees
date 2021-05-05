@@ -12,7 +12,7 @@
     "hasMutation": true,
     "mutationType": "BLOCK_TO_BLOCK",
     "mutationInput": "minecraft:soul_sand",
-    "mutationOutput": "forbidden_arcanus:souless_sand",
+    "mutationOutput": "forbidden_arcanus:soulless_sand",
     "mutationCount": 1
   },
   "CentrifugeData": {

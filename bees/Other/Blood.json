@@ -1,12 +1,13 @@
 {
   "flower": "evilcraft:bloody_cobblestone",
   "hasHoneycomb": true,
-  "maxTimeInHive": 600,
+  "maxTimeInHive": 1200,
+  "baseLayerTexture": "liquid/blood_bee",
   "ColorData": {
-    "isBeeColored": true,
-    "honeycombColor": "#930087",
-    "primaryColor": "#707070",
-    "secondaryColor": "#930087"
+    "isBeeColored": false,
+    "honeycombColor": "#830807",
+    "primaryColor": "#410202",
+    "secondaryColor": "#830807"
   },
   "MutationData": {
     "hasMutation": true,

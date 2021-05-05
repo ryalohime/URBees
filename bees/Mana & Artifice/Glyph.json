@@ -1,12 +1,16 @@
 {
   "flower": "mana-and-artifice:runeforge",
   "hasHoneycomb": true,
-  "maxTimeInHive": 600,
+  "maxTimeInHive": 1000,
+  "baseLayerTexture": "stones/glyph",
   "ColorData": {
-    "isBeeColored": true,
-    "honeycombColor": "#930087",
+    "isBeeColored": false,
+    "honeycombColor": "#303030",
     "primaryColor": "#707070",
-    "secondaryColor": "#930087"
+    "secondaryColor": "#303030",
+    "emissiveLayerTexture": "stones/glyph_e",
+    "isGlowing": true,
+    "glowColor": "#747474"
   },
   "MutationData": {
     "hasMutation": true,
