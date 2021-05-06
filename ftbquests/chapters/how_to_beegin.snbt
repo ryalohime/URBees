@@ -1,0 +1,717 @@
+{
+	id: "41372AA61D65EC58",
+	group: "",
+	order_index: 1,
+	filename: "how_to_beegin",
+	title: "How to Bee-gin",
+	icon: {
+		id: "patchouli:guide_book",
+		Count: 1b,
+		tag: {
+			"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+		}
+	},
+	default_quest_shape: "circle",
+	quests: [
+		{
+			icon: {
+				id: "patchouli:guide_book",
+				Count: 1b,
+				tag: {
+					"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+				}
+			},
+			x: -5.0d,
+			y: 0.0d,
+			shape: "circle",
+			subtitle: "It can bee a bit overwhelming to get started.",
+			description: [
+				"The bees in Unlikely Reunion are probably a bit different from the Resourceful Bees that you might be familiar with. General information can be found in the Fifty Shades of Bees book, but following these quests will help you get used to our bees.",
+				"",
+				"Most bees will produce honeycombs, but some have mutations. They can transform blocks, liquids, items and even entities!",
+				"",
+				'Bees need a hive and their "flower" to produce honeycombs, or cause mutations. "Flowers" are rarely actually flowers. Check JEI for a bee\'s "flower".'
+			],
+			id: "25348209CFD960CC",
+			tasks: [{
+				id: "7FFB9F5438870DB8",
+				type: "checkmark",
+				title: "Introduction"
+			}],
+			rewards: [{
+				id: "1C8C811B2B930E1C",
+				type: "item",
+				item: "resourcefulbees:oreo_cookie"
+			}]
+		},
+		{
+			title: "Gotta catch-em all",
+			x: -3.5d,
+			y: 0.0d,
+			description: ["To get started, you'll need some bee jars so you can take the bees home with you. Just right-click a bee while holding a jar to catch it. They're even reusable! They're a little small though, so each jar only holds one bee."],
+			dependencies: ["25348209CFD960CC"],
+			id: "57D08B6F21EE83E2",
+			tasks: [{
+				id: "70636FB089B6EF9B",
+				type: "item",
+				item: "resourcefulbees:bee_jar",
+				count: 3L
+			}],
+			rewards: [{
+				id: "4AF4FFBCC39ABD4F",
+				type: "item",
+				item: "resourcefulbees:bee_jar",
+				count: 3
+			}]
+		},
+		{
+			title: "Searching far and wide",
+			x: -3.5d,
+			y: -1.5d,
+			description: [
+				"While you'll probably find some bees easily, others only spawn in specific biomes. A biome compass can be a huge help in tracking down bees! There are 13 different bees that spawn in the overworld.",
+				"",
+				"(There are also two very rare and valuable bees that you can find - the Kitten Bee and the Oreo Bee. Make sure to keep a jar on hand just in case!)"
+			],
+			dependencies: ["25348209CFD960CC"],
+			id: "22F698FACD52F8AB",
+			tasks: [{
+				id: "6A20366A28CB9098",
+				type: "item",
+				item: {
+					id: "naturescompass:naturescompass",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "7D9CF8290AEB6F56",
+				type: "choice",
+				table_id: 8664426678053923589L
+			}]
+		},
+		{
+			title: "Some bees like it hot",
+			x: -2.0d,
+			y: -1.5d,
+			description: ["Some very useful bees are only found in the nether. The bees here might be fire-proof, but you aren't. Bee prepared!"],
+			dependencies: ["22F698FACD52F8AB"],
+			id: "4710CC5C90FA8B95",
+			tasks: [{
+				id: "6DAE985340639D0A",
+				type: "dimension",
+				title: "The Nether",
+				dimension: "minecraft:the_nether"
+			}],
+			rewards: [{
+				id: "3DAB142BF39E0089",
+				type: "choice",
+				table_id: 6591545634517543371L
+			}]
+		},
+		{
+			title: "Other Realms",
+			icon: "minecraft:end_portal_frame",
+			x: -2.5d,
+			y: -2.5d,
+			description: ["There are some bees that seem to only spawn in a specific dimension, but aren't needed for breeding higher tier bees. If you want a specific resource from that dimension though, they might be useful...."],
+			dependencies: ["22F698FACD52F8AB"],
+			id: "44B42D4CDFA600D2",
+			tasks: [
+				{
+					id: "3DA2E9AD4096848A",
+					type: "dimension",
+					title: "Ratlantis",
+					icon: "rats:chunky_cheese_token",
+					dimension: "rats:ratlantis"
+				},
+				{
+					id: "32DACEFDF6B713A6",
+					type: "dimension",
+					title: "The Undergarden",
+					icon: "undergarden:shiverstone_bricks",
+					dimension: "theundergarden:theundergarden"
+				},
+				{
+					id: "4366E8016152F455",
+					type: "dimension",
+					title: "The End",
+					icon: "minecraft:dragon_head",
+					dimension: "minecraft:the_end"
+				}
+			],
+			rewards: [{
+				id: "0C9006C343DC6E49",
+				type: "choice",
+				table_id: 6943787807857197502L
+			}]
+		},
+		{
+			title: "Mass Transit",
+			icon: "resourcefulbees:bee_box",
+			x: -2.0d,
+			y: 0.0d,
+			description: ["Jar are great and all, but when you're trying to catch a bunch of bees they just fill up your inventory. A bee box holds multiple bees and only takes up one inventory slot! Unfortunately, it's all or nothing. You can't release just one bee."],
+			dependencies: ["57D08B6F21EE83E2"],
+			id: "28AD3336AA1058DD",
+			tasks: [{
+				id: "2C157D132B135C26",
+				type: "item",
+				item: "resourcefulbees:bee_box"
+			}],
+			rewards: [{
+				id: "1647B3C31BAC6227",
+				type: "item",
+				item: "resourcefulbees:wax",
+				count: 4
+			}]
+		},
+		{
+			title: "Save the bees!",
+			icon: {
+				id: "resourcefulbees:smoker",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -3.0d,
+			y: 1.0d,
+			description: [
+				"A smoker is a vital tool for beekeepers! Bees are posessive of their hives and honeycombs, and will attack if you harvest them without smoking the hive first. Most bees are fragile though and will die after stinging a single time! Use the smoker and save the bees!",
+				"",
+				"Once you've smoked a hive, you can then harvest the honeycombs with a scraper! You can only harvest a hive with a honey level of 5. The hive will just be dripping with honey!"
+			],
+			dependencies: ["57D08B6F21EE83E2"],
+			id: "16081C54475DC0B1",
+			tasks: [{
+				id: "4A64DCEECDD23A5D",
+				type: "item",
+				item: {
+					id: "resourcefulbees:smoker",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "10D80E071DCB75F9",
+				type: "item",
+				item: "resourcefulbees:scraper"
+			}]
+		},
+		{
+			title: "Starter Home",
+			x: -1.5d,
+			y: 1.0d,
+			description: ["Give those bees a home! It can only fit four bees, but I'm sure we can improve it later."],
+			dependencies: ["16081C54475DC0B1"],
+			id: "7CB390B4675C90F5",
+			tasks: [{
+				id: "3C92C5FDECF3509C",
+				type: "item",
+				item: "resourcefulbees:t1_beehive"
+			}],
+			rewards: [{
+				id: "423207CE4CBFB5FB",
+				type: "item",
+				item: "resourcefulbees:wax",
+				count: 2
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.0d,
+			description: [
+				"Upgrading your hives is essential to ramping up your honeycomb production! Each tier holds more bees.",
+				"",
+				"You've probably got a lot of honey by now, so here's a small tank to help store it."
+			],
+			dependencies: ["16081C54475DC0B1"],
+			id: "435308325D00964D",
+			tasks: [{
+				id: "684FAFA4F89BCD89",
+				type: "item",
+				item: "resourcefulbees:t2_beehive"
+			}],
+			rewards: [
+				{
+					id: "30945DB2A649FCE1",
+					type: "item",
+					item: "resourcefulbees:wax_block",
+					count: 2
+				},
+				{
+					id: "1823FB57C03BAE0C",
+					type: "item",
+					item: "resourcefulbees:wooden_honey_tank"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 1.0d,
+			description: [
+				"Even more bees in one hive! Your bees are living in style!",
+				"",
+				"With all those bees you'll need a larger tank, here's one to help you out."
+			],
+			dependencies: ["435308325D00964D"],
+			id: "045EF8DFB8CACFA0",
+			tasks: [{
+				id: "0440E16793336B69",
+				type: "item",
+				item: "resourcefulbees:t3_beehive"
+			}],
+			rewards: [
+				{
+					id: "2A598AFE74E39FCC",
+					type: "item",
+					item: "minecraft:honey_block",
+					count: 2
+				},
+				{
+					id: "3665CC52C6316A9E",
+					type: "item",
+					item: "resourcefulbees:nether_honey_tank"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 1.0d,
+			description: [
+				"The top tier single block bee hive! All the space for all the bees!",
+				"",
+				"One more tank to help you deal with all the honey. I wonder if there's a use for all this honey...."
+			],
+			dependencies: ["045EF8DFB8CACFA0"],
+			id: "55A2847B1B1BB2DB",
+			tasks: [{
+				id: "6913E1A449A5DA48",
+				type: "item",
+				item: "resourcefulbees:t4_beehive"
+			}],
+			rewards: [
+				{
+					id: "10D62AED0A49ABFD",
+					type: "item",
+					item: "minecraft:nether_star"
+				},
+				{
+					id: "28C4E79D0C61FF4B",
+					type: "item",
+					item: "resourcefulbees:purpur_honey_tank"
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 1.0d,
+			description: [
+				"Turn your beekeeping industrial with a multiblock apiary. Easier to automate, with the ability to connect pipes. Check Fifty Shades of Bees for further construction details.",
+				"",
+				"You might have heard of a beacon, but how about a beecon? It's like a beacon, but for bees. It's more limited in function, and runs off of honey. More details can be found in Fifty Shades of Bees."
+			],
+			dependencies: ["55A2847B1B1BB2DB"],
+			id: "38B8F659060926CB",
+			tasks: [
+				{
+					id: "1DD3A2C87476F15E",
+					type: "item",
+					item: "resourcefulbees:t1_apiary"
+				},
+				{
+					id: "447FF75B632D7222",
+					type: "item",
+					item: "resourcefulbees:apiary_storage"
+				}
+			],
+			rewards: [
+				{
+					id: "703D222EB89E5946",
+					type: "random",
+					table_id: 1157209445588412857L
+				},
+				{
+					id: "6D48BC4E36E0139E",
+					type: "item",
+					item: "resourcefulbees:ender_beecon"
+				}
+			]
+		},
+		{
+			title: "Control your bees",
+			x: -0.5d,
+			y: 0.0d,
+			description: [
+				'Bees are not very biddable creatures, but with this honey dipper you can give them a bit of direction. Right click on a bee and then right click on a "flower" to assign the bee to a "flower".',
+				"",
+				"You can also assign a bee to a specific hive in the same way."
+			],
+			dependencies: ["28AD3336AA1058DD"],
+			id: "09FBB9C59E792838",
+			tasks: [{
+				id: "39872D9B5453D8B9",
+				type: "item",
+				item: "resourcefulbees:honey_dipper"
+			}],
+			rewards: [{
+				id: "4CE1AEF786151128",
+				type: "item",
+				item: "minecraft:honey_block",
+				count: 2
+			}]
+		},
+		{
+			title: "More about Mutations",
+			x: -5.0d,
+			y: 1.5d,
+			subtitle: "Beepedia: A Pokedex for Bees",
+			description: [
+				"Mutations for Resourceful Bees work with vanilla Bee mechanics.",
+				"",
+				'A mutation will occur if a bee flies over the mutation input on their way back to their hive after visiting their "flower".',
+				"",
+				'Bees will not deliberately seek out the mutation input! A honey dipper can be used to assign a bee a specific "flower" and help with routing.'
+			],
+			dependencies: ["25348209CFD960CC"],
+			optional: true,
+			id: "6F33EA7FBCE9AF89",
+			tasks: [{
+				id: "610630EFDBB3BF03",
+				type: "checkmark",
+				title: "Mutations",
+				icon: "resourcefulbees:beepedia"
+			}],
+			rewards: [{
+				id: "49D70ADC850552F5",
+				type: "item",
+				item: "resourcefulbees:beepedia"
+			}]
+		},
+		{
+			title: "Top Tier Bees",
+			icon: "cyclic:heart",
+			x: 1.5d,
+			y: -1.5d,
+			description: [
+				"There are a lot of bees in Unlikely Reunion, but most of them are only obtainable by breeding.",
+				"",
+				"Bees can be bred like other animals in world. Each bee type has a particular food that you will need to feed it!",
+				"",
+				"Check JEI for each bee food, as well as breeding pairs. Once you have an apiary, this can be automated!"
+			],
+			id: "10E6B4EAB138885C",
+			tasks: [{
+				id: "3785445133A021D3",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "74E500C69198F4DA",
+				type: "random",
+				table_id: 8664426678053923589L
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 2.5d,
+			description: [
+				"If asthetics matter to you, you can craft hive upgrades. Hives upgraded this way count as the base tier in crafting recipes, but function as the tier that they have been upgraded to.",
+				"",
+				"Beware, if you use an upgraded hive to craft the next tier hive you will lose any upgrades that it has."
+			],
+			dependencies: ["16081C54475DC0B1"],
+			optional: true,
+			id: "223483CC6F23CDC1",
+			tasks: [
+				{
+					id: "7A57859FFE1549BA",
+					type: "item",
+					item: "resourcefulbees:t1_hive_upgrade",
+					consume_items: true
+				},
+				{
+					id: "4FBA383B48AC5D14",
+					type: "item",
+					item: "resourcefulbees:t2_hive_upgrade",
+					consume_items: true
+				},
+				{
+					id: "6DCC547A38A486DA",
+					type: "item",
+					item: "resourcefulbees:t3_hive_upgrade",
+					consume_items: true
+				},
+				{
+					id: "459D0EDB6BB59BC9",
+					type: "item",
+					item: "resourcefulbees:t4_hive_upgrade",
+					consume_items: true
+				}
+			],
+			rewards: [{
+				id: "5CBC46CA797ACA29",
+				type: "item",
+				item: "resourcefulbees:t4_beehive"
+			}]
+		},
+		{
+			title: "Upgrading your Apiary Storage",
+			x: 4.0d,
+			y: 2.0d,
+			description: ["Upgrading your apiary storage lets your apiary hold more honeycombs. There are 4 tiers."],
+			dependencies: ["38B8F659060926CB"],
+			id: "3F784991F4F09B30",
+			tasks: [{
+				id: "292B15133363305B",
+				type: "item",
+				item: "resourcefulbees:iron_storage_upgrade"
+			}],
+			rewards: [{
+				id: "5254E254E29CBFEF",
+				type: "item",
+				item: "resourcefulbees:gold_storage_upgrade"
+			}]
+		},
+		{
+			title: "Easy breeding",
+			x: 4.0d,
+			y: 0.0d,
+			description: ["Tired of chasing down bees to feed them? Add an apiary breeder to your apiary, and automate your breeding!"],
+			dependencies: ["38B8F659060926CB"],
+			id: "1C41E9EC4E4B14A9",
+			tasks: [{
+				id: "64608B1C1D7C3066",
+				type: "item",
+				item: "resourcefulbees:apiary_breeder"
+			}],
+			rewards: [{
+				id: "2C9D6717A5820D19",
+				type: "item",
+				item: "resourcefulbees:bee_jar",
+				count: 10
+			}]
+		},
+		{
+			title: "Breed more bees",
+			x: 4.0d,
+			y: -1.0d,
+			description: ["By default, an apiary breeder can have one breeding pair active at a time. You can upgrade it to have a max of 5 pairs available."],
+			hide_dependency_lines: false,
+			dependencies: ["1C41E9EC4E4B14A9"],
+			optional: true,
+			id: "27E1CE777C6585A2",
+			tasks: [{
+				id: "10FB7B039B08187F",
+				type: "item",
+				item: "resourcefulbees:apiary_breeder_upgrade"
+			}],
+			rewards: [{
+				id: "010CE066A166B0E3",
+				type: "item",
+				item: "resourcefulbees:apiary_breeder_upgrade"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 3.0d,
+			description: [
+				"So you have bees, they have a hive, and you can now harvest their honeycomb! Now what?",
+				"",
+				"Now you need to make a centrifuge to get something useful out of those honeycomb!",
+				"",
+				"If you have power, you can skip right to the regular centrifuge. Otherwise, this manual one can be operating by sneak-right clicking with both hands empty. You will need bottles!"
+			],
+			dependencies: ["7CB390B4675C90F5"],
+			optional: true,
+			id: "387156FE814E3C84",
+			tasks: [{
+				id: "1D75FDBAD75C994F",
+				type: "item",
+				item: "resourcefulbees:mechanical_centrifuge"
+			}],
+			rewards: [{
+				id: "2B224DD5F0F1C59D",
+				type: "item",
+				item: "minecraft:glass_bottle",
+				count: 16
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.0d,
+			description: [
+				"Put in honeycomb, bottles and power. Get stuff!",
+				"",
+				"While the centrifuge has an internal tank, you will want to hook up tanks when processing honeycombs that have liquid as their primary output, such as water or blood honeycombs."
+			],
+			dependencies: ["7CB390B4675C90F5"],
+			id: "2A8623D6C71AEF9F",
+			tasks: [{
+				id: "6D238C7471E254A1",
+				type: "item",
+				item: "resourcefulbees:centrifuge"
+			}],
+			rewards: [
+				{
+					id: "35D64E60D08A7CF0",
+					type: "item",
+					item: "minecraft:glass_bottle",
+					count: 16
+				},
+				{
+					id: "6D29BDB4D7318580",
+					type: "item",
+					item: "resourcefulbees:honey_congealer"
+				}
+			]
+		},
+		{
+			title: "Getting down to beesiness",
+			icon: "resourcefulbees:centrifuge_controller",
+			x: 1.5d,
+			y: 3.0d,
+			description: [
+				"The powered centrifuge is certainly handy, but you've probably got a lot of bees and it can only process one honeycomb at a time.",
+				"",
+				"The multiblock centrifuge can process up to 3 types of honeycomb at once, and can process honeycomb blocks as well. Just make sure you have plenty of space...."
+			],
+			dependencies: ["2A8623D6C71AEF9F"],
+			id: "3A212EE0526B2795",
+			tasks: [
+				{
+					id: "356D443A9DA75AD4",
+					type: "item",
+					item: "resourcefulbees:centrifuge_controller"
+				},
+				{
+					id: "05430708CE556807",
+					type: "item",
+					item: "resourcefulbees:centrifuge_casing",
+					count: 35L
+				}
+			],
+			rewards: [
+				{
+					id: "3CADED25E45C62C1",
+					type: "item",
+					item: "minecraft:iron_block",
+					count: 6
+				},
+				{
+					id: "3DAD3FAAB735B495",
+					type: "item",
+					item: "minecraft:redstone_block",
+					count: 6
+				},
+				{
+					id: "30130BC244F8FF79",
+					type: "item",
+					item: "resourcefulbees:catnip_honey_block"
+				}
+			]
+		},
+		{
+			title: "Go crazy I guess",
+			icon: "resourcefulbees:elite_centrifuge_controller",
+			x: 3.0d,
+			y: 3.0d,
+			description: ["Have a bunch of netherite with nothing to do with it? Well, might as well upgrade your centrifuge multiblock."],
+			dependencies: ["3A212EE0526B2795"],
+			id: "105EBC1D86491D03",
+			tasks: [
+				{
+					id: "5E28652F46F1758D",
+					type: "item",
+					item: "resourcefulbees:elite_centrifuge_controller"
+				},
+				{
+					id: "7CA79F20BDF771BF",
+					type: "item",
+					item: "resourcefulbees:elite_centrifuge_casing",
+					count: 35L
+				}
+			],
+			rewards: [
+				{
+					id: "1B59E29C2D36C1FE",
+					type: "item",
+					item: "resourcefulbees:oreo_bee_spawn_egg"
+				},
+				{
+					id: "7FF65323A15CDAB4",
+					type: "item",
+					item: "resourcefulbees:kitten_bee_spawn_egg"
+				},
+				{
+					id: "40A445CCAE58F382",
+					type: "choice",
+					table_id: 5055655070357738032L
+				}
+			]
+		},
+		{
+			title: "Upgrading your Apiary",
+			x: 4.5d,
+			y: 1.0d,
+			description: ["Upgrading your Apiary is rather expensive. Each tier increases the number of combs produced per bee, and reduces the time the bee spends in the apiary."],
+			dependencies: ["38B8F659060926CB"],
+			id: "504AED642B6BEAF6",
+			tasks: [{
+				id: "5DFB9C460D4CE05A",
+				type: "item",
+				icon: "resourcefulbees:t4_apiary",
+				item: "resourcefulbees:t4_apiary"
+			}],
+			rewards: [
+				{
+					id: "733DDEF2785A9D1B",
+					type: "choice",
+					table_id: 1157209445588412857L
+				},
+				{
+					id: "5874B82456726DB4",
+					type: "random",
+					table_id: 5055655070357738032L
+				}
+			]
+		},
+		{
+			title: "Speed Breeding",
+			x: 5.0d,
+			y: -0.5d,
+			description: ["Reduce the amount of time it takes for your bees to breed with this upgrade! Breeding takes 2 minutes by default. Multiple time reducing upgrades can be stacked!"],
+			dependencies: ["1C41E9EC4E4B14A9"],
+			id: "1274648057AFDBAB",
+			tasks: [{
+				id: "36347A24A831C810",
+				type: "item",
+				item: "resourcefulbees:apiary_breed_time_upgrade"
+			}],
+			rewards: [{
+				id: "7F0CCB5C2461ECE1",
+				type: "item",
+				item: "resourcefulbees:apiary_breed_time_upgrade"
+			}]
+		},
+		{
+			title: "Honey Power",
+			x: 0.5d,
+			y: 2.0d,
+			description: [
+				"Honey is delicious, but you can't eat it all the time. What else to do with it though?",
+				"",
+				"Here's a machine that consumes honey to produce power! Make your powered centrifuge self-sufficient."
+			],
+			dependencies: ["2A8623D6C71AEF9F"],
+			id: "2478CFC969297045",
+			tasks: [{
+				id: "2F27B03A4615AE7C",
+				type: "item",
+				item: "resourcefulbees:honey_generator"
+			}]
+		}
+	]
+}
