@@ -1,0 +1,48 @@
+{
+	id: "783E3A2857D26B05",
+	order_index: 1,
+	title: "Overworld Bees",
+	loot_size: 1,
+	use_title: true,
+	rewards: [
+		{
+			item: "resourcefulbees:dimensional_shard_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:frosty_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:breezy_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:mana_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:lumber_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:pearl_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:trash_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:rgbee_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:rocky_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:sandy_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:villager_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:water_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:coral_bee_spawn_egg"
+		}
+	]
+}

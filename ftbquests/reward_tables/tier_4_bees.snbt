@@ -1,0 +1,56 @@
+{
+	id: "100F3BDC0F0629B9",
+	order_index: 4,
+	title: "Tier 4 Bees",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "resourcefulbees:rock_crystal_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:manasteel_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:refined_glowstone_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:refined_obsidian_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:tertium_essence_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:amethyst_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:arcane_gold_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:bone_dragon_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:dielectric_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:aluminum_steel_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:bismuth_brass_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:bismuth_steel_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:platinum_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:electrum_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:diamond_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:withered_spooky_bee_spawn_egg"
+		}
+	]
+}

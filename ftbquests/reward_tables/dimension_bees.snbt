@@ -1,0 +1,26 @@
+{
+	id: "605D4A38B30441BE",
+	order_index: 3,
+	title: "Dimension Bees",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "resourcefulbees:oratchalcum_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:cloggrum_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:froststeel_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:regalium_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:utherium_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:ender_bee_spawn_egg"
+		}
+	]
+}

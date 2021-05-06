@@ -1,0 +1,23 @@
+{
+	id: "46294B801F935230",
+	order_index: 5,
+	title: "Tier 6 Bees",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "resourcefulbees:elementium_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:ametrine_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:necromancer_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:emerald_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:moonstone_bee_spawn_egg"
+		}
+	]
+}

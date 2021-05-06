@@ -1,0 +1,20 @@
+{
+	id: "5B79DFD4C231E9CB",
+	order_index: 2,
+	title: "Nether Bees",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "resourcefulbees:quartz_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:lava_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:glowing_bee_spawn_egg"
+		},
+		{
+			item: "resourcefulbees:soulium_bee_spawn_egg"
+		}
+	]
+}
