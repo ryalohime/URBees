@@ -4,14 +4,14 @@
   "hasHoneycomb": true,
   "baseLayerTexture": "ores/ore_bee",
   "ColorData": {
-    "primaryColor": "#A656D3",
+    "primaryColor": "#8B56D3",
     "secondaryColor": "#FFFFFF",
-    "honeycombColor": "#A656D3",
+    "honeycombColor": "#8B56D3",
     "primaryLayerTexture": "ores/ore_bee_primary",
     "secondaryLayerTexture": "ores/ore_bee_secondary",
     "emissiveLayerTexture": "ores/ore_bee_emissive",
     "isGlowing": true,
-    "glowColor": "#CDA2E5",
+    "glowColor": "#8B56D3",
     "isBeeColored": true
   },
   "MutationData": {

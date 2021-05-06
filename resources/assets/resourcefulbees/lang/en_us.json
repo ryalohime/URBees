@@ -160,7 +160,7 @@
     "item.resourcefulbees.wither_bee_spawn_egg" : "Wither Bee Spawn Egg",
     "entity.resourcefulbees.wither_bee" : "Wither Bee",
     "block.resourcefulbees.withered_spooky_honeycomb_block" : "Withered Spooky Honeycomb Block",
-    "item.resourcefulbees.withered__spooky_honeycomb" : "Withered Spooky Honeycomb",
+    "item.resourcefulbees.withered_spooky_honeycomb" : "Withered Spooky Honeycomb",
     "item.resourcefulbees.withered_spooky_bee_spawn_egg" : "Withered Spooky Bee Spawn Egg",
     "entity.resourcefulbees.withered_spooky_bee" : "Withered Spooky Bee",
     "block.resourcefulbees.beeper_honeycomb_block" : "Beeper Honeycomb Block",
@@ -530,6 +530,7 @@
 	"entity.resourcefulbees.mushroom_bee" : "Mushroom Bee",
     "item.resourcefulbees.mushroom_bee_spawn_egg" : "Mushroom Bee Spawn Egg",
     "item.resourcefulbees.mushroom_honeycomb" : "Mushroom Honeycomb",
+    "block.resourcefulbees.mushroom_honeycomb_block" : "Mushroom Honeycomb Block",
 	"entity.resourcefulbees.soul_bee" : "Soul Bee",
     "item.resourcefulbees.soul_bee_spawn_egg" : "Soul Bee Spawn Egg",
     "item.resourcefulbees.soul_honeycomb" : "Soul Honeycomb",
@@ -561,5 +562,13 @@
     "entity.resourcefulbees.kingmaker_bee" : "Kingmaker Bee",
     "item.resourcefulbees.kingmaker_bee_spawn_egg" : "Kingmaker Bee Spawn Egg",
     "item.resourcefulbees.kingmaker_honeycomb" : "Kingmaker Honeycomb",
-    "block.resourcefulbees.kingmaker_honeycomb_block" : "Kingmaker Honeycomb Block"
+    "block.resourcefulbees.kingmaker_honeycomb_block" : "Kingmaker Honeycomb Block",
+    "entity.resourcefulbees.dirt_bee" : "Dirt Bee",
+    "item.resourcefulbees.dirt_bee_spawn_egg" : "Dirt Bee Spawn Egg",
+    "item.resourcefulbees.dirt_honeycomb" : "Dirt Honeycomb",
+    "block.resourcefulbees.dirt_honeycomb_block" : "Dirt Honeycomb Block",
+    "entity.resourcefulbees.warm_bee" : "Warm Bee",
+    "item.resourcefulbees.warm_bee_spawn_egg" : "Warm Bee Spawn Egg",
+    "item.resourcefulbees.warm_honeycomb" : "Warm Honeycomb",
+    "block.resourcefulbees.warm_honeycomb_block" : "Warm Honeycomb Block"
 }

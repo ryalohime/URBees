@@ -24,7 +24,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "feedItem": "tag:minecraft:logs",
+    "feedItem": "minecraft:oak_log",
     "feedAmount": 4
   },
   "TraitData": {
