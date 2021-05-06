@@ -1,0 +1,25 @@
+{
+    {
+        "damageImmunities": [
+            "inFire",
+            "lightningBolt",
+            "onFire",
+            "lava",
+            "hotFloor",
+            "inWall",
+            "cramming",
+            "drown",
+            "starve",
+            "cactus",
+            "fall",
+            "flyIntoWall",
+            "generic",
+            "magic",
+            "wither",
+            "anvil",
+            "fallingBlock",
+            "dragonBreath",
+            "dryout"
+        ]
+    }
+}
