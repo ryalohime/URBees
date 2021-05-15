@@ -21,7 +21,7 @@
     "canSpawnInWorld": false
   },
   "BreedData": {
-    "breedable": true,
+    "isBreedable": true,
     "parent1": "Quartz",
     "parent2": "RGBee",
     "feedItem": "elementalcraft:inertcrystal",
