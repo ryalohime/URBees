@@ -1,0 +1,67 @@
+{
+	id: "712ED5B006A06F26",
+	order_index: 0,
+	title: "Chapter Rewards",
+	icon: "minecraft:totem_of_undying",
+	loot_size: 1,
+	rewards: [
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "bountifulbaubles:flight"
+				}
+			},
+			weight: 3
+		},
+		{
+			item: "bountifulbaubles:lucky_horseshoe",
+			weight: 2
+		},
+		{
+			item: "artifacts:golden_hook",
+			weight: 3
+		},
+		{
+			item: "bountifulbaubles:vitamins",
+			weight: 2
+		},
+		{
+			item: "artifacts:fire_gauntlet",
+			weight: 3
+		},
+		{
+			item: "bountifulbaubles:ring_free_action",
+			weight: 3
+		},
+		{
+			item: "bountifulbaubles:magic_mirror",
+			weight: 2
+		},
+		{
+			item: "artifacts:lucky_scarf"
+		},
+		{
+			item: "bountifulbaubles:amulet_cross",
+			weight: 3
+		},
+		{
+			item: "artifacts:cloud_in_a_bottle",
+			weight: 2
+		},
+		{
+			item: {
+				id: "tiab:timeinabottle",
+				Count: 1b,
+				tag: {
+					timeData: {}
+				}
+			}
+		},
+		{
+			item: "bountifulbaubles:potion_recall",
+			weight: 3
+		}
+	]
+}
