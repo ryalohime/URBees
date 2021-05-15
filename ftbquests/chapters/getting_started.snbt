@@ -1,0 +1,650 @@
+{
+	id: "38520ED11AA9DA94",
+	group: "",
+	order_index: 0,
+	filename: "getting_started",
+	title: "Way of the Novice",
+	icon: {
+		id: "minecraft:wooden_axe",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "The Basics of Survival",
+			x: -18.0d,
+			y: -15.5d,
+			subtitle: "The Same On Both Ends",
+			description: [
+				"First thing's first, focus on",
+				"making sure you have enough",
+				"food to survive and recover",
+				"from your encounters with the",
+				"flora and fauna.",
+				"",
+				"Mix seeds of various types",
+				"together to craft a snack you",
+				"can toast.",
+				"",
+				"It's not much, but it's better",
+				"than nothing!"
+			],
+			id: "74A7D43622444D9A",
+			tasks: [{
+				id: "545B63889192301F",
+				type: "item",
+				item: "mysticalworld:assorted_seeds",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: "4FC42A9D31806676",
+					type: "item",
+					item: "minecraft:campfire"
+				},
+				{
+					id: "442312DC2309E8D5",
+					type: "item",
+					item: "mysticalworld:cooked_seeds",
+					count: 4
+				}
+			]
+		},
+		{
+			title: "Crafting on the Go",
+			x: -16.5d,
+			y: -15.5d,
+			subtitle: "EZ Mode",
+			description: [
+				"You'll need lots of crafting",
+				"tables during your adventure,",
+				"but consider this!",
+				"",
+				"What if you put one on a stick",
+				"and carried it around. Then, ",
+				"you could craft anytime!",
+				""
+			],
+			dependencies: ["74A7D43622444D9A"],
+			id: "144038CA75654664",
+			tasks: [{
+				id: "5378E00AF5DA4D00",
+				type: "item",
+				item: "cyclic:crafting_stick"
+			}],
+			rewards: [
+				{
+					id: "58E126492D88B416",
+					type: "item",
+					item: "minecraft:torch",
+					count: 16
+				},
+				{
+					id: "4012B99411E70A41",
+					type: "item",
+					item: "minecraft:crafting_table"
+				}
+			]
+		},
+		{
+			title: "Getting Started With Tools",
+			icon: {
+				id: "tetra:modular_double",
+				Count: 1b,
+				tag: {
+					"double/handle": "double/basic_handle",
+					"double/head_left": "double/basic_hammer_left",
+					"double/head_right": "double/basic_hammer_right",
+					id: "4c4bcac8-2a48-4608-8f80-2affe71a2649",
+					"double/basic_hammer_right_material": "basic_hammer/stone",
+					Damage: 0,
+					"double/basic_handle_material": "basic_handle/stick",
+					"double/basic_hammer_left_material": "basic_hammer/stone"
+				}
+			},
+			x: -14.0d,
+			y: -15.5d,
+			description: [
+				"With food and basic crafting",
+				"sorted, you'll need to start",
+				"building tools.",
+				"",
+				"Tetra is the best place to start",
+				"but it is not required.",
+				"",
+				"Craft a Tetra Hammer to begin."
+			],
+			dependencies: ["144038CA75654664"],
+			hide: true,
+			id: "00E54EB7B8935BAA",
+			tasks: [{
+				id: "7A9DE3B2FACB91C9",
+				type: "advancement",
+				icon: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "4c4bcac8-2a48-4608-8f80-2affe71a2649",
+						"double/basic_hammer_right_material": "basic_hammer/stone",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/basic_hammer_left_material": "basic_hammer/stone"
+					}
+				},
+				advancement: "tetra:story/more_upgrades",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "041139C3196FA750",
+				type: "item",
+				item: "minecraft:crafting_table"
+			}]
+		},
+		{
+			title: "A Better Place to Work",
+			icon: "tetra:basic_workbench",
+			x: -13.0d,
+			y: -15.5d,
+			subtitle: "Bonk! Go to Tetra Jail!",
+			description: [
+				"To turn vanilla tools into tetra",
+				"tools, you will need to right click",
+				"a vanilla crafting bench with",
+				"your shiny new Tetra hammer.",
+				"",
+				"Once that is done, remember",
+				"that you need a hammer to",
+				"upgrade your hammer!"
+			],
+			dependencies: ["00E54EB7B8935BAA"],
+			id: "1190C88455483315",
+			tasks: [{
+				id: "1BFE0B405A2FDC4E",
+				type: "advancement",
+				title: "Make a Tetra Workbench",
+				icon: "tetra:basic_workbench",
+				advancement: "tetra:upgrades/workbench",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "2F6222EA1581EAF3",
+				type: "item",
+				item: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "4c4bcac8-2a48-4608-8f80-2affe71a2649",
+						"double/basic_hammer_right_material": "basic_hammer/stone",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/basic_hammer_left_material": "basic_hammer/stone"
+					}
+				}
+			}]
+		},
+		{
+			title: "Craft an Item Rack",
+			icon: "tetra:rack",
+			disable_toast: true,
+			x: -12.0d,
+			y: -15.5d,
+			subtitle: "Inventory Management",
+			description: [
+				"Tetra Tools Require Tetra",
+				"Tools to upgrade, them. Notably,",
+				"an axe, hammer and knife.",
+				"",
+				"Carrying that all around can be",
+				"a pain, but fear not! You can",
+				"hang tools on a nearby tool",
+				"rack and they'll be available",
+				"while you tinker.",
+				"",
+				"How convenient!"
+			],
+			dependencies: ["1190C88455483315"],
+			id: "021539787CB587C1",
+			tasks: [{
+				id: "3D5FF5A13E80BC00",
+				type: "item",
+				item: "tetra:rack",
+				only_from_crafting: true
+			}],
+			rewards: [{
+				id: "6E2E392E4E38BFB4",
+				type: "item",
+				item: {
+					id: "tetra:modular_sword",
+					Count: 1b,
+					tag: {
+						honing_progress: 240,
+						"sword/basic_hilt_material": "basic_hilt/bone",
+						"sword/guard": "sword/socket",
+						HideFlags: 1,
+						"sword/short_blade_material": "short_blade/bone",
+						"sword/hilt": "sword/basic_hilt",
+						"sword/socket_material": "sword_socket/lapis",
+						"sword/blade": "sword/short_blade",
+						id: "29534089-7236-46ec-b46a-400fc000bc2d",
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Upgrade Your Holosphere",
+			icon: {
+				id: "tetra:holo",
+				Count: 1b,
+				tag: {
+					"holo/frame": "holo/frame",
+					honing_progress: 850,
+					"holo/scanner_0_material": "scanner/scanner",
+					HideFlags: 1,
+					"holo/core_material": "core/dim",
+					"holo/attachment_0": "holo/scanner_0",
+					id: "5b6232ce-db50-4eb6-be7e-eb89d588c196",
+					"holo/core": "holo/core",
+					"holo/frame_material": "frame/ancient"
+				}
+			},
+			x: -10.5d,
+			y: -15.5d,
+			shape: "square",
+			subtitle: "Immersive Storyline!",
+			description: [
+				"Upgrading Tetra tools past",
+				"tier 4 requires a hammer that's",
+				"beyond tier 4. Tricky, huh?",
+				"",
+				"Deep beneath the earth in cold",
+				"biomes, there slumber ancient",
+				"complexes that, with repair, can",
+				"act as a hammer for you.",
+				"",
+				"Install an Eye of Ender in your",
+				"Holosphere to help find these",
+				"ruins."
+			],
+			dependencies: ["021539787CB587C1"],
+			optional: true,
+			id: "63727F5387E96F4E",
+			tasks: [{
+				id: "6745A0D6006F80DF",
+				type: "advancement",
+				title: "Upgrade Your Holosphere",
+				icon: {
+					id: "tetra:holo",
+					Count: 1b,
+					tag: {
+						"holo/core_material": "core/dim",
+						"holo/frame": "holo/frame",
+						id: "9503de92-046c-4d61-8afe-8c0d71c6afae",
+						"holo/core": "holo/core",
+						"holo/frame_material": "frame/ancient"
+					}
+				},
+				advancement: "tetra:spelunking/scanner",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "25540A693B5DF952",
+				type: "item",
+				item: "minecraft:ender_eye"
+			}]
+		},
+		{
+			title: "Diverse Food",
+			icon: "crockpot:crock_pot_basic",
+			x: -18.0d,
+			y: -13.5d,
+			subtitle: "Different, but maybe not better...",
+			description: [
+				"Eating well has major rewards",
+				"in this world, from health",
+				"regeneration to greatly improved",
+				"max health. But each time you",
+				"die, the whole process resets.",
+				"",
+				"So you'd best start making lots",
+				"of delicious, diverse food right",
+				"now.",
+				"",
+				"Let's start with a Crock Pot,",
+				"shall we?"
+			],
+			dependencies: ["74A7D43622444D9A"],
+			id: "7F4D8991BE823A7A",
+			tasks: [{
+				id: "2133D4E3C59179CB",
+				type: "advancement",
+				icon: "crockpot:crock_pot_basic",
+				advancement: "crockpot:root",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "6136A23854FAE396",
+				type: "item",
+				item: "minecraft:apple",
+				count: 16
+			}]
+		},
+		{
+			title: "String Farming",
+			icon: "druidcraft:hemp",
+			x: -17.0d,
+			y: -13.5d,
+			subtitle: "Don't Snitch, k?",
+			description: [
+				"Everyone needs string. It's",
+				"important. If you think you don't",
+				"need string, you're wrong.",
+				"",
+				"Sustainable string stochastically",
+				"stems from slaying spiders.",
+				"",
+				"But with this miracle plant, you",
+				"can leave the little knorpfkas",
+				"alone!"
+			],
+			dependencies: ["74A7D43622444D9A"],
+			id: "00D6E8BAA48BFA00",
+			tasks: [{
+				id: "3F8B876263E0E359",
+				type: "item",
+				item: "druidcraft:hemp_seeds"
+			}],
+			rewards: [{
+				id: "2ECE83C6505954BB",
+				type: "item",
+				item: "druidcraft:hemp_seeds",
+				count: 15
+			}]
+		},
+		{
+			title: "Better Leather",
+			icon: "minecraft:leather",
+			x: -15.0d,
+			y: -13.5d,
+			subtitle: "I'm on the corner wearing my leather",
+			description: [
+				'"No, no, NOO," the cows scream',
+				"as you chase after their useful",
+				"flesh. ",
+				"",
+				"It's heartrending. But what if",
+				"I told you you could take the",
+				"chunks off of deceased humans",
+				"and make an approximation of",
+				"leather instead? That's humane!",
+				"",
+				"Make a Drying Basin, and you",
+				"can do just that quickly and",
+				"efficiently. "
+			],
+			dependencies: ["144038CA75654664"],
+			id: "50088310FC86FBFA",
+			tasks: [{
+				id: "04032B6716461C6B",
+				type: "item",
+				item: "integrateddynamics:drying_basin"
+			}],
+			rewards: [{
+				id: "35D642E6B9D5C1AF",
+				type: "item",
+				item: "minecraft:rotten_flesh",
+				count: 8
+			}]
+		},
+		{
+			title: "Convenient Storage",
+			icon: "quantumstorage:chestiron",
+			x: -17.0d,
+			y: -12.0d,
+			description: [
+				"When you're ready to move",
+				"out of your shame cave and",
+				"into your glorious new base,",
+				"you're going to need to move",
+				"your things too.",
+				"",
+				"These convenient crates make",
+				"it easy to move things around."
+			],
+			dependencies: ["00D6E8BAA48BFA00"],
+			id: "44AE3C68D7AE4279",
+			tasks: [{
+				id: "57C67C9F6A4AF6BE",
+				type: "item",
+				item: "quantumstorage:chestiron"
+			}],
+			rewards: [{
+				id: "4AB3D617CD19A49B",
+				type: "item",
+				item: "quantumstorage:chestiron"
+			}]
+		},
+		{
+			title: "Better Mining",
+			icon: "dankstorage:dank_1",
+			x: -16.0d,
+			y: -13.5d,
+			subtitle: '"It\'s a lifestyle."',
+			description: [
+				"While mining, you're going to get",
+				"a lot of blocks. That's the goal,",
+				"right? But maybe you could find a",
+				"way to condense that cobble",
+				"down a bit?",
+				"",
+				"The Dank Null lets you treat it",
+				"like a fancy black hole. Put ",
+				"items in with a right click, and",
+				'toggle Pickup to "Filtered"',
+				"and anything you grab will be",
+				"voided.",
+				"",
+				"I've ugpraded yours, as a service!"
+			],
+			dependencies: ["144038CA75654664"],
+			id: "61E470F0667C44A5",
+			tasks: [{
+				id: "319CA39E75E27CF3",
+				type: "item",
+				item: "dankstorage:dank_1",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "69C1F9E5A9A0466B",
+				type: "item",
+				item: "dankstorage:dank_2"
+			}]
+		},
+		{
+			title: "Better Armor",
+			x: -14.0d,
+			y: -13.5d,
+			subtitle: "Acquire Harderware",
+			description: [
+				"In Unlikely Reunion, there are",
+				"many armor options, but Iron",
+				"is the least interesting.",
+				"",
+				"Check JEI (@mystical chestplate",
+				"in the search field) to see ",
+				"what different kinds of magical",
+				"effects different metal armors",
+				"give you. Tin, for example, provides",
+				"extra reach.",
+				"",
+				"Copper is easy and accessible,",
+				"and gives you +2 hearts of max",
+				"health. Make a chestplate."
+			],
+			dependencies: ["144038CA75654664"],
+			id: "53707F7ED029EFA4",
+			tasks: [{
+				id: "34B86AA4E7DDD2F2",
+				type: "item",
+				item: {
+					id: "mysticalworld:copper_chestplate",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "2F9BE8CA64F7FF8E",
+					type: "item",
+					item: {
+						id: "mysticalworld:copper_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "2B3867C426E7B1ED",
+					type: "item",
+					item: {
+						id: "mysticalworld:copper_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "27114BE6A8605E10",
+					type: "item",
+					item: {
+						id: "mysticalworld:copper_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "A Better Bedroll",
+			icon: "druidcraft:red_bedroll",
+			x: -15.0d,
+			y: -12.0d,
+			description: [
+				"Make a travel pack that can",
+				"give you 6 more slots of ",
+				"inventory and deploy your",
+				"bedroll with the touch of a",
+				"button."
+			],
+			dependencies: ["50088310FC86FBFA"],
+			id: "3EABEEE0FE9BD212",
+			tasks: [{
+				id: "633A48A268BF543B",
+				type: "item",
+				item: {
+					id: "druidcraft:travel_pack",
+					Count: 1b,
+					tag: {}
+				}
+			}]
+		},
+		{
+			title: "Massive Bag",
+			icon: "quantumstorage:quantum_bag_white",
+			x: -15.0d,
+			y: -10.5d,
+			subtitle: "A double dose of storage.",
+			description: [
+				"Your Travel Pack has served",
+				"its purpose. Time for a new toy!",
+				"",
+				"Upgrade one of your Quantum",
+				"Crates into a quantum backpack",
+				"and never run out of space",
+				"ever again.",
+				""
+			],
+			dependencies: [
+				"3EABEEE0FE9BD212",
+				"44AE3C68D7AE4279"
+			],
+			id: "320F6C45CD2DB818",
+			tasks: [{
+				id: "0D83B0163490F6A1",
+				type: "item",
+				item: "quantumstorage:quantum_bag_white"
+			}],
+			rewards: [{
+				id: "3DFDAC7B88C87A0C",
+				type: "item",
+				item: "minecraft:diamond",
+				count: 2
+			}]
+		},
+		{
+			title: "Way of the Novice, Completed!",
+			icon: {
+				id: "curios:crown",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -12.0d,
+			y: -10.5d,
+			description: [
+				"Congratulatins, you've",
+				"completed the Way of the Novice.",
+				"",
+				'Remember, this "Way" is just ',
+				"one of many examples out",
+				"there, and you should look",
+				"for alterantives. The options",
+				'here are not the "best" in the',
+				"pack, and if we've done our",
+				'jobs there is no "best"',
+				"choice in this modpack.",
+				"",
+				"Have fun, and have a treasure!"
+			],
+			dependencies: [
+				"320F6C45CD2DB818",
+				"021539787CB587C1"
+			],
+			id: "742D797A12290227",
+			tasks: [{
+				id: "3EBCFAC06C6621A7",
+				type: "checkmark",
+				title: "Way of the Novice, Completed!",
+				disable_toast: true
+			}],
+			rewards: [{
+				id: "7F92885A862CF7DB",
+				type: "random",
+				icon: {
+					id: "curios:crown",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				table_id: 8155690927216684838L
+			}]
+		}
+	]
+}

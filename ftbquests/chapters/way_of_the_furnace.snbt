@@ -1,0 +1,746 @@
+{
+	id: "69E0ACDE5A1C4861",
+	group: "32B5501CC92708B2",
+	order_index: 0,
+	filename: "way_of_the_furnace",
+	title: "Way of the Furnace",
+	icon: "allomancy:lerasium_nugget",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Aluminum Allomancy",
+			disable_toast: true,
+			x: -13.5d,
+			y: -7.5d,
+			description: [
+				"Congratulations! You're an",
+				"allomancer! By mixing Aluminum",
+				"in a vial and drinking it, you can",
+				"purge your stock of metals",
+				"and remove all potion effects!",
+				"",
+				"This power isn't as flashy as",
+				"some allomancy, but it's useful",
+				"and low maintenance."
+			],
+			optional: true,
+			id: "116184348696C500",
+			tasks: [{
+				id: "4F27B86D9BAF8EBD",
+				type: "item",
+				item: "allomancy:aluminum_flakes"
+			}],
+			rewards: [{
+				id: "4D7F02BFB415C9E9",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:aluminum_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Duralumin Allomancer",
+			disable_toast: true,
+			x: -12.5d,
+			y: -7.5d,
+			subtitle: "Let's Hope You're A Mistborn",
+			description: [
+				"You're an allomancer! By mixing",
+				"duralumin flakes in a bottle",
+				"and drinking it, you can burn ",
+				"duralumin, making your metals",
+				"burn faster and harder.",
+				"",
+				"If you can't burn other",
+				"metals, this power isn't very",
+				"useful. If you can, this is",
+				"the most powerful metal."
+			],
+			optional: true,
+			id: "4CD86B0DDE5E871B",
+			tasks: [{
+				id: "7DCACFCDF55598DB",
+				type: "item",
+				item: "allomancy:duralumin_flakes"
+			}],
+			rewards: [{
+				id: "57EAF4CCC03CE67E",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:duralumin_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Cadmium Allomancy",
+			disable_toast: true,
+			x: -11.5d,
+			y: -7.5d,
+			description: [
+				"Congratulations! You're an",
+				"allomancer!",
+				"",
+				"By mixing cadmium flakes in a",
+				"vial and drinking it, you can",
+				"burn cadmium. This warps",
+				"time itself, slowing down hostile",
+				"mobs and even making the air",
+				"slow to move out of your way."
+			],
+			optional: true,
+			id: "49326E5220D27FF3",
+			tasks: [{
+				id: "128CE49F2EDFBF7B",
+				type: "item",
+				item: "allomancy:cadmium_flakes"
+			}],
+			rewards: [{
+				id: "5BD53B0AE4CC3B2F",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:cadmium_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Bendalloy Allomancy",
+			disable_toast: true,
+			x: -10.5d,
+			y: -7.5d,
+			description: [
+				"Congraulations! You're an",
+				"allomancer!",
+				"",
+				"By mixing bendalloy flakes in a",
+				"vial and drinking them, you can",
+				"burn bendalloy.",
+				"",
+				"Burning bendalloy accelerates",
+				"time around you, making",
+				"furnaces cook faster, mobs",
+				"race for you, and crops grow",
+				"at an accelerated rate.",
+				"",
+				"A truly mysterious power!"
+			],
+			optional: true,
+			id: "0D398E57D048244B",
+			tasks: [{
+				id: "6677644DF109DE22",
+				type: "item",
+				item: "allomancy:bendalloy_flakes"
+			}],
+			rewards: [{
+				id: "234F8DFB32AE1CBE",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:bendalloy_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Chromium Allomancy",
+			disable_toast: true,
+			x: -9.5d,
+			y: -7.5d,
+			description: [
+				"Congratulations! You're an",
+				"allomancer!",
+				"",
+				"By mixing chromium flakes in a",
+				"vial and drinking them, you can ",
+				"burn chromium!",
+				"",
+				"Burning chromium and touching",
+				"another player empties all",
+				"their metal stocks and removes",
+				"all potion effects, good or bad.",
+				"",
+				"Use this power for good.",
+				"Or evil, I guess? Your call."
+			],
+			hide_text_until_complete: true,
+			optional: true,
+			id: "64A8EEA333014A6C",
+			tasks: [{
+				id: "56A77D83A2D17F45",
+				type: "item",
+				item: "allomancy:chromium_flakes"
+			}],
+			rewards: [{
+				id: "2B06674DC2F8197D",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:chromium_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Nicrosil Allomancy",
+			disable_toast: true,
+			x: -8.5d,
+			y: -7.5d,
+			description: [
+				"Congratulations! You're an",
+				"allomancer!",
+				"",
+				"By mixing nicrosil flakes in a vial",
+				"and drinking them, you can burn",
+				"nicrosil.",
+				"",
+				"While burning nicrosil, if you",
+				"touch another player their",
+				"metal burning powers will be",
+				"supercharged until you",
+				"stop burning nicrosil. Watch",
+				"out, you'll both burn out quickly!"
+			],
+			hide_text_until_complete: true,
+			optional: true,
+			id: "0610B7D62F3D242C",
+			tasks: [{
+				id: "3893D58F4EF6EF64",
+				type: "item",
+				item: "allomancy:nicrosil_flakes"
+			}],
+			rewards: [{
+				id: "4BFC3E7EDFDAA31E",
+				type: "item",
+				team_reward: false,
+				auto: "enabled",
+				item: "allomancy:nicrosil_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Copper Allomancy",
+			disable_toast: true,
+			x: -7.5d,
+			y: -7.5d,
+			description: [
+				"Congratulations! You're an",
+				"allomancer!",
+				"",
+				"By mixing copper flakes into",
+				"a vial and drinking them, you",
+				"can burn copper!",
+				"",
+				"While burning copper, you and",
+				"your friends are cloaked from",
+				"the detecting power of",
+				"Allomancers using Bronze",
+				"burning. You are the natural ",
+				"enemy of a bronze burner!"
+			],
+			hide_text_until_complete: true,
+			optional: true,
+			id: "57F63EA668E7751A",
+			tasks: [{
+				id: "530794A3148C60C3",
+				type: "item",
+				item: "allomancy:copper_flakes"
+			}],
+			rewards: [{
+				id: "41155D025A249262",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:copper_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Bronze Allomancy",
+			disable_toast: true,
+			x: -6.5d,
+			y: -7.5d,
+			description: [
+				"Congratulations! You're an",
+				"allomancer!",
+				"",
+				"By taking bronze flakes and",
+				"mixing them in a vial, you can ",
+				"burn bronze.",
+				"",
+				"While burning bronze, other",
+				"players using Allomancy will be",
+				"visible to you even at distance.",
+				"They cannot hide. Even true",
+				"invisiblity is powerless",
+				"before bronze burners!"
+			],
+			hide_text_until_complete: true,
+			optional: true,
+			id: "35698E7A437AE213",
+			tasks: [{
+				id: "00F2CAC5A50E79E1",
+				type: "item",
+				item: "allomancy:bronze_flakes"
+			}],
+			rewards: [{
+				id: "6A4FA427A27D7EF1",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:bronze_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Gold Allomancy",
+			disable_toast: true,
+			x: -5.5d,
+			y: -7.5d,
+			description: [
+				"Congratulations! You're an",
+				"allomancer!",
+				"",
+				"By mixing gold flakes into a",
+				"vial and drinking them, you can",
+				"burn gold.",
+				"",
+				"While burning gold, you can see",
+				"your own past. In concrete",
+				"terms, this means you will",
+				"see a line connecting you to",
+				"the last place you died.",
+				"",
+				"This metal is more powerful",
+				"when enhanced."
+			],
+			hide_text_until_complete: true,
+			optional: true,
+			id: "380075C045382441",
+			tasks: [{
+				id: "29EA5FF4BAB0CF68",
+				type: "item",
+				item: "allomancy:gold_flakes"
+			}],
+			rewards: [{
+				id: "4B7DE984BCFDB88A",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:gold_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Electrum Allomancy",
+			x: -4.5d,
+			y: -7.5d,
+			description: [
+				"Congratulations, you're an",
+				"allomancer!",
+				"",
+				"By mixing electrum flakes in a",
+				"vial and drinking them, you can",
+				"burn electrum!",
+				"",
+				"Burning electrum lets you see",
+				"your future. In concrete terms,",
+				"that means you can always",
+				"find your way to your current",
+				"spawn point.",
+				"",
+				"This metal is powerful when",
+				"enhanced."
+			],
+			id: "4D090678A13B1F3F",
+			tasks: [{
+				id: "685B49CF9B6A420D",
+				type: "item",
+				item: "allomancy:electrum_flakes"
+			}],
+			rewards: [{
+				id: "1711B9688EBC63E5",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:electrum_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Iron Allomancy",
+			disable_toast: true,
+			x: -3.5d,
+			y: -7.5d,
+			description: [
+				"Congatulations, you're an ",
+				"Allomancer!",
+				"",
+				"By mixing iron flakes in a vial",
+				"and drinking them, you can",
+				"burn iron.",
+				"",
+				"Iron lets you sense strongly",
+				"metallic blocks through walls.",
+				'You can also "pull" on these',
+				"objects. Large objects may",
+				"pull you instead!"
+			],
+			hide_text_until_complete: true,
+			optional: true,
+			id: "1113B34FD0F0A823",
+			tasks: [{
+				id: "5436328892EE5831",
+				type: "item",
+				item: "allomancy:iron_flakes"
+			}],
+			rewards: [{
+				id: "0289272F867BB2B7",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:iron_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Steel Allomancy",
+			disable_toast: true,
+			x: -2.5d,
+			y: -7.5d,
+			description: [
+				"Congratulations! You're an",
+				"Allomancer!",
+				"",
+				"By mixing steel flakes in a vial",
+				"and drinking them, you can burn",
+				"steel.",
+				"",
+				"Burning steel lets you sense",
+				"metallic blocks and items",
+				'through walls, and "push" them.',
+				"If the item you push is heavy,",
+				"it will push you!",
+				"",
+				"You can also fire coins from a",
+				"coin pouch at enemies for quick",
+				"damage."
+			],
+			hide_text_until_complete: true,
+			optional: true,
+			id: "254FD40D2C06D0C5",
+			tasks: [{
+				id: "6A9762722A8B625A",
+				type: "item",
+				item: "allomancy:steel_flakes"
+			}],
+			rewards: [{
+				id: "781A4810BA96978C",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:steel_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Tin Allomancy",
+			disable_toast: true,
+			x: -1.5d,
+			y: -7.5d,
+			description: [
+				"Congratulations! You're an",
+				"allomancer!",
+				"",
+				"By mixing tin flakes in a vial and",
+				"drinking them you can burn tin!",
+				"",
+				"While burning tin, your senses",
+				"are sharpened beyond even a",
+				"Vampire's! You can see in the",
+				"dark and you can visually",
+				"tell the direction and",
+				"distance of any sounds.",
+				"",
+				"This ability is dangerous when",
+				"enhanced."
+			],
+			hide_text_until_complete: true,
+			optional: true,
+			id: "1B06C96D47E7BDAE",
+			tasks: [{
+				id: "5EBDD08ADB780A29",
+				type: "item",
+				item: "allomancy:tin_flakes"
+			}],
+			rewards: [{
+				id: "1E740518AC003D72",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:tin_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Pewter Allomancy",
+			disable_toast: true,
+			x: -0.5d,
+			y: -7.5d,
+			description: [
+				"Congratulations! You're an",
+				"Allomancer!",
+				"",
+				"By mixing pewter flakes in a vial",
+				"and drinking them, you can burn",
+				"pewter.",
+				"",
+				"While burning Pewter, your body",
+				"is incredibly tough. You are",
+				"stronger, jump faster, and take",
+				"less damage.",
+				"",
+				"But even Allomancy has limits.",
+				"The crash from Pewter is the",
+				"worst of all the metals."
+			],
+			hide_text_until_complete: true,
+			optional: true,
+			id: "1DD104EEAD52115F",
+			tasks: [{
+				id: "6BEC0B9127A5D2CE",
+				type: "item",
+				item: "allomancy:pewter_flakes"
+			}],
+			rewards: [{
+				id: "536C7F41B31475B8",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:pewter_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Zinc Allomancy",
+			disable_toast: true,
+			x: 0.5d,
+			y: -7.5d,
+			subtitle: "The Most Subtle of Metals",
+			description: [
+				"Congratulations! You are an ",
+				"Allomancer!",
+				"",
+				"By mixing zinc flakes in a vial",
+				"and drinking them, you can burn",
+				"zinc.",
+				"",
+				"While burning zinc, you riot the",
+				"emotions of enemies around you.",
+				"They will attack the nearest",
+				"target, even if they are normally",
+				"docile."
+			],
+			hide_text_until_complete: true,
+			optional: true,
+			id: "5E7BECE3E59398C9",
+			tasks: [{
+				id: "31115EF1384B11C7",
+				type: "item",
+				item: "allomancy:zinc_flakes"
+			}],
+			rewards: [{
+				id: "6633DFE3BD5E24F9",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:zinc_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Brass Allomancy",
+			disable_toast: true,
+			x: 1.5d,
+			y: -7.5d,
+			subtitle: "The Chillest of the Metals",
+			description: [
+				"Congratulations! You're an",
+				"Allomancer!",
+				"",
+				"By mixing brass flakes in a vial",
+				"and drinking them, you can burn",
+				"brass.",
+				"",
+				"While burning brass, you can",
+				"soothe the emotions of nearby",
+				"creatures. Even Creepers will",
+				"coexist peacefully with others.",
+				"",
+				"Until you run out of brass",
+				"to burn, that is."
+			],
+			hide_text_until_complete: true,
+			optional: true,
+			id: "43CCC87D412BDD21",
+			tasks: [{
+				id: "30F2C0354DF07210",
+				type: "item",
+				item: "allomancy:brass_flakes"
+			}],
+			rewards: [{
+				id: "488BC165688B62B8",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:brass_flakes",
+				count: 2
+			}]
+		},
+		{
+			title: "Controlling Your Inner Fire",
+			icon: {
+				id: "allomancy:vial",
+				Count: 2b
+			},
+			x: -6.0d,
+			y: -5.5d,
+			shape: "square",
+			subtitle: "You must learn control.",
+			description: [
+				"As an Allomancer, you can",
+				"choose to start and stop",
+				"burning.",
+				"",
+				"To do this, you must configure",
+				'the "Burn Metals" keybind. ',
+				"You should do this before",
+				"continuing. Once done, collect",
+				"your free allomantic vials",
+				"and give your powers a try!"
+			],
+			hide_dependency_lines: true,
+			dependencies: [
+				"116184348696C500",
+				"0D398E57D048244B",
+				"43CCC87D412BDD21",
+				"35698E7A437AE213",
+				"49326E5220D27FF3",
+				"64A8EEA333014A6C",
+				"57F63EA668E7751A",
+				"4CD86B0DDE5E871B",
+				"4D090678A13B1F3F",
+				"380075C045382441",
+				"1113B34FD0F0A823",
+				"0610B7D62F3D242C",
+				"1DD104EEAD52115F",
+				"254FD40D2C06D0C5",
+				"1B06C96D47E7BDAE",
+				"5E7BECE3E59398C9"
+			],
+			dependency_requirement: "one_completed",
+			id: "149A919994833EBE",
+			tasks: [{
+				id: "3EFC524716FDDEAE",
+				type: "checkmark",
+				disable_toast: true
+			}],
+			rewards: [{
+				id: "5C4E52D5026C5A3A",
+				type: "item",
+				auto: "enabled",
+				item: "allomancy:vial",
+				count: 3
+			}]
+		},
+		{
+			title: "Grinding Metals",
+			x: -6.0d,
+			y: -4.5d,
+			shape: "square",
+			description: [
+				"To fuel your allomantic powers,",
+				"you will need more metals. To",
+				"make the flakes you imbibe,",
+				"you must grind ingots of metal",
+				"up into flakes and then",
+				"combine them as required."
+			],
+			dependencies: ["149A919994833EBE"],
+			id: "04C4B362FA3A2190",
+			tasks: [{
+				id: "27B6CE20460F81A0",
+				type: "item",
+				item: "allomancy:allomantic_grinder"
+			}],
+			rewards: [{
+				id: "430B7805E669053D",
+				type: "item",
+				item: "allomancy:vial",
+				count: 3
+			}]
+		},
+		{
+			title: "Mistborn",
+			x: -6.0d,
+			y: -3.5d,
+			shape: "square",
+			description: [
+				"By finding (or crafting) a",
+				"Lerasium nugget and imbibing it,",
+				"you can unlock your true",
+				"potential as an Allomancer.",
+				"",
+				"Everything from here on out",
+				"is up to your hard work",
+				"and ingenuity. Good luck!"
+			],
+			dependencies: ["04C4B362FA3A2190"],
+			id: "62B5C4F39892DF04",
+			tasks: [{
+				id: "5DC35272BD192765",
+				type: "advancement",
+				title: "Become Mistborn",
+				icon: "allomancy:lerasium_nugget",
+				advancement: "allomancy:main/become_mistborn",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "0167A059C2C72B97",
+				type: "item",
+				item: {
+					id: "allomancy:vial",
+					Count: 1b,
+					tag: {
+						steel: 1b,
+						electrum: 1b,
+						chromium: 1b,
+						CustomModelData: 1,
+						brass: 1b,
+						aluminum: 1b,
+						nicrosil: 1b,
+						bronze: 1b,
+						gold: 1b,
+						duralumin: 1b,
+						bendalloy: 1b,
+						tin: 1b,
+						iron: 1b,
+						copper: 1b,
+						cadmium: 1b,
+						pewter: 1b,
+						zinc: 1b
+					}
+				},
+				count: 6
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -2.5d,
+			shape: "square",
+			description: [
+				"Congratulations, you have",
+				"mastered the Way of the",
+				"Furnace.",
+				"",
+				"Take a bow (and a reward)."
+			],
+			dependencies: ["62B5C4F39892DF04"],
+			id: "7C4BEF84F02A9DBD",
+			tasks: [{
+				id: "13C0EFACDC056301",
+				type: "checkmark",
+				title: "Way of the Furnace, Completed!"
+			}],
+			rewards: [{
+				id: "706F4D25699019A5",
+				type: "random",
+				table_id: 8155690927216684838L
+			}]
+		}
+	]
+}
